@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.0.1 — 2026-10-06
+
+Revisão integral e enriquecimento da baseline 1.0.0, mantendo o mesmo corte acadêmico até 02/10/2026.
+
+### Aprendizagem em espiral
+- adicionados blocos **🔁 Você já viu isso**;
+- incorporadas revisões acumulativas nos Cadernos;
+- checkpoints reforçados com critérios **COMPREENDER / EXECUTAR / DIAGNOSTICAR**;
+- mantida a progressão por dependência cognitiva.
+
+### Biblioteca Viva
+- criada Biblioteca Viva para Google Colab;
+- criada Biblioteca Viva para VS Code;
+- corpo conceitual equivalente entre ambientes;
+- diferenças operacionais separadas: sessão/upload no Colab e kernel/caminhos locais/persistência no VS Code.
+
+### Reconciliação de cobertura
+- expressão condicional/ternário reconhecida como conteúdo trabalhado;
+- `DataFrame.apply(..., axis=1)` reconhecido como conteúdo trabalhado;
+- `.plot(kind="bar")` / Matplotlib reconhecidos como conteúdo trabalhado no corte;
+- classificação de complementos revisada sem antecipar conteúdo posterior ao corte.
+
+### Versionamento
+- v1.0.1 é um **patch pedagógico** da v1.0.0;
+- não houve ampliação da fronteira acadêmica;
+- documentação pública atualizada para explicitar biblioteca, recuperação e evolução por versões estáveis.
+
 ## 1.0.0 — 2026-10-05
 
 Baseline pedagógica consolidada para publicação.

@@ -26,6 +26,35 @@ A sequência típica é:
 
 Os exercícios são sintéticos e não constituem avaliação formal do curso.
 
+## Aprendizagem em espiral
+
+Além da progressão por dependência cognitiva, o material usa um ciclo de retomada:
+
+**primeiro contato → prática → retorno → recuperação → aprofundamento**
+
+Por isso, conceitos anteriores reaparecem em novos contextos. Blocos **🔁 Você já viu isso** e revisões acumulativas ajudam o estudante a reconstruir conhecimento sem transformar o Guia em repetição integral.
+
+## Critérios de domínio
+
+Quando aplicável, um checkpoint procura desenvolver três dimensões:
+
+- **COMPREENDER:** explicar o conceito em linguagem natural;
+- **EXECUTAR:** aplicar o conceito em código;
+- **DIAGNOSTICAR:** reconhecer erro, resultado estranho ou uso inadequado.
+
+## Biblioteca Viva
+
+A Biblioteca Viva é uma camada de consulta transversal. Ela não substitui os Guias nem define uma segunda sequência curricular.
+
+Cada entrada prioriza:
+- o que é;
+- como ler;
+- quando aparece;
+- erro comum;
+- conexão com outros conceitos.
+
+Há versões Colab e VS Code com o mesmo corpo conceitual. Só as orientações operacionais de ambiente são diferenciadas.
+
 ## Google Colab e VS Code
 
 A validação pedagógica é feita sobre o conteúdo conceitual. As versões Colab e VS Code devem preservar esse mesmo conteúdo.
@@ -101,3 +130,16 @@ Algumas leituras recorrentes:
 Tipos como `int64`, `float64`, `object/string`, `datetime64[ns]` e `NaT` são explicados pelo significado operacional necessário ao iniciante antes de aprofundamentos internos.
 
 Limpeza não é automática. Valores ausentes, duplicidades e categorias inconsistentes devem ser investigados no contexto antes de exclusão ou substituição.
+
+## Versionamento pedagógico
+
+As atualizações são agrupadas em janelas estáveis, em vez de alterar a baseline a cada nova aula.
+
+Uma nova versão deve deixar claro:
+- qual corte de fontes está coberto;
+- o que foi incluído;
+- o que foi melhorado;
+- o que foi corrigido;
+- o que foi reorganizado.
+
+Correções e enriquecimentos que não ampliam a fronteira acadêmica podem ser publicados como versões de patch. Expansões de conteúdo exigem nova reconciliação do conjunto de fontes antes da promoção.

@@ -8,7 +8,7 @@ O conteúdo não é material oficial da instituição ou da docente e não subst
 
 ## Corte documental
 
-A baseline publicada considera conteúdos e transcrições tratados até **02/10/2026**.
+A versão pública **v1.0.1** considera conteúdos e transcrições tratados até **02/10/2026**. A revisão 1.0.1 não amplia esse corte; ela reconcilia e melhora a baseline anterior.
 
 - **18/09:** não há transcrição por decisão expressa do estudante; a ausência é intencional.
 - **02/10:** fonte e transcrição foram recebidas, autenticadas, tratadas e incorporadas ao material vivo.
@@ -40,3 +40,15 @@ A marca é granular e pode ser retirada em revisão futura caso nova evidência 
 ## Limite de evidência
 
 Ausência de informação não autoriza completar conteúdo por inferência. Isso é especialmente importante em análise de dados: uma variável que não existe na base não pode sustentar uma explicação causal, e uma duração observada não prova atraso sem um prazo prometido para comparação.
+
+## Reconciliação da v1.0.1
+
+A revisão integral das fontes do corte identificou pontos que já haviam sido trabalhados e mereciam classificação mais precisa no material:
+
+- expressão condicional/ternário;
+- `DataFrame.apply(..., axis=1)`;
+- `.plot(kind="bar")` e uso associado de Matplotlib.
+
+Esses pontos foram incorporados/reclassificados sem usar conteúdos de aulas posteriores ao corte público.
+
+As diferenças entre Colab e VS Code continuam tratadas como **diferenças operacionais de ambiente**, não como currículos diferentes.

@@ -50,9 +50,15 @@ O Guia Pandas é dividido em **3 partes e 7 checkpoints** para reduzir a carga c
 
 Cada Guia Vivo possui um **Caderno Prático** correspondente, organizado pelos mesmos checkpoints.
 
+### 4. Biblioteca Viva — Python e Pandas
+
+A **Biblioteca Viva** funciona como referência rápida para termos, funções, símbolos e ideias que podem interromper a leitura. Cada entrada procura explicar **o que é, como ler, quando aparece, erro comum e conexão com outros conceitos**.
+
+Há uma versão para **Google Colab** e outra para **VS Code**. O corpo conceitual é equivalente; mudam somente orientações operacionais de ambiente, como upload/sessão no Colab e kernel/caminhos locais/persistência no VS Code.
+
 ## Estado atual
 
-**Baseline pedagógica validada por Otávio.**
+**Versão pedagógica pública atual: v1.0.1 — validada por Otávio.**
 
 - Guia Python — Fundamentos Absolutos: validado.
 - Guia Python — Desenvolvimento: validado.
@@ -60,6 +66,9 @@ Cada Guia Vivo possui um **Caderno Prático** correspondente, organizado pelos m
 - Cadernos Práticos de Fundamentos, Desenvolvimento e Pandas: validados.
 - Versões Google Colab e VS Code: conciliadas conceitualmente.
 - Corte documental atual: conteúdos e transcrições tratados **até 02/10/2026**.
+- Aprendizagem em espiral e revisões acumulativas incorporadas.
+- Bibliotecas Vivas Colab e VS Code publicadas.
+- A v1.0.1 melhora a baseline sem ampliar o corte acadêmico.
 
 A validação é pedagógica e técnica dentro do escopo destes materiais; ela não representa avaliação formal, certificação ou endosso institucional.
 
@@ -79,6 +88,7 @@ cd sc-tec-analise-dados-python
 3. Abra o Caderno correspondente em `exercicios/colab/`.
 4. Faça sua tentativa **antes** de consultar a solução comentada.
 5. Volte ao Guia sempre que o exercício revelar uma dúvida conceitual.
+6. Quando um termo técnico travar a leitura, consulte `biblioteca/colab/`.
 
 Arquivos enviados ao runtime do Colab podem desaparecer quando a sessão reinicia.
 
@@ -88,6 +98,7 @@ Arquivos enviados ao runtime do Colab podem desaparecer quando a sessão reinici
 2. Selecione um kernel/interpretador Python já disponível no ambiente.
 3. Execute as células pelo controle do notebook ou com `Shift + Enter`.
 4. Use o Caderno equivalente em `exercicios/vscode/` para praticar.
+5. Para consulta rápida de conceitos e diferenças operacionais, use `biblioteca/vscode/`.
 
 **Extensão Python/Jupyter e interpretador Python não são a mesma coisa.** Este repositório não instala nem configura Python, VS Code, extensões ou ambiente local.
 
@@ -106,6 +117,8 @@ O objetivo não é decorar código. É desenvolver leitura, raciocínio, interpr
 ## Método pedagógico
 
 Os notebooks não reproduzem obrigatoriamente a cronologia das aulas. O conteúdo é reorganizado por **dependência cognitiva**: primeiro o que o iniciante precisa compreender para que o próximo conceito faça sentido.
+
+A v1.0.1 também adota uma progressão em **espiral**: primeiro contato → prática → retorno → recuperação → aprofundamento. Blocos **🔁 Você já viu isso** e revisões acumulativas ajudam a recuperar conceitos anteriores antes de avançar.
 
 No Pandas, cada conceito procura seguir:
 
@@ -140,6 +153,11 @@ sc-tec-analise-dados-python/
 │       ├── 01_python_fundamentos.ipynb
 │       ├── 02_python_desenvolvimento.ipynb
 │       └── 03_pandas_analise_dados.ipynb
+├── biblioteca/
+│   ├── colab/
+│   │   └── 04_biblioteca_viva_python_pandas.ipynb
+│   └── vscode/
+│       └── 04_biblioteca_viva_python_pandas.ipynb
 ├── exercicios/
 │   ├── colab/
 │   │   ├── 01_python_fundamentos_exercicios.ipynb
@@ -193,6 +211,8 @@ Veja [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Evolução
 
-O material é vivo: novas aulas podem enriquecer os notebooks ou justificar novas frentes, mas alterações devem preservar a progressão para iniciantes, a proveniência e o espelhamento entre Guia, Caderno, Colab e VS Code.
+O material é vivo: novas aulas podem enriquecer os notebooks ou justificar novas frentes, mas alterações devem preservar a progressão para iniciantes, a proveniência e o espelhamento entre Guia, Caderno, Biblioteca, Colab e VS Code.
+
+As versões são lançadas em janelas pedagógicas estáveis, evitando alterações fragmentadas a cada aula. O changelog registra **o que entrou, o que foi melhorado, o que foi corrigido e o que foi reorganizado**.
 
 Consulte [`CHANGELOG.md`](CHANGELOG.md) para acompanhar as mudanças.
