@@ -1,5 +1,12 @@
 # Changelog
 
+## Complemento — 2026-10-18 — Avaliação comentada M1S03
+
+- Publicadas versões Colab e VS Code do notebook de avaliação comentada M1S03, com dez questões, laboratórios e gabarito.
+- Atualizados README, CONTRIBUTING, método pedagógico e fontes para incluir caminhos públicos M1S03 e preservar os caminhos M1S02.
+- Sem alteração retroativa da baseline v1.0.1.
+
+
 ## Complemento — 2026-10-18 — Avaliação comentada M1S02
 
 - Reconciliação documental: árvore `avaliacoes/` conferida com a branch `main`; README passou a distinguir baseline v1.0.1 do complemento M1S02, com navegação direta nas duas plataformas.
