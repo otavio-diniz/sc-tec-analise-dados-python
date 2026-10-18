@@ -27,7 +27,7 @@ Sempre que possível, informe:
 
 ## Avaliações comentadas
 
-A pasta `avaliacoes/` contém avaliações comentadas de estudo, distintas dos exercícios autorais em `exercicios/`. Ao sugerir ajustes, indique a questão M1S02, o ambiente (`colab` ou `vscode`), a explicação ou célula envolvida e, quando necessário, a evidência do enunciado. Preserve o estudo antes da solução: enunciado e alternativas → conceitos e Dica de Ouro → laboratório → prática/diagnóstico → resolução comentada → revisão → gabarito. Evite incorporar desempenho individual, controles internos ou material de terceiros além das permissões aplicáveis.
+A pasta `avaliacoes/` contém avaliações comentadas de estudo, distintas dos exercícios autorais em `exercicios/`. Ao sugerir ajustes, indique a atividade (M1S02 ou M1S03) e a questão, o ambiente (`colab` ou `vscode`), a explicação ou célula envolvida e, quando necessário, a evidência do enunciado. Preserve o estudo antes da solução: enunciado e alternativas → conceitos e Dica de Ouro → laboratório → prática/diagnóstico → resolução comentada → revisão → gabarito. Evite incorporar desempenho individual, controles internos ou material de terceiros além das permissões aplicáveis.
 
 ## Conteúdo novo
 
