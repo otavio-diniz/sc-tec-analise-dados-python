@@ -50,7 +50,16 @@ O Guia Pandas é dividido em **3 partes e 7 checkpoints** para reduzir a carga c
 
 Cada Guia Vivo possui um **Caderno Prático** correspondente, organizado pelos mesmos checkpoints.
 
-### 4. Biblioteca Viva — Python e Pandas
+### 4. Avaliações comentadas — M1S02
+
+A pasta [`avaliacoes/`](avaliacoes/) reúne **avaliações comentadas de estudo**, distintas dos exercícios autorais em `exercicios/`. O primeiro caderno é **M1S02 — Módulo 01, Semana 02**: dez questões contextualizadas de fundamentos de Python, com cinco alternativas, leitura dos conceitos, Dicas de Ouro, laboratórios executáveis, desafios autorais, resolução comentada e gabarito final.
+
+- [M1S02 — Google Colab](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb)
+- [M1S02 — VS Code](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb)
+
+**Sequência sugerida:** leia as alternativas → investigue os conceitos → execute e altere exemplos → registre sua hipótese → consulte a resolução. A categorização editorial como avaliação **não significa prova formal, nota ou endosso institucional**. Os exemplos e as explicações são autorais; material institucional de terceiros não é reproduzido como fonte pública integral.
+
+### 5. Biblioteca Viva — Python e Pandas
 
 A **Biblioteca Viva** funciona como referência rápida para termos, funções, símbolos e ideias que podem interromper a leitura. Cada entrada procura explicar **o que é, como ler, quando aparece, erro comum e conexão com outros conceitos**.
 
@@ -89,6 +98,7 @@ cd sc-tec-analise-dados-python
 4. Faça sua tentativa **antes** de consultar a solução comentada.
 5. Volte ao Guia sempre que o exercício revelar uma dúvida conceitual.
 6. Quando um termo técnico travar a leitura, consulte `biblioteca/colab/`.
+7. Para as dez questões contextualizadas do M1S02, consulte `avaliacoes/colab/` e escolha a alternativa antes de abrir a resolução.
 
 Arquivos enviados ao runtime do Colab podem desaparecer quando a sessão reinicia.
 
@@ -99,6 +109,7 @@ Arquivos enviados ao runtime do Colab podem desaparecer quando a sessão reinici
 3. Execute as células pelo controle do notebook ou com `Shift + Enter`.
 4. Use o Caderno equivalente em `exercicios/vscode/` para praticar.
 5. Para consulta rápida de conceitos e diferenças operacionais, use `biblioteca/vscode/`.
+6. Para estudar as questões do M1S02, consulte `avaliacoes/vscode/`.
 
 **Extensão Python/Jupyter e interpretador Python não são a mesma coisa.** Este repositório não instala nem configura Python, VS Code, extensões ou ambiente local.
 
@@ -167,6 +178,11 @@ sc-tec-analise-dados-python/
 │       ├── 01_python_fundamentos_exercicios.ipynb
 │       ├── 02_python_desenvolvimento_exercicios.ipynb
 │       └── 03_pandas_exercicios.ipynb
+├── avaliacoes/
+│   ├── colab/
+│   │   └── m1s02_avaliacao_comentada.ipynb
+│   └── vscode/
+│       └── m1s02_avaliacao_comentada.ipynb
 └── docs/
     ├── FONTES_E_ESCOPO.md
     └── METODO_PEDAGOGICO.md
