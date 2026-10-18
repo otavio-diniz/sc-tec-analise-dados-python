@@ -55,6 +55,6 @@ As diferenças entre Colab e VS Code continuam tratadas como **diferenças opera
 
 ## Complemento — avaliações comentadas M1S02
 
-Os notebooks em `avaliacoes/colab/` e `avaliacoes/vscode/` apresentam dez questões contextualizadas da Lista de Exercícios M1S02 (Módulo 01, Semana 02), complementadas por comentários e laboratórios autorais. A organização editorial usa o nome **Avaliações**, sem atribuir à atividade natureza de prova formal. Não são publicadas notas individuais, feedback privado da plataforma ou controles operacionais. Os enunciados são reproduzidos em contexto pedagógico; quaisquer direitos de terceiros continuam preservados.
+Os notebooks [Colab](../avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) e [VS Code](../avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb) apresentam dez questões contextualizadas da Lista de Exercícios M1S02 (Módulo 01, Semana 02), complementadas por comentários e laboratórios autorais. A organização editorial usa o nome **Avaliações**, sem atribuir à atividade natureza de prova formal. Não são publicadas notas individuais, feedback privado da plataforma ou controles operacionais. Os enunciados são reproduzidos em contexto pedagógico; quaisquer direitos de terceiros continuam preservados.
 
 Este complemento é posterior ao corte declarado da baseline v1.0.1 e **não altera retroativamente a cobertura de fontes até 02/10/2026**. A inclusão fica segregada na nova categoria.
