@@ -143,3 +143,9 @@ Uma nova versão deve deixar claro:
 - o que foi reorganizado.
 
 Correções e enriquecimentos que não ampliam a fronteira acadêmica podem ser publicados como versões de patch. Expansões de conteúdo exigem nova reconciliação do conjunto de fontes antes da promoção.
+
+## Avaliações comentadas
+
+As avaliações comentadas ficam em `avaliacoes/`, distintas dos exercícios autorais de `exercicios/`. São materiais didáticos de análise de questões contextualizadas, não provas formais nem registros de resultado individual.
+
+A sequência é **enunciado e alternativas → análise conceitual → Dica de Ouro → laboratório executável → compare/diagnostique/pratique → resolução comentada → recuperação ativa → gabarito final**. A resolução vem depois da tentativa, para preservar a reflexão antes da resposta. Os dois ambientes usam o mesmo corpo conceitual e exemplos equivalentes, com instruções operacionais próprias.
