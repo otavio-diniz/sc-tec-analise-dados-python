@@ -1,5 +1,13 @@
 # Changelog
 
+## Complemento — 2026-10-18 — Avaliação comentada M1S02
+
+- Nova categoria `avaliacoes/`, separada de `exercicios/`.
+- Publicadas versões Google Colab e VS Code do notebook M1S02, sem nomenclatura de revisão nos nomes públicos.
+- Dez questões, cinco alternativas por item, análise conceitual, Dicas de Ouro, laboratório executável, desafio de aplicação, resolução comentada, recuperação ativa e gabarito final.
+- Instruções operacionais diferenciadas entre Colab e VS Code; conteúdo conceitual equivalente.
+- Complemento documental segregado; baseline v1.0.1 e seu corte em 02/10/2026 preservados.
+
 ## 1.0.1 — 2026-10-06
 
 Revisão integral e enriquecimento da baseline 1.0.0, mantendo o mesmo corte acadêmico até 02/10/2026.
