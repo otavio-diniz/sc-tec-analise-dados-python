@@ -53,6 +53,10 @@ Esses pontos foram incorporados/reclassificados sem usar conteúdos de aulas pos
 
 As diferenças entre Colab e VS Code continuam tratadas como **diferenças operacionais de ambiente**, não como currículos diferentes.
 
+## Complemento — avaliação comentada M1S03
+
+A M1S03 possui versões [Colab](../avaliacoes/colab/m1s03_avaliacao_comentada.ipynb) e [VS Code](../avaliacoes/vscode/m1s03_avaliacao_comentada.ipynb), com dez questões e alternativas fornecidas pelo estudante, explicações autorais, laboratórios e gabarito. Resultado de 10/10 informado por Otávio, não publicado como nota nem comprovado de forma independente. A reprodução de enunciados institucionais não constitui autorização de redistribuição por terceiro; não há permissão específica documentada nesta trilha. A inclusão é complementar à baseline v1.0.1, sem alterar seu corte.
+
 ## Complemento — avaliações comentadas M1S02
 
 Os notebooks [Colab](../avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) e [VS Code](../avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb) apresentam dez questões contextualizadas da Lista de Exercícios M1S02 (Módulo 01, Semana 02), complementadas por comentários e laboratórios autorais. A organização editorial usa o nome **Avaliações**, sem atribuir à atividade natureza de prova formal. Não são publicadas notas individuais, feedback privado da plataforma ou controles operacionais. Os enunciados são reproduzidos em contexto pedagógico; quaisquer direitos de terceiros continuam preservados.
