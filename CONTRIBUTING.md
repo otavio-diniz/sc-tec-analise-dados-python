@@ -25,6 +25,10 @@ Sempre que possível, informe:
 5. comportamento ou explicação esperada;
 6. evidência de aula/fonte, quando a sugestão depender do conteúdo do curso.
 
+## Avaliações comentadas
+
+A pasta `avaliacoes/` contém avaliações comentadas de estudo, distintas dos exercícios autorais em `exercicios/`. Ao sugerir ajustes, indique a questão M1S02, o ambiente (`colab` ou `vscode`), a explicação ou célula envolvida e, quando necessário, a evidência do enunciado. Preserve o estudo antes da solução: enunciado e alternativas → conceitos e Dica de Ouro → laboratório → prática/diagnóstico → resolução comentada → revisão → gabarito. Evite incorporar desempenho individual, controles internos ou material de terceiros além das permissões aplicáveis.
+
 ## Conteúdo novo
 
 Sugestões além do corte atual podem ser avaliadas, mas devem ser claramente separadas de conteúdo já trabalhado.
@@ -39,7 +43,7 @@ Se enviar um Pull Request:
 
 - mantenha a progressão para iniciantes;
 - preserve a correspondência entre Guia e Caderno;
-- quando alterar conteúdo conceitual, verifique Colab e VS Code;
+- quando alterar conteúdo conceitual, verifique Colab e VS Code, incluindo as duas versões em `avaliacoes/` quando aplicável;
 - evite incluir transcrições integrais, slides, bases ou outros ativos de terceiros sem autorização;
 - descreva claramente o motivo da mudança.
 
