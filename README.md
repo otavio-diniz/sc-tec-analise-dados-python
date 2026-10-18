@@ -1,8 +1,8 @@
-# SC TEC — Análise de Dados com Python | Guias Vivos e Cadernos Práticos
+# SC TEC — Análise de Dados com Python | Guias Vivos, Cadernos Práticos e Avaliações Comentadas
 
 Material de estudo progressivo para quem está começando em Python e análise de dados e quer **entender a lógica**, não apenas copiar código.
 
-O repositório organiza conceitos, exemplos e exercícios em uma sequência pedagógica própria:
+O repositório organiza conceitos, exemplos, exercícios autorais e avaliações comentadas em uma sequência pedagógica própria:
 
 **Python — Fundamentos Absolutos → Python — Desenvolvimento → Pandas — Análise de Dados**
 
@@ -67,7 +67,7 @@ Há uma versão para **Google Colab** e outra para **VS Code**. O corpo conceitu
 
 ## Estado atual
 
-**Versão pedagógica pública atual: v1.0.1 — validada por Otávio.**
+**Baseline dos Guias, Cadernos e Biblioteca: v1.0.1 — validada por Otávio.** A avaliação comentada M1S02 foi acrescentada posteriormente como material independente, sem mudar retroativamente o corte da baseline.
 
 - Guia Python — Fundamentos Absolutos: validado.
 - Guia Python — Desenvolvimento: validado.
@@ -77,6 +77,7 @@ Há uma versão para **Google Colab** e outra para **VS Code**. O corpo conceitu
 - Corte documental atual: conteúdos e transcrições tratados **até 02/10/2026**.
 - Aprendizagem em espiral e revisões acumulativas incorporadas.
 - Bibliotecas Vivas Colab e VS Code publicadas.
+- **Avaliação comentada M1S02 publicada em `avaliacoes/colab/` e `avaliacoes/vscode/`**: dez questões, explicações, laboratórios e gabarito; separada dos Cadernos Práticos autorais.
 - A v1.0.1 melhora a baseline sem ampliar o corte acadêmico.
 
 A validação é pedagógica e técnica dentro do escopo destes materiais; ela não representa avaliação formal, certificação ou endosso institucional.
@@ -92,6 +93,8 @@ cd sc-tec-analise-dados-python
 
 ### Google Colab
 
+**Acesso direto à avaliação M1S02:** [abrir notebook Colab](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb).
+
 1. Abra um notebook de `notebooks/colab/`.
 2. Leia um checkpoint e execute os exemplos na ordem.
 3. Abra o Caderno correspondente em `exercicios/colab/`.
@@ -103,6 +106,8 @@ cd sc-tec-analise-dados-python
 Arquivos enviados ao runtime do Colab podem desaparecer quando a sessão reinicia.
 
 ### VS Code
+
+**Acesso direto à avaliação M1S02:** [abrir notebook VS Code](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb).
 
 1. Abra um `.ipynb` de `notebooks/vscode/`.
 2. Selecione um kernel/interpretador Python já disponível no ambiente.
@@ -148,7 +153,9 @@ A marca:
 - é aplicada de forma granular;
 - não transforma o recurso em requisito obrigatório do checkpoint.
 
-## Estrutura
+## Estrutura do repositório
+
+A árvore abaixo reflete os caminhos existentes na branch `main`, incluindo a categoria `avaliacoes/` adicionada após a baseline v1.0.1.
 
 ```text
 sc-tec-analise-dados-python/
@@ -229,6 +236,6 @@ Veja [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 O material é vivo: novas aulas podem enriquecer os notebooks ou justificar novas frentes, mas alterações devem preservar a progressão para iniciantes, a proveniência e o espelhamento entre Guia, Caderno, Biblioteca, Colab e VS Code.
 
-As versões são lançadas em janelas pedagógicas estáveis, evitando alterações fragmentadas a cada aula. O changelog registra **o que entrou, o que foi melhorado, o que foi corrigido e o que foi reorganizado**.
+As versões são lançadas em janelas pedagógicas estáveis, evitando alterações fragmentadas a cada aula. O complemento independente M1S02 consta na categoria `avaliacoes/`, sem alteração da referência histórica v1.0.1. O changelog registra **o que entrou, o que foi melhorado, o que foi corrigido e o que foi reorganizado**.
 
 Consulte [`CHANGELOG.md`](CHANGELOG.md) para acompanhar as mudanças.
