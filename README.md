@@ -50,12 +50,16 @@ O Guia Pandas é dividido em **3 partes e 7 checkpoints** para reduzir a carga c
 
 Cada Guia Vivo possui um **Caderno Prático** correspondente, organizado pelos mesmos checkpoints.
 
-### 4. Avaliações comentadas — M1S02
+### 4. Avaliações comentadas — M1S02 e M1S03
 
 A pasta [`avaliacoes/`](avaliacoes/) reúne **avaliações comentadas de estudo**, distintas dos exercícios autorais em `exercicios/`. O primeiro caderno é **M1S02 — Módulo 01, Semana 02**: dez questões contextualizadas de fundamentos de Python, com cinco alternativas, leitura dos conceitos, Dicas de Ouro, laboratórios executáveis, desafios autorais, resolução comentada e gabarito final.
 
 - [M1S02 — Google Colab](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb)
 - [M1S02 — VS Code](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb)
+- [M1S03 — Google Colab](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb)
+- [M1S03 — VS Code](avaliacoes/vscode/m1s03_avaliacao_comentada.ipynb)
+
+**M1S03:** dez questões sobre Git/GitHub, GitFlow, ambiente Python e estruturas de dados, com a mesma abordagem pedagógica da M1S02.
 
 **Sequência sugerida:** leia as alternativas → investigue os conceitos → execute e altere exemplos → registre sua hipótese → consulte a resolução. A categorização editorial como avaliação **não significa prova formal, nota ou endosso institucional**. Os exemplos e as explicações são autorais; material institucional de terceiros não é reproduzido como fonte pública integral.
 
@@ -77,7 +81,7 @@ Há uma versão para **Google Colab** e outra para **VS Code**. O corpo conceitu
 - Corte documental atual: conteúdos e transcrições tratados **até 02/10/2026**.
 - Aprendizagem em espiral e revisões acumulativas incorporadas.
 - Bibliotecas Vivas Colab e VS Code publicadas.
-- **Avaliação comentada M1S02 publicada em `avaliacoes/colab/` e `avaliacoes/vscode/`**: dez questões, explicações, laboratórios e gabarito; separada dos Cadernos Práticos autorais.
+- **Avaliações comentadas M1S02 e M1S03 publicadas em `avaliacoes/colab/` e `avaliacoes/vscode/`**: dez questões, explicações, laboratórios e gabarito; separada dos Cadernos Práticos autorais.
 - A v1.0.1 melhora a baseline sem ampliar o corte acadêmico.
 
 A validação é pedagógica e técnica dentro do escopo destes materiais; ela não representa avaliação formal, certificação ou endosso institucional.
@@ -93,7 +97,7 @@ cd sc-tec-analise-dados-python
 
 ### Google Colab
 
-**Acesso direto à avaliação M1S02:** [abrir notebook Colab](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb).
+**Avaliações Colab:** [M1S02](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb).
 
 1. Abra um notebook de `notebooks/colab/`.
 2. Leia um checkpoint e execute os exemplos na ordem.
@@ -107,7 +111,7 @@ Arquivos enviados ao runtime do Colab podem desaparecer quando a sessão reinici
 
 ### VS Code
 
-**Acesso direto à avaliação M1S02:** [abrir notebook VS Code](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb).
+**Avaliações VS Code:** [M1S02](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/vscode/m1s03_avaliacao_comentada.ipynb).
 
 1. Abra um `.ipynb` de `notebooks/vscode/`.
 2. Selecione um kernel/interpretador Python já disponível no ambiente.
@@ -187,9 +191,11 @@ sc-tec-analise-dados-python/
 │       └── 03_pandas_exercicios.ipynb
 ├── avaliacoes/
 │   ├── colab/
-│   │   └── m1s02_avaliacao_comentada.ipynb
+│   │   ├── m1s02_avaliacao_comentada.ipynb
+│   │   └── m1s03_avaliacao_comentada.ipynb
 │   └── vscode/
-│       └── m1s02_avaliacao_comentada.ipynb
+│       ├── m1s02_avaliacao_comentada.ipynb
+│       └── m1s03_avaliacao_comentada.ipynb
 └── docs/
     ├── FONTES_E_ESCOPO.md
     └── METODO_PEDAGOGICO.md
@@ -236,6 +242,6 @@ Veja [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 O material é vivo: novas aulas podem enriquecer os notebooks ou justificar novas frentes, mas alterações devem preservar a progressão para iniciantes, a proveniência e o espelhamento entre Guia, Caderno, Biblioteca, Colab e VS Code.
 
-As versões são lançadas em janelas pedagógicas estáveis, evitando alterações fragmentadas a cada aula. O complemento independente M1S02 consta na categoria `avaliacoes/`, sem alteração da referência histórica v1.0.1. O changelog registra **o que entrou, o que foi melhorado, o que foi corrigido e o que foi reorganizado**.
+As versões são lançadas em janelas pedagógicas estáveis, evitando alterações fragmentadas a cada aula. Os complementos independentes M1S02 e M1S03 constam na categoria `avaliacoes/`, sem alteração da referência histórica v1.0.1. O changelog registra **o que entrou, o que foi melhorado, o que foi corrigido e o que foi reorganizado**.
 
 Consulte [`CHANGELOG.md`](CHANGELOG.md) para acompanhar as mudanças.
