@@ -31,7 +31,7 @@ A pasta `avaliacoes/` contém avaliações comentadas de estudo, distintas dos e
 
 ## Conteúdo novo
 
-Sugestões além do corte atual podem ser avaliadas, mas devem ser claramente separadas de conteúdo já trabalhado.
+O recorte principal da v1.1 abrange as Semanas 05–06 (aulas 06, 08, 09 e revisão 10/10); o eixo NumPy incorpora aulas de 15/16 como antecipação explicitamente identificada. Sugestões além desse recorte podem ser avaliadas, mas devem distinguir fonte ministrada, conteúdo mostrado em slides e complemento de apoio.
 
 O repositório usa a marca **(complemento de apoio)** quando um recurso é pedagogicamente útil, porém não foi identificado nas aulas/exercícios do corte documental correspondente.
 
@@ -42,9 +42,9 @@ Complementos não se tornam requisito obrigatório apenas por terem sido incluí
 Se enviar um Pull Request:
 
 - mantenha a progressão para iniciantes;
-- preserve a correspondência entre Guia e Caderno;
+- preserve a correspondência entre os quatro Guias e seus Cadernos (incluindo NumPy);
 - quando alterar conteúdo conceitual, verifique Colab e VS Code, incluindo as duas versões em `avaliacoes/` quando aplicável;
-- evite incluir transcrições integrais, slides, bases ou outros ativos de terceiros sem autorização;
+- evite incluir transcrições integrais, slides, dados de estudantes, planilhas de notas, File IDs internos, bases ou outros ativos de terceiros sem autorização;
 - descreva claramente o motivo da mudança.
 
 ## Respeito às fontes

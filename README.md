@@ -1,10 +1,10 @@
-# SC TEC — Análise de Dados com Python | Guias Vivos, Cadernos Práticos e Avaliações Comentadas
+# SC TEC — Análise de Dados com Python | Guias Vivos, Cadernos Práticos, NumPy e Biblioteca Viva
 
 Material de estudo progressivo para quem está começando em Python e análise de dados e quer **entender a lógica**, não apenas copiar código.
 
 O repositório organiza conceitos, exemplos, exercícios autorais e avaliações comentadas em uma sequência pedagógica própria:
 
-**Python — Fundamentos Absolutos → Python — Desenvolvimento → Pandas — Análise de Dados**
+**Python — Fundamentos Absolutos → Python — Desenvolvimento → Pandas — Análise de Dados → NumPy — Arrays e Cálculo Numérico**
 
 > **Produção autoral de Otávio Diniz.** O material foi construído a partir do estudo das aulas, exemplos, orientações e materiais apresentados no contexto do curso, com reorganização, síntese, exemplos e explicações próprias. **Não é material oficial da instituição nem da docente.**
 
@@ -26,65 +26,65 @@ Os Guias Vivos transformam essas explicações em uma trilha organizada para est
 
 ## O que você encontra aqui
 
-### 1. Python — Fundamentos Absolutos
+### 1. Guia Vivo 01 — Python: Fundamentos Absolutos
+Leitura de código, valores e tipos, variáveis, conversão, entradas, operadores, `None`, erros, strings, f-strings e fundamentos de raciocínio. Na v1.1, o material ganhou retomadas sobre diagnóstico de exceções, `None`, string vazia e conversões seguras. **São reforços dos checkpoints já existentes**, não um curso novo.
 
-Sintaxe visual, strings, tipos, `None`, variáveis, `input()`, conversão, erros, operadores aritméticos, `/` × `//` × `%`, potenciação, quebra de linha, f-strings, arredondamento e apresentação de valores.
+### 2. Guia Vivo 02 — Python: Desenvolvimento
+Condições, comparações, listas/tuplas/dicionários, laços, contadores, funções, `return`, strings, expressões regulares, `lambda` e aplicações. A v1.1 acrescenta o **Checkpoint 6 — Modularização e Pipelines**: contrato de função, módulo `.py`, `import`, tratamento de registros, validação de formato, relatório e JSON.
 
-### 2. Python — Desenvolvimento
+### 3. Guia Vivo 03 — Pandas: Análise de Dados
+Continua do `DataFrame`, inspeção, filtros, ausências, duplicações, transformação, CSV/JSON/Excel, datas e interpretação. O percurso cresce de **sete para nove checkpoints**, incluindo:
+- **CP8 — Integração de tabelas:** `merge`, chaves, `left` × `inner`, cardinalidade, correspondências ausentes e controle de multiplicação de linhas;
+- **CP9 — Indicadores e interpretação:** filtros comerciais, faturamento/custos/margem, `groupby`, `agg`, `pivot_table`, metas e limites da inferência.
 
-Comparações, operadores lógicos, `if/elif/else`, listas, tuplas, dicionários, indexação, estruturas aninhadas, `for`, `range()`, contador × acumulador, `while`, `break`, `continue`, funções, `return`, strings, regex, `lambda` e mini-análises sintéticas.
+**Atenção à proveniência:** `groupby`/`pivot_table` aparecem no material de slides M1S05, mas a explicação aprofundada registrada ocorreu em **15/10/2026**, depois do corte principal da v1.1. Essa diferença é identificada nos materiais.
 
-### 3. Pandas — Análise de Dados
+### 4. Guia Vivo 04 — NumPy: Arrays e Cálculo Numérico ✨
+O quarto eixo foi incluído mediante autorização pedagógica para **antecipar o estudo**, tomando por base as aulas de **15 e 16/10/2026** e exemplos autorais independentes. Seus cinco checkpoints são:
+1. listas × `ndarray`, forma, dimensão, tamanho e `dtype`;
+2. vetorização, máscaras e medidas;
+3. matrizes, indexação, fatias, `axis=0` × `axis=1`;
+4. broadcasting, compatibilidade de formatos e alinhamento por posição;
+5. NumPy com Pandas, `np.where`, classificação ilustrativa e interpretação.
 
-Pandas e `DataFrame`, entrada de dados, inspeção, tipos, seleção e filtros, ausências, duplicidades, cópia de trabalho, transformação e resumo de colunas, CSV/JSON/Excel, datas, `NaT`, durações e interpretação analítica.
+Aulas posteriores ainda **não realizadas ou não documentadas** não são tratadas como ministradas. Recursos como `nanmean`, `arange`, `linspace` e `reshape` recebem a marca **[COMPLEMENTO DE APOIO]** quando não há evidência de aula no recorte.
 
-O Guia Pandas é dividido em **3 partes e 7 checkpoints** para reduzir a carga cognitiva:
+### 5. Cadernos Práticos — exercícios autorais
+Cada um dos quatro Guias tem um **Caderno correspondente**, com exercício, espaço de tentativa, execução, solução comentada e recuperação ativa. O Caderno NumPy contém **20 exercícios sintéticos**. Todos os materiais têm versões equivalentes para **Google Colab e VS Code**. A prática é preparatória e não reproduz nem resolve a avaliação formal do curso.
 
-1. Pandas, DataFrame e entrada de dados;
-2. inspeção e tipos;
-3. seleção e filtros;
-4. ausências, duplicidades e cópia de trabalho;
-5. transformação e resumo;
-6. CSV, JSON e Excel;
-7. datas, durações e interpretação.
+### 6. Biblioteca Viva
+Consulta rápida de Python, Pandas e NumPy: **o que é → como ler → quando aparece → erro comum → conexão**. Existem duas versões, uma por ambiente. Por compatibilidade com links antigos, o arquivo público ainda se chama `04_biblioteca_viva_python_pandas.ipynb`, embora o conteúdo atual também abranja NumPy.
 
-Cada Guia Vivo possui um **Caderno Prático** correspondente, organizado pelos mesmos checkpoints.
+### Avaliações comentadas — M1S02 e M1S03
+A pasta [`avaliacoes/`](avaliacoes/) reúne comentários de estudo sobre questões de M1S02 e M1S03. São distintas dos exercícios autorais e permanecem preservadas nesta publicação:
+- [M1S02 — Colab](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [VS Code](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb)
+- [M1S03 — Colab](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb) · [VS Code](avaliacoes/vscode/m1s03_avaliacao_comentada.ipynb)
 
-### 4. Avaliações comentadas — M1S02 e M1S03
+O uso editorial de “avaliação comentada” **não** certifica presença, nota, aprovação ou entrega de avaliação institucional.
 
-A pasta [`avaliacoes/`](avaliacoes/) reúne **avaliações comentadas de estudo**, distintas dos exercícios autorais em `exercicios/`. O primeiro caderno é **M1S02 — Módulo 01, Semana 02**: dez questões contextualizadas de fundamentos de Python, com cinco alternativas, leitura dos conceitos, Dicas de Ouro, laboratórios executáveis, desafios autorais, resolução comentada e gabarito final.
+## Estado da publicação — v1.1 (19/10/2026)
 
-- [M1S02 — Google Colab](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb)
-- [M1S02 — VS Code](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb)
-- [M1S03 — Google Colab](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb)
-- [M1S03 — VS Code](avaliacoes/vscode/m1s03_avaliacao_comentada.ipynb)
+**v1.1 publicada no GitHub mediante autorização de Otávio.** São **quatro Guias, quatro Cadernos e uma Biblioteca Viva**, em Colab e VS Code: **18 notebooks** de estudo. A baseline histórica **v1.0.1**, com corte até 02/10, foi preservada no acervo interno antes da ampliação.
 
-**M1S03:** dez questões sobre Git/GitHub, GitFlow, ambiente Python e estruturas de dados, com a mesma abordagem pedagógica da M1S02.
+- **Corte principal de atualização:** aulas de 06, 08 e 09/10 e revisão de 10/10/2026, Semanas 05 e 06.
+- **Extensão por antecipação autorizada:** conteúdos de 15 e 16/10 para Pandas e o novo Guia NumPy; revisão de 17/10 é fonte de reforço posterior.
+- **13/10:** não houve aula, conforme informação do estudante. Referência a esse dia em material de planejamento não é prova de aula ministrada.
+- **Status técnico:** os notebooks foram submetidos a verificação estática de estrutura Jupyter e correspondência dos novos blocos Colab ↔ VS Code. Isso **não equivale a execução independente de todas as células** nem a validação dos ambientes individuais.
+- **Materiais anteriores:** M1S02 e M1S03 continuam acessíveis nas mesmas URLs, sem alteração.
+- **Evidência de aprendizagem:** arquivos de estudo não demonstram frequência, exercício executado, nota, certificado ou conclusão institucional.
 
-**Sequência sugerida:** leia as alternativas → investigue os conceitos → execute e altere exemplos → registre sua hipótese → consulte a resolução. A categorização editorial como avaliação **não significa prova formal, nota ou endosso institucional**. Os exemplos e as explicações são autorais; material institucional de terceiros não é reproduzido como fonte pública integral.
+O material **não é publicação oficial da SC TEC nem da professora**. Exercícios e dados demonstrativos novos são identificados como didáticos e sintéticos.
 
-### 5. Biblioteca Viva — Python e Pandas
+## Acesso direto aos Guias e Cadernos
 
-A **Biblioteca Viva** funciona como referência rápida para termos, funções, símbolos e ideias que podem interromper a leitura. Cada entrada procura explicar **o que é, como ler, quando aparece, erro comum e conexão com outros conceitos**.
+| Eixo | Guia — Colab | Guia — VS Code | Caderno — Colab | Caderno — VS Code |
+|---|---|---|---|---|
+| 01 · Fundamentos | [Abrir](notebooks/colab/01_python_fundamentos.ipynb) | [Abrir](notebooks/vscode/01_python_fundamentos.ipynb) | [Exercícios](exercicios/colab/01_python_fundamentos_exercicios.ipynb) | [Exercícios](exercicios/vscode/01_python_fundamentos_exercicios.ipynb) |
+| 02 · Desenvolvimento | [Abrir](notebooks/colab/02_python_desenvolvimento.ipynb) | [Abrir](notebooks/vscode/02_python_desenvolvimento.ipynb) | [Exercícios](exercicios/colab/02_python_desenvolvimento_exercicios.ipynb) | [Exercícios](exercicios/vscode/02_python_desenvolvimento_exercicios.ipynb) |
+| 03 · Pandas | [Abrir](notebooks/colab/03_pandas_analise_dados.ipynb) | [Abrir](notebooks/vscode/03_pandas_analise_dados.ipynb) | [Exercícios](exercicios/colab/03_pandas_exercicios.ipynb) | [Exercícios](exercicios/vscode/03_pandas_exercicios.ipynb) |
+| 04 · NumPy | [Abrir](notebooks/colab/04_numpy_arrays_calculo.ipynb) | [Abrir](notebooks/vscode/04_numpy_arrays_calculo.ipynb) | [Exercícios](exercicios/colab/04_numpy_arrays_exercicios.ipynb) | [Exercícios](exercicios/vscode/04_numpy_arrays_exercicios.ipynb) |
 
-Há uma versão para **Google Colab** e outra para **VS Code**. O corpo conceitual é equivalente; mudam somente orientações operacionais de ambiente, como upload/sessão no Colab e kernel/caminhos locais/persistência no VS Code.
-
-## Estado atual
-
-**Baseline dos Guias, Cadernos e Biblioteca: v1.0.1 — validada por Otávio.** A avaliação comentada M1S02 foi acrescentada posteriormente como material independente, sem mudar retroativamente o corte da baseline.
-
-- Guia Python — Fundamentos Absolutos: validado.
-- Guia Python — Desenvolvimento: validado.
-- Guia Pandas — Análise de Dados: validado.
-- Cadernos Práticos de Fundamentos, Desenvolvimento e Pandas: validados.
-- Versões Google Colab e VS Code: conciliadas conceitualmente.
-- Corte documental atual: conteúdos e transcrições tratados **até 02/10/2026**.
-- Aprendizagem em espiral e revisões acumulativas incorporadas.
-- Bibliotecas Vivas Colab e VS Code publicadas.
-- **Avaliações comentadas M1S02 e M1S03 publicadas em `avaliacoes/colab/` e `avaliacoes/vscode/`**: dez questões, explicações, laboratórios e gabarito; separada dos Cadernos Práticos autorais.
-- A v1.0.1 melhora a baseline sem ampliar o corte acadêmico.
-
-A validação é pedagógica e técnica dentro do escopo destes materiais; ela não representa avaliação formal, certificação ou endosso institucional.
+**Biblioteca Viva:** [Colab](biblioteca/colab/04_biblioteca_viva_python_pandas.ipynb) · [VS Code](biblioteca/vscode/04_biblioteca_viva_python_pandas.ipynb). **Avaliações comentadas:** [M1S02](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb).
 
 ## Quickstart
 
@@ -138,9 +138,9 @@ O objetivo não é decorar código. É desenvolver leitura, raciocínio, interpr
 
 Os notebooks não reproduzem obrigatoriamente a cronologia das aulas. O conteúdo é reorganizado por **dependência cognitiva**: primeiro o que o iniciante precisa compreender para que o próximo conceito faça sentido.
 
-A v1.0.1 também adota uma progressão em **espiral**: primeiro contato → prática → retorno → recuperação → aprofundamento. Blocos **🔁 Você já viu isso** e revisões acumulativas ajudam a recuperar conceitos anteriores antes de avançar.
+A evolução até a v1.1 adota uma progressão em **espiral**: primeiro contato → prática → retorno → recuperação → aprofundamento. Blocos **🔁 Você já viu isso** e revisões acumulativas ajudam a recuperar conceitos anteriores antes de avançar.
 
-No Pandas, cada conceito procura seguir:
+Nos eixos Pandas e NumPy, cada conceito procura seguir:
 
 **o que é → como ler a sintaxe → exemplo → comparação → resultado → interpretação → validação**
 
@@ -159,46 +159,38 @@ A marca:
 
 ## Estrutura do repositório
 
-A árvore abaixo reflete os caminhos existentes na branch `main`, incluindo a categoria `avaliacoes/` adicionada após a baseline v1.0.1.
+A árvore abaixo apresenta o conteúdo da v1.1 publicada e preserva a categoria de avaliações comentadas:
 
 ```text
 sc-tec-analise-dados-python/
 ├── README.md
-├── CONTRIBUTING.md
 ├── CHANGELOG.md
+├── CONTRIBUTING.md
 ├── notebooks/
 │   ├── colab/
 │   │   ├── 01_python_fundamentos.ipynb
 │   │   ├── 02_python_desenvolvimento.ipynb
-│   │   └── 03_pandas_analise_dados.ipynb
-│   └── vscode/
-│       ├── 01_python_fundamentos.ipynb
-│       ├── 02_python_desenvolvimento.ipynb
-│       └── 03_pandas_analise_dados.ipynb
-├── biblioteca/
-│   ├── colab/
-│   │   └── 04_biblioteca_viva_python_pandas.ipynb
-│   └── vscode/
-│       └── 04_biblioteca_viva_python_pandas.ipynb
+│   │   ├── 03_pandas_analise_dados.ipynb
+│   │   └── 04_numpy_arrays_calculo.ipynb
+│   └── vscode/                (mesmos quatro Guias)
 ├── exercicios/
 │   ├── colab/
 │   │   ├── 01_python_fundamentos_exercicios.ipynb
 │   │   ├── 02_python_desenvolvimento_exercicios.ipynb
-│   │   └── 03_pandas_exercicios.ipynb
-│   └── vscode/
-│       ├── 01_python_fundamentos_exercicios.ipynb
-│       ├── 02_python_desenvolvimento_exercicios.ipynb
-│       └── 03_pandas_exercicios.ipynb
+│   │   ├── 03_pandas_exercicios.ipynb
+│   │   └── 04_numpy_arrays_exercicios.ipynb
+│   └── vscode/                (mesmos quatro Cadernos)
+├── biblioteca/
+│   ├── colab/04_biblioteca_viva_python_pandas.ipynb
+│   └── vscode/04_biblioteca_viva_python_pandas.ipynb
 ├── avaliacoes/
-│   ├── colab/
-│   │   ├── m1s02_avaliacao_comentada.ipynb
-│   │   └── m1s03_avaliacao_comentada.ipynb
-│   └── vscode/
-│       ├── m1s02_avaliacao_comentada.ipynb
-│       └── m1s03_avaliacao_comentada.ipynb
+│   ├── colab/m1s02_avaliacao_comentada.ipynb
+│   ├── colab/m1s03_avaliacao_comentada.ipynb
+│   └── vscode/                (M1S02 e M1S03 preservadas)
 └── docs/
     ├── FONTES_E_ESCOPO.md
-    └── METODO_PEDAGOGICO.md
+    ├── METODO_PEDAGOGICO.md
+    └── COBERTURA_PEDAGOGICA_V1.1.md
 ```
 
 ## Validação e limites
@@ -215,7 +207,7 @@ Este material é uma **produção autoral de estudo de Otávio Diniz**, constru�
 
 Materiais de terceiros — como slides, transcrições integrais, bases, imagens ou documentos institucionais — **não são automaticamente redistribuídos** neste repositório. Cada ativo externo permanece sujeito às condições do respectivo titular.
 
-Veja [`docs/FONTES_E_ESCOPO.md`](docs/FONTES_E_ESCOPO.md).
+Veja [`docs/FONTES_E_ESCOPO.md`](docs/FONTES_E_ESCOPO.md) e a [cobertura pedagógica da v1.1](docs/COBERTURA_PEDAGOGICA_V1.1.md).
 
 ## Uso do material
 
@@ -242,6 +234,6 @@ Veja [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 O material é vivo: novas aulas podem enriquecer os notebooks ou justificar novas frentes, mas alterações devem preservar a progressão para iniciantes, a proveniência e o espelhamento entre Guia, Caderno, Biblioteca, Colab e VS Code.
 
-As versões são lançadas em janelas pedagógicas estáveis, evitando alterações fragmentadas a cada aula. Os complementos independentes M1S02 e M1S03 constam na categoria `avaliacoes/`, sem alteração da referência histórica v1.0.1. O changelog registra **o que entrou, o que foi melhorado, o que foi corrigido e o que foi reorganizado**.
+As versões são lançadas em janelas pedagógicas estáveis, evitando alterações fragmentadas a cada aula. A v1.1 amplia a trilha até quatro eixos; os complementos independentes M1S02 e M1S03 permanecem na categoria `avaliacoes/`, sem alterar a referência histórica da v1.0.1. O changelog registra **o que entrou, o que foi melhorado, o que foi corrigido e o que foi reorganizado**.
 
 Consulte [`CHANGELOG.md`](CHANGELOG.md) para acompanhar as mudanças.

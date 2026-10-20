@@ -131,6 +131,24 @@ Tipos como `int64`, `float64`, `object/string`, `datetime64[ns]` e `NaT` são ex
 
 Limpeza não é automática. Valores ausentes, duplicidades e categorias inconsistentes devem ser investigados no contexto antes de exclusão ou substituição.
 
+## V1.1: fronteira acadêmica e eixos atualizados
+
+A evolução de v1.0.1 para v1.1 preserva a trilha inicial de Fundamentos, Desenvolvimento e Pandas, introduzindo **NumPy como quarto eixo**. O recorte principal ampliado é composto pelas aulas técnicas **06, 08 e 09/10/2026** e pelo aulão de revisão **10/10**. As aulas documentadas **15 e 16/10** sustentam a antecipação autorizada de NumPy e parte do aprofundamento de Pandas. Não se deve inferir que slides de planejamento, aulas futuras ou material do mini-projeto já tenham sido ministrados.
+
+**Novo Checkpoint 6 — Desenvolvimento:** módulos `.py`, `import`, funções com contratos, pipelines, diagnóstico e relatórios.
+**Novos Checkpoints 8/9 — Pandas:** junções por chave e cardinalidade; métricas, agrupamentos, tabelas-resumo e interpretação responsável.
+**Guia/Caderno 04 — NumPy:** CP1 arrays/forma, CP2 vetorização/máscaras, CP3 matrizes/eixos, CP4 broadcasting e CP5 NumPy–Pandas/`np.where`.
+
+### NumPy: cuidado com o significado das operações
+
+Antes de operar com arrays, identifique o significado de cada eixo e verifique o `shape`. A escolha `axis=0` ou `axis=1` pode devolver números válidos, mas responder à pergunta errada. Broadcasting alinha **posições e dimensões**, não os nomes comerciais ou de pessoas. Para inferência e classificação, separe código da regra de negócio; as faixas numéricas usadas em exemplos didáticos **não são critérios oficiais do curso**.
+
+No Caderno 04, cada exercício autoral deve continuar a sequência **previsão → tentativa → execução → diagnóstico → solução comentada → recuperação**. A referência para resolução de um mini-projeto acadêmico é apenas **metodológica**; o trabalho avaliativo deve ser realizado pelo estudante.
+
+### Verificação técnica e evidência
+
+A conferência estrutural de arquivos `.ipynb`, a coincidência dos novos blocos Colab↔VS Code e a publicação em GitHub **não comprovam execução real das células** nem resultado do estudante. O ambiente deve ter kernel e bibliotecas apropriados; não se altera o sistema operacional ou instala software como parte da autoria pedagógica. Erros encontrados em execução precisam ser registrados e corrigidos em revisão posterior, sem declarar teste inexistente.
+
 ## Versionamento pedagógico
 
 As atualizações são agrupadas em janelas estáveis, em vez de alterar a baseline a cada nova aula.

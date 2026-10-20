@@ -6,12 +6,22 @@ Este repositório contém material autoral de estudo de Otávio Diniz. Ele sinte
 
 O conteúdo não é material oficial da instituição ou da docente e não substitui as fontes originais.
 
-## Corte documental
+## Corte documental e cronologia — v1.1 publicada
 
-A versão pública **v1.0.1** considera conteúdos e transcrições tratados até **02/10/2026**. A revisão 1.0.1 não amplia esse corte; ela reconcilia e melhora a baseline anterior.
+A **baseline histórica v1.0.1** encerra-se em **02/10/2026** (Semanas 01–04). A nova **v1.1** agrega como corte principal de atualização as aulas técnicas de **06, 08 e 09/10/2026** e a revisão de **10/10/2026** (Semanas 05–06). Os registros de **15 e 16/10/2026** sustentam a expansão editorial para Pandas e o novo eixo NumPy **por antecipação autorizada**; **17/10** representa revisão posterior, não retroprova do corte principal.
 
-- **18/09:** não há transcrição por decisão expressa do estudante; a ausência é intencional.
-- **02/10:** fonte e transcrição foram recebidas, autenticadas, tratadas e incorporadas ao material vivo.
+- **18/09:** a ausência de transcrição é intencional, por declaração do estudante.
+- **02/10:** aula documentada na baseline anterior.
+- **06/10:** funções, expressões regulares, inspeção e tratamento de dados.
+- **08/10:** limpeza modular, reuso de funções, pipeline e relatório.
+- **09/10:** relações entre tabelas, `merge`, métricas e interpretação.
+- **10/10:** revisão de Python e lógica.
+- **13/10:** **não houve aula**, conforme informação de Otávio; apresentação da Semana 06 não comprova a ocorrência de aula prevista.
+- **15/10:** agrupamentos/indicadores e primeira abordagem de NumPy.
+- **16/10:** arrays, operações vetorizadas, eixos, broadcasting e classificação ilustrativa com `np.where`.
+- **17/10:** revisão de estruturas Python; material tratado como fonte posterior complementar.
+
+A apresentação da Semana 07 aborda especialmente o **mini-projeto**; não é considerada correspondência exaustiva com a explicação oral de NumPy em 15 ou 16/10. Para a classificação tema a tema, consulte [`COBERTURA_PEDAGOGICA_V1.1.md`](COBERTURA_PEDAGOGICA_V1.1.md).
 
 ## Como as fontes são usadas
 
@@ -36,6 +46,14 @@ Quando uma fonte de terceiros é mencionada, isso não implica autorização par
 A marca **(complemento de apoio)** identifica recurso útil para a aprendizagem que não foi localizado nas aulas/exercícios considerados no corte correspondente.
 
 A marca é granular e pode ser retirada em revisão futura caso nova evidência comprove que o recurso já havia sido trabalhado.
+
+## NumPy e material sintético
+
+O quarto Guia e Caderno incluem arrays, `shape`, `size`, `ndim`, `dtype`, operações vetorizadas, máscaras, `axis`, broadcasting, `np.where` e uso de arrays com Pandas. Quando uma função útil excede o conteúdo comprovado no recorte (como `np.nanmean`, `np.arange`, `np.linspace` e `reshape`), é identificada como **[COMPLEMENTO DE APOIO]**.
+
+Os exemplos de notas presentes nos materiais de estudo são *fictícios e didáticos*; as faixas de classificação do exemplo não são critérios oficiais de avaliação. Um nome coincidente com o do estudante em uma planilha de exercício **não comprova nota institucional**. Exercícios propostos nos Cadernos não representam atividade executada ou trabalho submetido.
+
+A fonte fornecida pode indicar atividades ou links externos de exercício que não acompanharam a transferência de materiais. Nesses casos, o conteúdo ausente não é inventado nem promovido como leitura efetivamente concluída.
 
 ## Limite de evidência
 
