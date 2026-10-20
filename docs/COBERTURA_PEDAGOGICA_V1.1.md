@@ -12,6 +12,19 @@
 
 As apresentações dos módulos/semana podem **conter planejamento, exemplos ou temas que não foram integralmente desenvolvidos em sessão oral**. O PPT da Semana 07 diz respeito sobretudo ao mini-projeto: não se assume equivalência literal com as explicações NumPy de 15/16.
 
+## Adendo de cobertura v1.1.1 — 20/10/2026
+
+| Evidência verificada | Abrangência material | Complemento de estudo, sem promoção institucional |
+|---|---|---|
+| Revisão T8 de 10/10; links externos de reforço T5 | Dificuldade de interpretar enunciados, planejar passos, resolver `if/for/while`, comparar saídas | **Caderno Desenvolvimento 02:** quadros de planejamento nos CP1/3/4/5/6 e exercícios sintéticos DP1–DP3 |
+| PPT institucional T8 M1S06 | Cita valores ausentes, duplicatas, IQR, Min-Max e Z-score | **Guia Pandas 03 CP4:** seções 4.5–4.7; **Caderno Pandas 03:** P17–P20, todos como complemento de apoio |
+| ZIP de maio com vídeo identificado como T2/M1S02 | Interseção temática em qualidade dos dados, mas turma, data e base `pedidos.csv` divergem | **Não importado** como fonte T8; apenas referência segregada; nenhum código ou CSV substituído |
+| Biblioteca Viva | Vocabulário transversal consolidado | IQR, Z-score, Min-Max e modelo de planejamento |
+
+**Classificação:** CORRESPONDENTE à revisão no aspecto metodológico; COMPLEMENTO DE APOIO ao PPT M1S06 para fórmulas e demonstrações; DIVERGÊNCIA MATERIAL de turma para o ZIP T2; PDF externo existente, porém **não integralmente analisado**. A patch v1.1.1 mantém quatro Guias/quatro Cadernos/uma Biblioteca Viva por ambiente, sem novo módulo e sem progressão institucional inferida.
+
+[Registro aprofundado](REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md).
+
 ## Matriz — evidência observada e destino no material
 
 | Data / natureza | Conceitos referenciados | Destino publicado | Classificação |

@@ -8,6 +8,14 @@ O repositório organiza conceitos, exemplos, exercícios autorais e avaliações
 
 > **Produção autoral de Otávio Diniz.** O material foi construído a partir do estudo das aulas, exemplos, orientações e materiais apresentados no contexto do curso, com reorganização, síntese, exemplos e explicações próprias. **Não é material oficial da instituição nem da docente.**
 
+## Atualização pedagógica v1.1.1 — 20/10/2026
+
+Esta revisão acrescenta **planejamento estruturado de exercícios e testes de fronteira** ao Caderno 02 (Desenvolvimento), além de **outliers, IQR, Z-score e Min-Max** ao Checkpoint 4 do Guia/Caderno 03 (Pandas). Os novos conceitos também foram indexados na Biblioteca Viva. **Não há novo Guia ou módulo**, e os pares Google Colab/VS Code continuam equivalentes.
+
+**Origem:** a revisão de lógica da T8 em **10/10** apresentou o método de resolução; seu repositório de apoio tem identificação de turma T5 e permanece referência externa. O **PPT oficial da T8 M1S06** apresenta outliers/IQR e normalização, mas a exposição em slides **não comprova que cada cálculo foi ministrado oralmente**. Um pacote distinto identificado como **T2** foi segregado e não substitui dados, exemplos ou aulas oficiais da T8. As demonstrações e os novos exercícios são **sintéticos e autorais**, explicitamente rotulados.
+
+**Leia também:** [detalhes e proveniência da v1.1.1](docs/REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md), [método pedagógico](docs/METODO_PEDAGOGICO.md) e [cobertura](docs/COBERTURA_PEDAGOGICA_V1.1.md).
+
 ## O problema que este material procura resolver
 
 Em aulas práticas, parte importante da aprendizagem surge em explicações orais, dúvidas, correções ao vivo e comparações que nem sempre aparecem no slide ou no código final.
@@ -62,11 +70,11 @@ A pasta [`avaliacoes/`](avaliacoes/) reúne comentários de estudo sobre questõ
 
 O uso editorial de “avaliação comentada” **não** certifica presença, nota, aprovação ou entrega de avaliação institucional.
 
-## Estado da publicação — v1.1 (19/10/2026)
+## Estado da publicação — v1.1.1 (20/10/2026)
 
-**v1.1 publicada no GitHub mediante autorização de Otávio.** São **quatro Guias, quatro Cadernos e uma Biblioteca Viva**, em Colab e VS Code: **18 notebooks** de estudo. A baseline histórica **v1.0.1**, com corte até 02/10, foi preservada no acervo interno antes da ampliação.
+**v1.1.1 publicada no GitHub por autorização de Otávio, como suplemento editorial à v1.1 de 19/10.** São **quatro Guias, quatro Cadernos e uma Biblioteca Viva**, em Colab e VS Code: **18 notebooks** de estudo. A baseline histórica **v1.0.1**, com corte até 02/10, foi preservada no acervo interno antes da ampliação.
 
-- **Corte principal de atualização:** aulas de 06, 08 e 09/10 e revisão de 10/10/2026, Semanas 05 e 06.
+- **Corte principal de atualização:** aulas de 06, 08 e 09/10 e revisão de 10/10/2026, Semanas 05 e 06; a v1.1.1 aprofunda a metodologia do aulão e os temas de qualidade presentes no PPT da Semana 06.
 - **Extensão por antecipação autorizada:** conteúdos de 15 e 16/10 para Pandas e o novo Guia NumPy; revisão de 17/10 é fonte de reforço posterior.
 - **13/10:** não houve aula, conforme informação do estudante. Referência a esse dia em material de planejamento não é prova de aula ministrada.
 - **Status técnico:** os notebooks foram submetidos a verificação estática de estrutura Jupyter e correspondência dos novos blocos Colab ↔ VS Code. Isso **não equivale a execução independente de todas as células** nem a validação dos ambientes individuais.
@@ -84,7 +92,7 @@ O material **não é publicação oficial da SC TEC nem da professora**. Exercí
 | 03 · Pandas | [Abrir](notebooks/colab/03_pandas_analise_dados.ipynb) | [Abrir](notebooks/vscode/03_pandas_analise_dados.ipynb) | [Exercícios](exercicios/colab/03_pandas_exercicios.ipynb) | [Exercícios](exercicios/vscode/03_pandas_exercicios.ipynb) |
 | 04 · NumPy | [Abrir](notebooks/colab/04_numpy_arrays_calculo.ipynb) | [Abrir](notebooks/vscode/04_numpy_arrays_calculo.ipynb) | [Exercícios](exercicios/colab/04_numpy_arrays_exercicios.ipynb) | [Exercícios](exercicios/vscode/04_numpy_arrays_exercicios.ipynb) |
 
-**Biblioteca Viva:** [Colab](biblioteca/colab/04_biblioteca_viva_python_pandas.ipynb) · [VS Code](biblioteca/vscode/04_biblioteca_viva_python_pandas.ipynb). **Avaliações comentadas:** [M1S02](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb).
+**Biblioteca Viva (agora com verbetes de IQR, Z-score, Min-Max e planejamento):** [Colab](biblioteca/colab/04_biblioteca_viva_python_pandas.ipynb) · [VS Code](biblioteca/vscode/04_biblioteca_viva_python_pandas.ipynb). **Avaliações comentadas:** [M1S02](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb).
 
 ## Quickstart
 

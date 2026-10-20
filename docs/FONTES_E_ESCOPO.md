@@ -23,6 +23,16 @@ A **baseline histórica v1.0.1** encerra-se em **02/10/2026** (Semanas 01–04).
 
 A apresentação da Semana 07 aborda especialmente o **mini-projeto**; não é considerada correspondência exaustiva com a explicação oral de NumPy em 15 ou 16/10. Para a classificação tema a tema, consulte [`COBERTURA_PEDAGOGICA_V1.1.md`](COBERTURA_PEDAGOGICA_V1.1.md).
 
+## Adendo 20/10/2026 — proveniência separada na v1.1.1
+
+Os materiais de reforço da aula de **10/10/2026** incluem links para [Python Exercises — organização Machine-Learning-Visao-Computacional-T5](https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises). O notebook de reforço oferece doze exercícios orientados e a coleção de pseudocódigo reúne quinze exemplos. Essas referências foram compartilhadas no **aulão da SC TEC T8**, mas **a organização GitHub é de outra turma**. A licença publicada pelo repositório é MIT, sem que isso substitua verificação de direitos sobre recursos de terceiros nele citados.
+
+O PDF de fluxograma foi **confirmado como arquivo existente**, mas **não houve leitura visual/integral autenticada**; a explicação autoral do método usa a transcrição de revisão e os textos efetivamente consultados.
+
+O outro arquivo recebido era um ZIP com notebooks/CSV de **maio/2026** e quadro de vídeo identificado como **“Análise de Dados com Python T2 — M1S02 — Aulão”**. O esquema de seu `pedidos.csv` diverge do esquema da T8; o pacote permanece arquivado **separadamente como referência externa de outra turma** e **não** é prova de aula da T8 ou base canônica de exercícios.
+
+A ampliação de **outliers, IQR, Min-Max e Z-score** baseia-se nos temas do **PPT oficial T8 M1S06**, que podem não ter sido inteiramente desenvolvidos nas sessões orais. Fórmulas, exemplos fictícios e interpretações aprofundadas são **[COMPLEMENTO DE APOIO]**. Consulte [o registro público de extensão v1.1.1](REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md).
+
 ## Como as fontes são usadas
 
 As fontes servem para:

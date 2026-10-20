@@ -26,6 +26,18 @@ A sequência típica é:
 
 Os exercícios são sintéticos e não constituem avaliação formal do curso.
 
+## Planejamento estruturado e testes de fronteira — revisão v1.1.1
+
+Nos exercícios pertinentes do **Caderno 02 — Desenvolvimento**, a sequência passa a ser:
+
+**enunciado → entrada/saída → regra → previsão manual → pseudocódigo/passos → tentativa → execução → caso-limite → diagnóstico → explicação → recuperação**.
+
+É um modelo de **autoria pedagógica** inspirado no problema observado na revisão de lógica de 10/10: entender a solução quando demonstrada não garante conseguir iniciar sozinho. Campos de planejamento podem ser copiados nos exercícios sem transformar o Caderno em formulário de avaliação. Para condições, teste valores **abaixo, no limite e acima** da comparação; para laços, inclua sequência vazia e condição de parada; para funções, separe `print` de `return`.
+
+No **Checkpoint 4 de Pandas**, a metodologia reforça que uma observação extrema exige **diagnóstico, não exclusão automática**: descrever a distribuição, sinalizar candidatos por IQR/Z-score, confrontar com regra de negócio e avaliar impacto de decisões em cópias. Min-Max **muda escala**, não corrige um valor. Todos os cálculos adicionais foram desenvolvidos com **dados sintéticos** e explicação de limitações (amostra pequena, desvio zero, amplitude zero).
+
+A evidência de apresentação de IQR/normalização é o **PPT oficial M1S06 da T8**; a exposição aprofundada nos notebooks é rotulada **[COMPLEMENTO DE APOIO]**. Documentos de turma T5 e vídeo de turma T2 são fontes externas segregadas, sem transposição de autorias. [Detalhes e auditabilidade](REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md).
+
 ## Aprendizagem em espiral
 
 Além da progressão por dependência cognitiva, o material usa um ciclo de retomada:

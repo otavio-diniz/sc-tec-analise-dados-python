@@ -37,6 +37,12 @@ O repositório usa a marca **(complemento de apoio)** quando um recurso é pedag
 
 Complementos não se tornam requisito obrigatório apenas por terem sido incluídos no material.
 
+## Validação das contribuições de planejamento e qualidade (v1.1.1)
+
+Ao propor exercício com condição, apresente **previsão, caso abaixo/no/acima do limite, tentativa e diagnóstico**. Ao propor rotina de Pandas para valores extremos, explicite **distribuição, critério IQR/Z-score, casos nulos, denominador zero e impacto de exclusões**, mantendo o valor original auditável. Exemplo e solução devem ser **autorais e rotulados como material sintético**, nunca gabarito institucional.
+
+Diferencie material da T8 efetivamente ministrado, conceito apenas citado em slide e referência externa compartilhada. Não copie notebooks, CSV, transcrições integrais ou mídias de turma T2/T5 para o repositório do estudante. É inadequado apresentar um ZIP de outra turma como fonte oficial da Semana 06.
+
 ## Pull requests
 
 Se enviar um Pull Request:

@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.1.1 — 2026-10-20 — Planejamento e qualidade dos dados
+
+**Revisão incremental da v1.1**, solicitada por Otávio após a reconciliação de dois arquivos da Transferência. Não altera currículo, número de Guias ou Cadernos e não incorpora bases de outras turmas.
+
+- **Caderno Desenvolvimento 02:** quadros de previsão/planejamento/diagnóstico nos CP1, CP3, CP4, CP5 e CP6; laboratório autoral DP1–DP3 (condição com fronteiras, soma por laço e distinção `print`/`return`) e soluções comentadas.
+- **Guia Pandas 03:** novas seções 4.5–4.7 no CP4 — candidatos a outliers por IQR, Z-score com desvio explícito e Min-Max com tratamento de amplitude zero; exercícios fictícios que preservam os registros originais.
+- **Caderno Pandas 03:** extensão P17–P20, com tentativa, critérios de diagnóstico, resolução comentada e recuperação.
+- **Biblioteca Viva:** novos verbetes de planejamento e de IQR/Z-score/Min-Max.
+- **Documentação:** README, método, fontes/escopo, cobertura pedagógica, contribuições e novo registro de [reforço v1.1.1](docs/REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md).
+
+**Fontes delimitadas:** aula de revisão de lógica SC TEC T8 em 10/10 e PPT T8 M1S06; GitHub externo de turma T5 como referência compartilhada no aulão; ZIP de maio identificado como turma T2 **segregado**, não reutilizado como material oficial da T8. A referência ao PDF externo não significa leitura integral de seu conteúdo visual. Novas demonstrações classificadas como **material sintético / complemento de apoio**.
+
+**Validação:** notebook JSON e preservação de células verificáveis; execução integral em Colab/VS Code continua não comprovada. Nenhuma presença, atividade formal, nota ou conclusão inferida.
+
 ## 1.1.0 — 2026-10-19 — Guias Vivos até Semana 06 + eixo NumPy
 
 **Publicação autorizada por Otávio.** Quatro Guias Vivos, quatro Cadernos Práticos e uma Biblioteca Viva, cada um em Google Colab e VS Code: **18 notebooks**. A versão anterior v1.0.1 foi preservada no histórico privado antes da ampliação; os caminhos públicos anteriores foram mantidos.
