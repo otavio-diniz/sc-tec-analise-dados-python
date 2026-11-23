@@ -70,6 +70,10 @@ A pasta [`avaliacoes/`](avaliacoes/) reúne comentários de estudo sobre questõ
 
 O uso editorial de “avaliação comentada” **não** certifica presença, nota, aprovação ou entrega de avaliação institucional.
 
+### Nova frente de estudo — bancos de dados (ambientação)
+
+O roteiro [**PostgreSQL, pgAdmin, MongoDB, Compass e mongosh: comece aqui**](docs/ambientacao/bancos-de-dados.md) reúne conceitos fundamentais, links oficiais e cuidados de conexão para as Semanas 08–11. É uma **ambientação complementar**, não uma publicação antecipada dos Guias/Cadernos 05 e 06 nem comprovação de execução dos laboratórios.
+
 ### Mini-Projeto da Semana 07 — referência externa ao percurso didático
 
 A Semana 07 inclui um mini-projeto de análise de dados de varejo realizado em repositório próprio. Para preservar a autoria, o histórico e as bases do projeto sem duplicá-los nesta biblioteca, consulte **[Semana 07 — Mini-Projeto de Varejo: documentação e acesso](docs/projetos/semana-07-mini-projeto.md)**. Este índice é um vínculo pedagógico e de portfólio, não um quinto Guia Vivo nem uma alteração da baseline de notebooks.
