@@ -70,6 +70,10 @@ A pasta [`avaliacoes/`](avaliacoes/) reúne comentários de estudo sobre questõ
 
 O uso editorial de “avaliação comentada” **não** certifica presença, nota, aprovação ou entrega de avaliação institucional.
 
+### Mini-Projeto da Semana 07 — referência externa ao percurso didático
+
+A Semana 07 inclui um mini-projeto de análise de dados de varejo realizado em repositório próprio. Para preservar a autoria, o histórico e as bases do projeto sem duplicá-los nesta biblioteca, consulte **[Semana 07 — Mini-Projeto de Varejo: documentação e acesso](docs/projetos/semana-07-mini-projeto.md)**. Este índice é um vínculo pedagógico e de portfólio, não um quinto Guia Vivo nem uma alteração da baseline de notebooks.
+
 ## Estado da publicação — v1.1.1 (20/10/2026)
 
 **v1.1.1 publicada no GitHub por autorização de Otávio, como suplemento editorial à v1.1 de 19/10.** São **quatro Guias, quatro Cadernos e uma Biblioteca Viva**, em Colab e VS Code: **18 notebooks** de estudo. A baseline histórica **v1.0.1**, com corte até 02/10, foi preservada no acervo interno antes da ampliação.
