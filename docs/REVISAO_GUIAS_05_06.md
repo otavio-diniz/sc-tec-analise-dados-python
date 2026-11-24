@@ -2,6 +2,12 @@
 
 **SC TEC T8 · MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO, NÃO OFICIAL · PRÉVIA PUBLICADA PARA ESTUDO.** Os arquivos são disponibilizados para consulta e melhoria contínua, sem constituir uma nova baseline homologada. A versão estável anterior v1.1.1 dos eixos 01–04 permanece preservada.
 
+## Escopo real das aulas e uso por iniciantes
+
+A cobertura não se limita aos dois bancos. **Semana 08:** HTML, scraping responsável, BeautifulSoup/requests, pipeline ETL e SQLite vieram antes do PostgreSQL. A [Ponte da Semana 08](ambientacao/ponte-semana-08-etl.md) ensina cada etapa e liga ao exercício executável do Guia 05; nenhuma coleta externa é realizada. Em [11 aulas, de 27/10 a 19/11](PERCURSO_SEMANAS_08_A_11.md), cada data é classificada por prática oral versus conteúdo planejado do slide, sem inventar aula de 20/11.
+
+**Normalização:** a oficina 1FN–3FN está no Guia 05 CP2; RIGHT/FULL, UNION ALL, ILIKE, CONCAT/SUBSTRING e a interpretação da granularidade estão no Guia 05 e no laboratório SQL. **MongoDB:** uso do Compass/mongosh, find/projeção, sort/limit/countDocuments, elemMatch e pipeline foi detalhado no Guia 06 e scripts. Os Guias e Cadernos são **simulações didáticas em Python**, com prática real de banco feita separadamente quando autorizada.
+
 ## Percurso pareado — Colab e VS Code
 
 | Eixo | Guia Colab | Guia VS Code | Caderno Colab | Caderno VS Code |
