@@ -1,6 +1,6 @@
 # Primeiro acesso ao PostgreSQL e pgAdmin — passo a passo
 
-**MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO — SC TEC T8 — GUIA 05.** Texto descritivo, não registro de instalação efetiva. Não modificar serviços, banco, firewall, PATH ou credenciais sem a autorização técnica aplicável.
+**MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO — SC TEC T8 — GUIA 05.** O roteiro ensina o uso desde o início; não constitui autorização para instalar ou modificar serviços, firewall, PATH ou credenciais. Em 24/11/2026, os SQL autorais foram executados com sucesso em um PostgreSQL 18 **temporário e isolado**, sem alterar o servidor habitual. Isso não significa que a interface pgAdmin tenha sido homologada.
 
 ## 1. Entenda cada componente
 - **PostgreSQL** é o servidor que armazena tabelas e executa SQL.
@@ -43,7 +43,7 @@ O arquivo [00_dados_sinteticos.sql](../../labs/postgresql/00_dados_sinteticos.sq
 
 O arquivo [01_consultas_e_relatorios.sql](../../labs/postgresql/01_consultas_e_relatorios.sql) trabalha JOINs, COUNT DISTINCT, cliente sem compras, soma por pedido, subconsulta, CTE e DATE_TRUNC.
 
-**Previsão manual, não resultado executado:** Lia/Raul têm pedidos 101/102 e Bia não; valor dos itens depois de desconto: R$ 40,00 e R$ 13,50, total R$ 53,50. A demonstração Python dos [notebooks 05](../../notebooks/colab/05_sql_postgresql.ipynb) utiliza **SQLite em memória**, não o PostgreSQL real.
+**Previsão didática confirmada em laboratório isolado PostgreSQL 18 (24/11):** Lia/Raul têm pedidos 101/102 e Bia não; valor dos itens depois de desconto: R$ 40,00 e R$ 13,50, total R$ 53,50. Ver [validação técnica](../VALIDACAO_BANCOS_2026-11-24.md). O servidor principal e o pgAdmin não foram usados para esta execução. A demonstração Python dos [notebooks 05](../../notebooks/colab/05_sql_postgresql.ipynb) utiliza **SQLite em memória**, não o PostgreSQL real.
 
 ## 7. Diagnóstico
 - `connection refused`: servidor/host/porta/firewall.
@@ -55,3 +55,19 @@ O arquivo [01_consultas_e_relatorios.sql](../../labs/postgresql/01_consultas_e_r
 - Erro em DATE_TRUNC no Colab: SQLite não tem todo o dialeto PostgreSQL.
 
 **Checkpoints:** COMPREENDER servidor/cliente/banco; EXECUTAR consulta no ambiente real autorizado; DIAGNOSTICAR erro e interpretação. Nenhum desses passos se comprova por simples leitura.
+
+
+## 8. Caminho visual completo para um iniciante
+
+**Sem acesso ao servidor?** Execute somente a [Etapa 0 de ETL/SQLite do Guia 05](../../notebooks/colab/05_sql_postgresql.ipynb). Ela não requer login PostgreSQL. **Com servidor de treino autorizado:** entre no pgAdmin → painel **Browser** → **Servers** → selecione/registre a conexão → **Databases** → confirme o banco → abra **Query Tool** nesse banco. Leia no topo do Query Tool o banco conectado antes de digitar qualquer consulta.
+
+**Primeira prática com resultado previsto:**
+1. Execute **somente leitura**: `SELECT current_database() AS banco, current_user AS usuario;`.
+2. Num banco separado de treino, leia o arquivo `labs/postgresql/00_dados_sinteticos.sql` até compreender `CREATE SCHEMA`, `CREATE TABLE`, PK, FK e INSERT. A execução **cria e altera** estruturas no banco selecionado.
+3. Depois de executar a carga autorizada, use `SELECT nome FROM sctec_treino.clientes ORDER BY nome;`: espere **Bia, Lia, Raul**. Confira as três linhas.
+4. Abra o script de relatórios (leitura) e compare `COUNT(*)` e `COUNT(DISTINCT)` após JOIN: **3 linhas de item** e **2 pedidos**.
+5. Consulte `information_schema.tables` e a árvore `Schemas → sctec_treino → Tables`, localize as quatro tabelas. Se estiver em `public` por engano, corrija o caminho de leitura antes de modificar qualquer coisa.
+
+**Diferença entre cadastrar e criar:** registrar um *Server* no pgAdmin salva uma conexão; `CREATE DATABASE` cria uma base; `CREATE SCHEMA` cria um agrupamento dentro de uma base; `CREATE TABLE` cria uma tabela. São quatro ações diferentes.
+
+**Próximas aulas:** 12/11 traz normalização 1FN–3FN, 13/11 DDL/transações e 17–19/11 JOINs/indicadores/CTEs. [Percurso por data](../PERCURSO_SEMANAS_08_A_11.md).
