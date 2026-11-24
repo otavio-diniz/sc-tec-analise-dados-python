@@ -54,10 +54,10 @@ Estes links são referências, não uma ordem para instalar todos os programas. 
 - **Semana 10:** continuidade NoSQL, normalização e consultas PostgreSQL, em sequência distinta dos slides.
 - **Semana 11:** prática SQL e relatórios com JOIN, agregação, subconsulta e CTE. O slide previa Python/psycopg2/ORM, mas a aula gravada de 19/11 não comprova essa integração como prática.
 
-O futuro material dos eixos SQL/PostgreSQL e MongoDB deverá partir dos conceitos básicos, usar **exemplos fictícios identificados**, checkpoints e pares pedagógicos Colab/VS Code. Esta página não replica apresentações, scripts, datasets ou transcrições da instrutora.
+Os **Guias e Cadernos 05/06 estão publicados como prévia didática no GitHub**, com exemplos fictícios, checkpoints, pares Colab/VS Code e [percurso de cada aula](../PERCURSO_SEMANAS_08_A_11.md). Esta página não replica apresentações, scripts, datasets ou transcrições da instrutora.
 
-## 6. Situação de validação
+## 6. Situação de validação (atualização de 24/11/2026)
 
-Documento introdutório: **conceitos e links oficiais revisados**. Nenhum PostgreSQL/MongoDB instalado ou testado; nenhuma conta Atlas criada, script institucional executado, notebook novo publicado ou atividade submetida. A montagem de laboratórios reais depende de ambiente e autorização apropriados.
+Documento introdutório: **conceitos e links oficiais revisados**. Em 24/11/2026 os dois scripts SQL autorais foram executados em PostgreSQL 18 temporário isolado e foram executadas operações equivalentes no MongoDB local em base temporária, com limpeza. **Não** foram testados os aplicativos gráficos nem executados literalmente os dois arquivos .js no mongosh. Nenhuma nova instalação, conta Atlas, script institucional ou atividade submetida. [Relatório técnico](../VALIDACAO_BANCOS_2026-11-24.md).
 
 [Voltar ao README](../../README.md) · [Método pedagógico](../METODO_PEDAGOGICO.md)
