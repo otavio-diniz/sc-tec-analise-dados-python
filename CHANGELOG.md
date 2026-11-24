@@ -1,5 +1,16 @@
 # Changelog
 
+## Prévia dos eixos 05/06 — 2026-11-24 — SQL/PostgreSQL e MongoDB
+
+**Publicação incremental para estudo e melhoria contínua, sem promover nova baseline homologada.** Preserva os conteúdos/caminhos da v1.1.1.
+
+- **8 notebooks:** Guia/Caderno SQL/PostgreSQL e Guia/Caderno MongoDB/NoSQL para Colab/VS Code; oito checkpoints por arquivo e 48 questões de treino sintéticas.
+- **4 scripts de laboratório:** criação/dados e consultas SQL; carga de documentos e pipeline Mongo.
+- **Onboarding:** fontes oficiais de downloads, tutoriais de pgAdmin e Compass/mongosh, suplemento Biblioteca Viva e rastreabilidade das Semanas 08–11.
+- **Validação técnica:** 104 células Python em simulação; paridade Colab/VS Code; SQL real em PostgreSQL 18 temporário isolado; insert/find/aggregate com MongoDB local em banco temporário; sintaxe dos .js via Node. As bases de teste foram removidas, sem alterar instalações habituais.
+- **Limites:** arquivos JS não executados literalmente no mongosh; GUI pgAdmin/Compass não testada; servidor PostgreSQL habitual requer autenticação não fornecida; homologação pedagógica não comprovada.
+- **Documentação:** [roteiro completo](docs/REVISAO_GUIAS_05_06.md) e [relatório técnico de validação](docs/VALIDACAO_BANCOS_2026-11-24.md). Não há cópias de bases e scripts da instrutora nem fusão do mini-projeto da Semana 07.
+
 ## 1.1.1 — 2026-10-20 — Planejamento e qualidade dos dados
 
 **Revisão incremental da v1.1**, solicitada por Otávio após a reconciliação de dois arquivos da Transferência. Não altera currículo, número de Guias ou Cadernos e não incorpora bases de outras turmas.
