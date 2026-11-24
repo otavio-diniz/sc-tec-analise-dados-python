@@ -6,22 +6,18 @@ Este repositório contém material autoral de estudo de Otávio Diniz. Ele sinte
 
 O conteúdo não é material oficial da instituição ou da docente e não substitui as fontes originais.
 
-## Corte documental e cronologia — v1.1 publicada
+## Cobertura atual e cronologia
 
-A **baseline histórica v1.0.1** encerra-se em **02/10/2026** (Semanas 01–04). A nova **v1.1** agrega como corte principal de atualização as aulas técnicas de **06, 08 e 09/10/2026** e a revisão de **10/10/2026** (Semanas 05–06). Os registros de **15 e 16/10/2026** sustentam a expansão editorial para Pandas e o novo eixo NumPy **por antecipação autorizada**; **17/10** representa revisão posterior, não retroprova do corte principal.
+O [Percurso das semanas](PERCURSO_DAS_SEMANAS.md) acompanha a Semana 01 em diante. A edição atual inclui seis Guias/Cadernos e uma Biblioteca Viva em dois ambientes. O histórico de versões permanece no [histórico de alterações](../CHANGELOG.md); não representa a contagem atual.
 
-- **18/09:** a ausência de transcrição é intencional, por declaração do estudante.
-- **02/10:** aula documentada na baseline anterior.
-- **06/10:** funções, expressões regulares, inspeção e tratamento de dados.
-- **08/10:** limpeza modular, reuso de funções, pipeline e relatório.
-- **09/10:** relações entre tabelas, `merge`, métricas e interpretação.
-- **10/10:** revisão de Python e lógica.
-- **13/10:** **não houve aula**, conforme informação de Otávio; apresentação da Semana 06 não comprova a ocorrência de aula prevista.
-- **15/10:** agrupamentos/indicadores e primeira abordagem de NumPy.
-- **16/10:** arrays, operações vetorizadas, eixos, broadcasting e classificação ilustrativa com `np.where`.
-- **17/10:** revisão de estruturas Python; material tratado como fonte posterior complementar.
+- Semanas 01–04: aulas de setembro até 02/10; transcrição de 18/09 ausente, causa técnica não autenticada no registro anterior.
+- Semana 05 (06–09/10): aulas regulares 06, 08 e 09/10.
+- Semana 06 (13–16/10): aulas regulares 15 e 16/10; 13/10 sem aula segundo registro.
+- Semana 07 (20–23/10): aulas regulares 20, 22 e 23/10, diagnóstico, tratamento, análise, exportação e comunicação.
+- Sábados 10, 17 e 24/10: reforços complementares, fora da sequência curricular.
+- Semanas 08–11: [roteiro por aula](PERCURSO_SEMANAS_08_A_11.md); 19/11 tem possível trecho inicial ausente, 20/11 sem aula conforme registro. Eixos 05/06 em prévia didática.
 
-A apresentação da Semana 07 aborda especialmente o **mini-projeto**; não é considerada correspondência exaustiva com a explicação oral de NumPy em 15 ou 16/10. Para a classificação tema a tema, consulte [`COBERTURA_PEDAGOGICA_V1.1.md`](COBERTURA_PEDAGOGICA_V1.1.md).
+Slides evidenciam planejamento, não comprovam execução. Materiais autorais e sintéticos são separados das fontes originais.
 
 ## Adendo 20/10/2026 — proveniência separada na v1.1.1
 

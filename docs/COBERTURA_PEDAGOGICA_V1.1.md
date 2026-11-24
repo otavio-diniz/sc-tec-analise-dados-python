@@ -1,13 +1,14 @@
-# Cobertura pedagógica — v1.1 — SC TEC T8
+# Cobertura pedagógica histórica — Semanas 05 e 06 — SC TEC T8
 
 > Documento editorial público de rastreabilidade de conceitos. **Não é transcrição, apresentação oficial, certificado nem relatório de desempenho.** Os registros integrais e os arquivos da professora permanecem em seus locais de origem, fora deste repositório.
 
 ## Marco de versão
 
 - **Baseline anterior v1.0.1:** Semanas 01–04, aulas e materiais tratados até 02/10/2026.
-- **Corte principal v1.1:** Semanas 05–06, aulas técnicas de **06/10, 08/10, 09/10** e aula de **revisão de 10/10/2026**.
-- **Extensão antecipada:** aulas de **15 e 16/10/2026**, utilizadas para estruturar o quarto eixo de NumPy e completar conceitos de Pandas com evidência de aula posterior. Autorizada pelo estudante como antecipação da próxima janela.
-- **Revisão posterior:** 17/10/2026, usada como reforço de estruturas de Python; não é apresentada como aula técnica de NumPy.
+- **Semana 05 (06–09/10):** aulas regulares de 06, 08 e 09/10.
+- **Semana 06 (13–16/10):** aulas regulares de 15 e 16/10, com Pandas e NumPy.
+- **Reforços complementares:** sábados 10 e 17/10; não integram o corte curricular regular.
+- **Semana 07 (20–23/10):** mini-projeto e aplicação integrada; consulte o [percurso atual](PERCURSO_DAS_SEMANAS.md#semana-07).
 - **13/10:** não houve aula, segundo informação do estudante.
 
 As apresentações dos módulos/semana podem **conter planejamento, exemplos ou temas que não foram integralmente desenvolvidos em sessão oral**. O PPT da Semana 07 diz respeito sobretudo ao mini-projeto: não se assume equivalência literal com as explicações NumPy de 15/16.
@@ -16,7 +17,7 @@ As apresentações dos módulos/semana podem **conter planejamento, exemplos ou 
 
 | Evidência verificada | Abrangência material | Complemento de estudo, sem promoção institucional |
 |---|---|---|
-| Revisão T8 de 10/10; links externos de reforço T5 | Dificuldade de interpretar enunciados, planejar passos, resolver `if/for/while`, comparar saídas | **Caderno Desenvolvimento 02:** quadros de planejamento nos CP1/3/4/5/6 e exercícios sintéticos DP1–DP3 |
+| Reforço de sábado T8 de 10/10; links externos de reforço T5 | Dificuldade de interpretar enunciados, planejar passos, resolver `if/for/while`, comparar saídas | **Caderno Desenvolvimento 02:** quadros de planejamento nos CP1/3/4/5/6 e exercícios sintéticos DP1–DP3 |
 | PPT institucional T8 M1S06 | Cita valores ausentes, duplicatas, IQR, Min-Max e Z-score | **Guia Pandas 03 CP4:** seções 4.5–4.7; **Caderno Pandas 03:** P17–P20, todos como complemento de apoio |
 | ZIP de maio com vídeo identificado como T2/M1S02 | Interseção temática em qualidade dos dados, mas turma, data e base `pedidos.csv` divergem | **Não importado** como fonte T8; apenas referência segregada; nenhum código ou CSV substituído |
 | Biblioteca Viva | Vocabulário transversal consolidado | IQR, Z-score, Min-Max e modelo de planejamento |
@@ -32,10 +33,10 @@ As apresentações dos módulos/semana podem **conter planejamento, exemplos ou 
 | 06/10 — aula técnica | limpeza de dados, campos ausentes, funções, regex, `apply`, `lambda`, decisões de padronização | Desenvolvimento CP4–6, Pandas CP4–5 e Cadernos | Conteúdo trabalhado / reforço |
 | 08/10 — aula técnica | modularização de funções, arquivo `.py`, pipeline, relatório, JSON e critérios de validação | Desenvolvimento **CP6** | Conteúdo trabalhado |
 | 09/10 — aula técnica | associação de tabelas, `merge`, valores/custos/margens, controle de linhas e indicadores | Pandas **CP8–9** | Conteúdo trabalhado |
-| 10/10 — revisão | `if`, laços, condições de fronteira, leitura de erros e depuração | Fundamentos e Desenvolvimento: revisões | Reforço transversal |
-| 15/10 — continuidade | `groupby`, `agg`, `pivot_table`, metas e introdução NumPy | Pandas CP9 e NumPy CP1 | **Aula posterior explicitamente identificada** |
-| 16/10 — continuidade | vetorização, `shape`, `dtype`, `axis`, broadcasting e `np.where` | NumPy **CP1–5** | **Aula posterior explicitamente identificada** |
-| 17/10 — revisão | coleções, dicionários, JSON, funções, escopo e retorno | Retomada de Python / Biblioteca | Complemento posterior |
+| 10/10 — revisão | `if`, laços, condições de fronteira, leitura de erros e depuração | Fundamentos e Desenvolvimento: revisões | Reforço complementar de sábado |
+| 15/10 — continuidade | `groupby`, `agg`, `pivot_table`, metas e introdução NumPy | Pandas CP9 e NumPy CP1 | **Semana 06 — aula regular** |
+| 16/10 — continuidade | vetorização, `shape`, `dtype`, `axis`, broadcasting e `np.where` | NumPy **CP1–5** | **Semana 06 — aula regular** |
+| 17/10 — revisão | coleções, dicionários, JSON, funções, escopo e retorno | Retomada de Python / Biblioteca | Reforço complementar de sábado |
 | Slides Semanas 05–06 | temas de Pandas, NumPy, transformação e visualização | contextualização seletiva | Material de apresentação, **não prova automática de aula** |
 | Slides Semana 07 | mini-projeto e orientações | consulta metodológica | **Não comparável** a transcrições de 15/16 como par exato |
 

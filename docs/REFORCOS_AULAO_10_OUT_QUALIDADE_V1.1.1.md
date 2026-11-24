@@ -1,4 +1,4 @@
-# Reforço pedagógico v1.1.1 — planejamento e tratamento de valores extremos
+# Reforço complementar — planejamento e tratamento de valores extremos
 
 > **Material didático autoral da SC TEC T8 — 20/10/2026.** Não é transcrição, material oficial de professor, solução de mini-projeto ou certificado. Este documento descreve um suplemento à v1.1 sem criar novos Guias ou checkpoints institucionais.
 
@@ -23,7 +23,7 @@
 - [Guia geral](https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/blob/main/guia_geral.md) — planejamento, ambiente e diagnóstico
 - [PDF sobre fluxograma](https://github.com/Machine-Learning-Visao-Computacional-T5/python_exercises/blob/main/documentos/como_resolver_exercicios/guia_alunos_fluxograma_python_pandas.pdf) — **existência verificada**, mas conteúdo visual/integral não autenticado na análise; a melhoria autoral não pressupõe leitura integral dele.
 
-**2. PPT institucional da SC TEC T8, Semana 06 (M1S06).** Trata de diagnóstico, valores ausentes, duplicatas e valores extremos (IQR), normalização Min-Max/Z-score e escolhas justificadas de limpeza. **A presença de um conceito no PPT não comprova sua explicação oral completa nas aulas de 08 ou 09/10.** As demonstrações acrescidas nos Guias são classificadas como **[COMPLEMENTO DE APOIO]**.
+**2. PPT institucional da SC TEC T8, Semana 06 (M1S06).** Trata de diagnóstico, valores ausentes, duplicatas e valores extremos (IQR), normalização Min-Max/Z-score e escolhas justificadas de limpeza. **A presença de um conceito no PPT não comprova sua explicação oral completa nas aulas regulares.** O encontro de 10/10 foi reforço de sábado, separado do currículo. As demonstrações acrescidas nos Guias são classificadas como **[COMPLEMENTO DE APOIO]**.
 
 **3. Pacote ZIP externo de maio/2026.** A inspeção de amostras visuais de um vídeo apontou a inscrição “Análise de Dados com Python T2 — M1S02 — Aulão”; as tabelas internas, especialmente um arquivo `pedidos.csv`, têm esquema diferente da base oficial T8. O pacote permanece **referência segregada de outra turma**, não fonte institucional da Semana 06 T8. O vídeo **não foi assistido/transcrito integralmente**; não se publicaram suas mídias, bases ou notebooks.
 

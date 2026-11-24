@@ -26,7 +26,7 @@ A sequência típica é:
 
 Os exercícios são sintéticos e não constituem avaliação formal do curso.
 
-## Planejamento estruturado e testes de fronteira — revisão v1.1.1
+## Planejamento estruturado e testes de fronteira
 
 Nos exercícios pertinentes do **Caderno 02 — Desenvolvimento**, a sequência passa a ser:
 
@@ -145,7 +145,7 @@ Limpeza não é automática. Valores ausentes, duplicidades e categorias inconsi
 
 ## V1.1: fronteira acadêmica e eixos atualizados
 
-A evolução de v1.0.1 para v1.1 preserva a trilha inicial de Fundamentos, Desenvolvimento e Pandas, introduzindo **NumPy como quarto eixo**. O recorte principal ampliado é composto pelas aulas técnicas **06, 08 e 09/10/2026** e pelo aulão de revisão **10/10**. As aulas documentadas **15 e 16/10** sustentam a antecipação autorizada de NumPy e parte do aprofundamento de Pandas. Não se deve inferir que slides de planejamento, aulas futuras ou material do mini-projeto já tenham sido ministrados.
+A trilha atual preserva Fundamentos, Desenvolvimento, Pandas e NumPy e incorpora SQL/PostgreSQL e MongoDB/NoSQL. As aulas 06, 08 e 09/10 são Semana 05; 15 e 16/10 são Semana 06; 20, 22 e 23/10 são Semana 07. Os aulões de sábado 10, 17 e 24/10 são reforço complementar, não currículo regular. Veja o [percurso atual](PERCURSO_DAS_SEMANAS.md).
 
 **Novo Checkpoint 6 — Desenvolvimento:** módulos `.py`, `import`, funções com contratos, pipelines, diagnóstico e relatórios.
 **Novos Checkpoints 8/9 — Pandas:** junções por chave e cardinalidade; métricas, agrupamentos, tabelas-resumo e interpretação responsável.

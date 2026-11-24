@@ -20,7 +20,7 @@
 
 **Semana 07:** o mini-projeto é repositório acadêmico separado, [indexado por link](projetos/semana-07-mini-projeto.md), sem importar CSV ou avaliação.
 
-**Estado:** quatro Guias/Cadernos da baseline v1.1.1 permanecem estáveis; eixos 05 e 06 estão na ramificação experimental. A contagem de eixos pedagógicos não equivale à de módulos institucionais. A presença de documento não comprova aula assistida nem atividade enviada.
+**Estado:** quatro Guias/Cadernos da baseline v1.1.1 permanecem estáveis; eixos 05 e 06 estão publicados na branch principal como prévia didática, com laboratórios reais e limites explícitos. A contagem de eixos pedagógicos não equivale à de módulos institucionais. A presença de documento não comprova aula assistida nem atividade enviada.
 
 ## Ampliação das oficinas de estudo
 Os eixos 02, 05 e 06 e a Biblioteca Viva foram enriquecidos com HTTP/CSV/ETL, reconciliação comercial, metas, transações e ciclo documental. Veja o [roteiro por aula](PERCURSO_SEMANAS_08_A_11.md). Não se declara leitura integral de cada gravação, execução literal de script docente ou homologação humana.

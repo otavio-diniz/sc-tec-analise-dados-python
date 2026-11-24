@@ -1,5 +1,12 @@
 # Histórico de alterações
 
+## 24/11/2026 — revisão de cronologia, navegação e prática integrada
+
+- Corrigidos períodos 05 (06–09/10), 06 (13–16/10) e 07 (20–23/10), com sábados separados como reforço.
+- Atualizados cabeçalhos, fontes, contribuição e índices de pastas em português; preservados nomes técnicos, links e histórico Git.
+- Oficina autoral de análise integrada e roteiro de Git/GitHub; correção de rótulos de agrupamento já documentado.
+- Transcrição de 18/09 ausente; 23/10 localizada; 19/11 com possível interrupção parcial. Não se atribui causa de gravação sem confirmação.
+
 ## 24/11/2026 — percurso contínuo e prática gráfica do zero
 
 - Índice estável de semanas 01–11, preparado para novas semanas; mantém o roteiro detalhado anterior.
@@ -57,9 +64,9 @@
 **Publicação autorizada por Otávio.** Quatro Guias Vivos, quatro Cadernos Práticos e uma Biblioteca Viva, cada um em Google Colab e VS Code: **18 notebooks**. A versão anterior v1.0.1 foi preservada no histórico privado antes da ampliação; os caminhos públicos anteriores foram mantidos.
 
 ### Novo recorte de estudos e fontes
-- **Semana 05:** aula técnica de 06/10 — diagnóstico, qualidade dos dados, filtros, regex, funções e transformações;
-- **Semana 06:** aulas técnicas 08 e 09/10 — modularização, pipelines, relatórios, junções de tabelas e indicadores; aulão de revisão de 10/10;
-- **Continuidade documentada de 15 e 16/10:** aprofundamento de Pandas e NumPy, incluído por decisão editorial expressa como **antecipação da Semana 07**; aulão de 17/10 é reforço posterior, não fonte retrospectiva do corte principal;
+- **Semana 05 (06–09/10):** aulas 06, 08 e 09/10 — diagnóstico, qualidade, funções, modularização, pipelines, relatórios, junções e métricas;
+- **Semana 06 (13–16/10):** aulas 15 e 16/10 — Pandas e NumPy;
+- **Reforços de sábado 10 e 17/10:** atividades complementares, não aulas regulares;
 - O dia **13/10** não corresponde a aula realizada, conforme informação do estudante. Slides planejados não certificam realização.
 
 ### Python — Fundamentos / Desenvolvimento
@@ -147,7 +154,7 @@ Baseline pedagógica consolidada para publicação.
 ### Corte acadêmico
 - fontes tratadas até 02/10/2026;
 - aula de 02/10 incorporada em Desenvolvimento e Pandas;
-- 18/09 permanece sem transcrição por decisão expressa do estudante.
+- 18/09 permanece sem transcrição; registro anterior informa que não seria produzida, sem comprovar a causa técnica.
 
 ### Python
 - reforçados `/`, `//`, `%`, `**`, paridade e quebra de linha;

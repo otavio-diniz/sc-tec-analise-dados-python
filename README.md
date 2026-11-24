@@ -35,15 +35,15 @@ Acompanhe a evolução do material desde a primeira semana. Os Guias seguem a or
 | [Semana 02](docs/PERCURSO_DAS_SEMANAS.md#semana-02) | 15–18/09 | SQL introdutório e fundamentos Python | 01/05 |
 | [Semana 03](docs/PERCURSO_DAS_SEMANAS.md#semana-03) | 22–25/09 | Decisões, listas, laços e Git/GitHub | 02/03 |
 | [Semana 04](docs/PERCURSO_DAS_SEMANAS.md#semana-04) | 29/09–02/10 | VS Code, strings, funções, estruturas compostas, arquivos e datas | 01–03 |
-| [Semana 05](docs/PERCURSO_DAS_SEMANAS.md#semana-05) | 06/10 | Diagnóstico, filtros, regex, funções e transformação de dados | 02/03 |
-| [Semana 06](docs/PERCURSO_DAS_SEMANAS.md#semana-06) | 08–10/10 | Modularização, pipelines, merge, métricas e revisão de lógica | 02/03 |
-| [Semana 07](docs/PERCURSO_DAS_SEMANAS.md#semana-07) | 15–17/10 | Pandas, NumPy, revisão Python e [mini-projeto de varejo](https://github.com/otavio-diniz/Miniprojeto_Otavio_Diniz_T8) | 02–04 |
+| [Semana 05](docs/PERCURSO_DAS_SEMANAS.md#semana-05) | 06–09/10 | Diagnóstico, limpeza, regex, funções, modularização, pipelines, merge e métricas | 02/03 |
+| [Semana 06](docs/PERCURSO_DAS_SEMANAS.md#semana-06) | 13–16/10 | Pandas, agrupamentos, indicadores, metas, NumPy e vetorização (aulas 15 e 16) | 03/04 |
+| [Semana 07](docs/PERCURSO_DAS_SEMANAS.md#semana-07) | 20–23/10 | Análise exploratória, diagnóstico, limpeza, funções, estatísticas, agrupamentos, exportação e [mini-projeto de varejo](https://github.com/otavio-diniz/Miniprojeto_Otavio_Diniz_T8) | 02/03 |
 | [Semana 08](docs/PERCURSO_DAS_SEMANAS.md#semana-08) | 27–30/10 | HTML/CSS, HTTP, scraping, ETL, CSV/SQLite e PostgreSQL | 02/05 |
 | [Semana 09](docs/PERCURSO_DAS_SEMANAS.md#semana-09) | 03–06/11 | MongoDB, Compass, documentos, filtros, atualizações e agregações | 06 |
 | [Semana 10](docs/PERCURSO_DAS_SEMANAS.md#semana-10) | 10–13/11 | MongoDB, normalização, DDL/DML, restrições e transações | 05/06 |
 | [Semana 11](docs/PERCURSO_DAS_SEMANAS.md#semana-11) | 17–19/11 | JOINs, CSV, vendedores/metas e SQL avançado | 05 |
 
-[**Percurso detalhado das semanas**](docs/PERCURSO_DAS_SEMANAS.md) · [Contexto do projeto da Semana 07](docs/projetos/semana-07-mini-projeto.md) · [Detalhes de aulas 08–11](docs/PERCURSO_SEMANAS_08_A_11.md). Os temas planejados em slides são distinguidos das aulas comprovadas. O projeto permanece no repositório próprio.
+[**Percurso detalhado das semanas**](docs/PERCURSO_DAS_SEMANAS.md) · [Contexto do projeto da Semana 07](docs/projetos/semana-07-mini-projeto.md) · [Detalhes de aulas 08–11](docs/PERCURSO_SEMANAS_08_A_11.md). As datas são os períodos regulares. Os aulões de sábado (10, 17 e 24/10) são reforço complementar, não aulas curriculares. Os temas planejados em slides são distinguidos das aulas comprovadas. O projeto permanece no repositório próprio.
 
 ## Acesso aos Guias e Cadernos
 
@@ -77,6 +77,10 @@ Acompanhe a evolução do material desde a primeira semana. Os Guias seguem a or
 
 [Guia de fontes oficiais](docs/ambientacao/fontes-oficiais-bancos.md) · [PostgreSQL/pgAdmin do zero](docs/ambientacao/primeiro-acesso-postgresql.md) · [MongoDB/Compass do zero](docs/ambientacao/primeiro-acesso-mongodb.md). Não é necessário instalar tudo; SQL é uma linguagem, cada motor tem seu dialeto. MySQL e Workbench são alternativas de consulta, não pré-requisitos. Colab e VS Code não criam conexão com bancos automaticamente.
 
+## Prática integrada e reforço
+
+[Oficina autoral de análise de dados do início ao fim](docs/projetos/oficina-analise-integrada.md) — estudo independente com dados fictícios, da pergunta ao relatório; não é resolução do mini-projeto institucional. [Git e GitHub para iniciantes](docs/ambientacao/git-github-do-zero.md). Os reforços de sábado são opcionais, identificados no percurso.
+
 ## Execução e método
 
 Para estudar, abra um Guia no ambiente escolhido, leia o checkpoint, execute o exemplo, preveja e tente o Caderno antes de consultar a solução; volte à Biblioteca quando necessário. O método é **compreender → executar → diagnosticar**, com retomadas em espiral. Veja [método pedagógico](docs/METODO_PEDAGOGICO.md).
@@ -96,6 +100,10 @@ Use Python e kernel Jupyter disponíveis. Para as oficinas, pandas, numpy, reque
 - MongoDB: [base sintética](labs/mongodb/00_dados_sinteticos.js), [consultas](labs/mongodb/01_consultas_e_agregacao.js) e [ciclo documental](labs/mongodb/02_ciclo_documental.js). Para Compass, importe os [JSONs autorais](labs/mongodb/dados_sinteticos/) conforme [passo a passo gráfico](docs/ambientacao/primeiro-acesso-mongodb.md). Os .js são para mongosh; o script 02 cria e remove apenas uma base aleatória. O [teste PyMongo](scripts/validar_mongodb_oficina.py) executa operações equivalentes, não o arquivo JS literal.
 
 Não use bases habituais, credenciais reais em notebooks ou serviços expostos na internet. A oficina HTTP usa resposta controlada sem rede; coleta externa requer permissão e tratamento de erros.
+
+## Estrutura e navegação por pasta
+
+[Guias Vivos](notebooks/README.md) · [Cadernos Práticos](exercicios/README.md) · [Biblioteca Viva](biblioteca/README.md) · [Documentação](docs/README.md) · [Laboratórios](labs/README.md) · [Avaliações comentadas](avaliacoes/README.md) · [Validação técnica](scripts/README.md)
 
 ## Estrutura
 
@@ -123,7 +131,7 @@ Os pares Colab/VS Code são equivalentes nos blocos novos; abertura de notebook 
 
 ## Histórico, fontes e contribuição
 
-A v1.1.1 de 20/10/2026 é a **baseline histórica** dos eixos 01–04 (18 notebooks), não a contagem da versão atual. As melhorias de qualidade (IQR, Z-score, Min-Max), planejamento, integração e NumPy permanecem no percurso. [Histórico de reforços](docs/REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md) · [CHANGELOG](CHANGELOG.md) · [Fontes e escopo](docs/FONTES_E_ESCOPO.md). Materiais de terceiros continuam sujeitos aos direitos de seus titulares; não são automaticamente redistribuíveis.
+O Material Vivo atual reúne seis eixos (26 notebooks de estudo), mais quatro notebooks de avaliações comentadas. Versões anteriores e seus cortes constam exclusivamente no histórico de alterações; os eixos 05/06 permanecem em prévia didática. As melhorias de qualidade (IQR, Z-score, Min-Max), planejamento, integração e NumPy permanecem no percurso. [Reforço complementar de lógica e qualidade](docs/REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md) · [Histórico de alterações](CHANGELOG.md) · [Fontes e escopo](docs/FONTES_E_ESCOPO.md). Materiais de terceiros continuam sujeitos aos direitos de seus titulares; não são automaticamente redistribuíveis.
 
 ## Uso do material
 
@@ -133,4 +141,4 @@ Por decisão editorial, **não há um arquivo `LICENSE` separado** nesta versão
 
 ## Contribuições
 
-Use Issues ou Discussions para relatar inconsistências, indicar notebook/checkpoint, sugerir exemplos e explicar o resultado esperado. Veja [CONTRIBUTING](CONTRIBUTING.md). O Material Vivo evolui por revisão de conteúdo, testes e preservação da proveniência.
+Use Issues ou Discussions para relatar inconsistências, indicar notebook/checkpoint, sugerir exemplos e explicar o resultado esperado. Veja [Como contribuir](CONTRIBUTING.md). O Material Vivo evolui por revisão de conteúdo, testes e preservação da proveniência.

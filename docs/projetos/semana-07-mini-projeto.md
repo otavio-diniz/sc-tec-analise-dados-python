@@ -1,7 +1,7 @@
 # Semana 07 — Mini-Projeto de Análise de Dados de Varejo
 
 **Curso:** SC TEC — Análise de Dados com Python · Turma T8  
-**Vínculo curricular:** Módulo 1 · Semana 07  
+**Vínculo curricular:** Módulo 1 · Semana 07 (20–23/10/2026)
 **Natureza:** referência a um projeto acadêmico independente, não um exercício sintético da biblioteca.
 
 ## Projeto apresentado na Semana 07
@@ -28,3 +28,6 @@ A biblioteca de Guias Vivos é **material de estudo autoral e não oficial**. O 
 
 ## Exemplo integrado ao percurso
 O link é apresentado diretamente no README como exemplo de projeto da Semana 07, relacionado ao Guia 03. A referência preserva o contexto acadêmico, a autoria e o repositório separado; não é uma nova entrega avaliativa nem uma replicação do projeto.
+
+## Prática independente
+Aulas regulares: 20/10 diagnóstico, 22/10 tratamento/funções/análise e 23/10 exportação, conclusão e documentação. Aulão de 24/10 é reforço. A [oficina sintética de análise integrada](oficina-analise-integrada.md) permite estudar o método sem reproduzir a base ou resolver a avaliação institucional.

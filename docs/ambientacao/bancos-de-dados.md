@@ -58,7 +58,7 @@ Os **Guias e Cadernos 05/06 estão publicados como prévia didática no GitHub**
 
 ## 6. Situação de validação (atualização de 24/11/2026)
 
-Documento introdutório: **conceitos e links oficiais revisados**. Em 24/11/2026 os dois scripts SQL autorais foram executados em PostgreSQL 18 temporário isolado e foram executadas operações equivalentes no MongoDB local em base temporária, com limpeza. **Não** foram testados os aplicativos gráficos nem executados literalmente os dois arquivos .js no mongosh. Nenhuma nova instalação, conta Atlas, script institucional ou atividade submetida. [Relatório técnico](../VALIDACAO_BANCOS_2026-11-24.md).
+Documento introdutório: **conceitos e links oficiais revisados**. Em 24/11/2026 os laboratórios SQL 00–04 e os scripts 04a/04b foram executados em PostgreSQL 18 temporário isolado e foram executadas operações equivalentes no MongoDB local em base temporária, com limpeza. **Não** foram testados os aplicativos gráficos nem executados literalmente os arquivos .js no mongosh. Nenhuma nova instalação, conta Atlas, script institucional ou atividade submetida. [Relatório técnico](../VALIDACAO_BANCOS_2026-11-24.md).
 
 [Voltar ao README](../../README.md) · [Método pedagógico](../METODO_PEDAGOGICO.md)
 
