@@ -1,6 +1,6 @@
 # Fontes oficiais e downloads de bancos de dados
 
-**SC TEC T8 — referência para iniciantes; verificação externa em 23/11/2026.** Esta lista é material de apoio, não reprodução de slides da instrutora. Nenhuma instalação, compra, conta ou conexão foi executada.
+**SC TEC T8 — referência para iniciantes, organizada em 23/11/2026 e revisada em 24/11/2026.** Esta lista é material de apoio, não reprodução de slides da instrutora. Não foram instalados novos programas nem criadas contas; em 24/11 houve testes isolados em motores PostgreSQL e MongoDB já disponíveis (veja [relatório técnico](../VALIDACAO_BANCOS_2026-11-24.md)). As interfaces gráficas não foram testadas.
 
 | Ferramenta | Site oficial | Quando faz falta |
 |---|---|---|
@@ -24,3 +24,6 @@ No Windows, o instalador PostgreSQL indicado pela comunidade e distribuído pela
 **Segurança:** verificar versão, sistema, direitos de instalação, porta, autenticação e ambiente. Nunca publicar URI com senha ou expor serviço local na internet. Não confundir material didático de download com ordem de instalação.
 
 [Primeiro acesso PostgreSQL e pgAdmin](primeiro-acesso-postgresql.md) · [Primeiro acesso MongoDB e Compass](primeiro-acesso-mongodb.md).
+
+
+**Ao abrir links:** compare a versão oferecida com o seu sistema antes de instalar. O caminho de estudo sem instalação está nos Guias 05/06. [Percurso das 11 aulas](../PERCURSO_SEMANAS_08_A_11.md).
