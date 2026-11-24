@@ -1,6 +1,6 @@
 # Revisão dos Guias Vivos 05/06 — SQL/PostgreSQL e NoSQL/MongoDB
 
-**SC TEC T8 · MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO, NÃO OFICIAL · RASCUNHO.** Este material está na ramificação de revisão, não foi promovido à versão estável v1.1.1 da biblioteca.
+**SC TEC T8 · MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO, NÃO OFICIAL · PRÉVIA PUBLICADA PARA ESTUDO.** Os arquivos são disponibilizados para consulta e melhoria contínua, sem constituir uma nova baseline homologada. A versão estável anterior v1.1.1 dos eixos 01–04 permanece preservada.
 
 ## Percurso pareado — Colab e VS Code
 
@@ -28,19 +28,18 @@ MongoDB: [documentos fictícios](../labs/mongodb/00_dados_sinteticos.js) e [pipe
 
 **Notebooks Python:** SQL é ensinado com SQLite na memória como COMPLEMENTO, não com PostgreSQL conectado. MongoDB é ensinado inicialmente com dicionários Python, não com servidor Mongo conectado. Scripts .sql/.js devem ser executados somente em banco de TREINO AUTORIZADO com conexão e credenciais geridas legitimamente.
 
-## Validação efetivamente realizada — 23/11/2026
+## Validação efetivamente realizada — 23–24/11/2026
 
-- Ramificação clonada em ambiente autorizado; Python 3.14.10, sem instalações, sem conexão aos bancos.
-- **8 notebooks** JSON/Jupyter, **8 checkpoints** por Guia/Caderno, paridade das células Colab/VS Code além do cabeçalho operacional: PASS.
-- **104 células Python** (4 Guias × 9 e 4 Cadernos × 17) executadas sequencialmente no clone com 0 exceções/asserções falhas. Células usam Python stdlib, SQLite em memória ou dicionários, NÃO motor PostgreSQL/MongoDB.
-- **2 scripts mongosh JavaScript** examinados por `node --check` com exit 0. É sintaxe JavaScript, NÃO homologação da API/servidor MongoDB.
-- **2 scripts PostgreSQL** conferidos textualmente, NÃO executados no PostgreSQL.
-- Saídas de notebook não foram pré-gravadas; conjuntos de dados foram inventados e não contêm informações do mini-projeto, da instrutora ou de candidatos.
+- **8 notebooks** e paridade Colab/VS Code verificados; **104 células Python** de simulação executadas, sem erro ou saída pré-gravada.
+- **PostgreSQL 18 real:** ambos os scripts SQL executados em uma instância temporária isolada, com retorno `3|2|3|53.50`. Servidor de teste parado e removido; o serviço PostgreSQL habitual não foi acessado com credenciais.
+- **MongoDB real:** dois documentos fictícios inseridos, filtrados e agregados em banco temporário no servidor local, com exclusão confirmada após o teste. Foi utilizado cliente de teste por conexão direta, **não os arquivos JavaScript executados literalmente em mongosh**.
+- **JavaScript:** dois arquivos .js passaram em `node --check`, mas a API mongosh/Compass não foi executada diretamente. Não foi instalado software.
+- **Limites:** nenhuma homologação de GUI, Google Colab remoto, serviço PostgreSQL habitual ou revisão da instrutora. Esses limites não impedem acesso à prévia, mas impedem alegações de homologação integral.
 
-**Ainda não comprovados:** execução real contra PostgreSQL/Compass/mongosh, paridade de resultados dos scripts nos dois bancos, testes em sistema/dispositivo distinto, homologação da instrutora e transformação dos arquivos .ipynb em artefatos Colab canônicos no Drive. Os Google Docs de revisão em Drive são material editorial, NÃO notebooks executáveis.
+Evidências e detalhes: [relatório técnico](VALIDACAO_BANCOS_2026-11-24.md). As verificações Python, sem conexão aos bancos, podem ser repetidas com `python scripts/validar_notebooks_05_06.py` e `python scripts/verificar_links_05_06.py`, a partir da raiz do repositório.
 
 ## Integridade acadêmica e critérios de promoção
 
 A transcrição confirma conteúdo SQL avançado da aula de 19/11, divergente do planejamento Python/psycopg/ORM nos slides. Não afirmar que integração Python–PostgreSQL foi realizada naquela aula. Materiais de terceiros continuam no acervo privado. O mini-projeto da Semana 07 é [referência externa](projetos/semana-07-mini-projeto.md), sem fusão de histórico.
 
-**Decisão:** manter tudo nesta ramificação até completar revisão pedagógica e evidências necessárias. Existência, teste de simulação e publicação estável são etapas distintas.
+**Estado editorial:** prévia dos eixos 05/06 publicada para estudo no repositório principal, mantendo a validação pedagógica humana e a execução literal dos scripts MongoDB em mongosh como itens distintos e não comprovados. Publicação não equivale a certificação institucional.
