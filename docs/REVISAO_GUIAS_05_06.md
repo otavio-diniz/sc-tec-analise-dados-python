@@ -36,7 +36,7 @@ MongoDB: [documentos fictícios](../labs/mongodb/00_dados_sinteticos.js) e [pipe
 
 ## Validação efetivamente realizada — 23–24/11/2026
 
-- **8 notebooks** e paridade Colab/VS Code verificados; **104 células Python** de simulação executadas, sem erro ou saída pré-gravada.
+- **8 notebooks** e paridade Colab/VS Code verificados; **106 células Python** de simulação executadas, sem erro ou saída pré-gravada.
 - **PostgreSQL 18 real:** ambos os scripts SQL executados em uma instância temporária isolada, com retorno `3|2|3|53.50`. Servidor de teste parado e removido; o serviço PostgreSQL habitual não foi acessado com credenciais.
 - **MongoDB real:** dois documentos fictícios inseridos, filtrados e agregados em banco temporário no servidor local, com exclusão confirmada após o teste. Foi utilizado cliente de teste por conexão direta, **não os arquivos JavaScript executados literalmente em mongosh**.
 - **JavaScript:** dois arquivos .js passaram em `node --check`, mas a API mongosh/Compass não foi executada diretamente. Não foi instalado software.
