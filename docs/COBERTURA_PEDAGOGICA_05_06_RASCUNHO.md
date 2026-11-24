@@ -1,6 +1,8 @@
-# Rastreabilidade pedagógica — eixos 05 e 06 (rascunho)
+# Rastreabilidade pedagógica — eixos 05 e 06 (revisão de 24/11)
 
 **SC TEC T8 — Módulo institucional 01, Semanas 08 a 11.** Este documento registra a relação entre tema ensinado e exercício autoral. Não é registro de presença, nota ou conclusão de atividades oficiais.
+
+**Confronto ampliado em 24/11/2026:** o ensino efetivamente registrado na Semana 08 começa por HTML, scraping responsável, BeautifulSoup, ETL e SQLite, e esse ponto foi reforçado na [oficina executável do Guia 05](../notebooks/colab/05_sql_postgresql.ipynb) e na [Ponte Semana 08](ambientacao/ponte-semana-08-etl.md). A [sequência pública de 11 aulas](PERCURSO_SEMANAS_08_A_11.md) distingue fala real de slide planejado. Aulas de 10, 12, 13, 17 e 19/11 seguem a transcrição: views/CASE e Python/SQLAlchemy, quando apenas previstos nos slides, **não** são declarados prática ministrada. Os scripts/datasets da docente permanecem no Drive institucional, sem republicação.
 
 | Fontes de aula | Assunto efetivamente documentado | Tratamento no material autoral |
 |---|---|---|
