@@ -1,3 +1,5 @@
+> **RAMIFICAÇÃO DE REVISÃO — GUIAS 05/06 (SQL/POSTGRESQL E MONGODB).** Os oito notebooks e laboratórios estão nesta ramificação para revisão pedagógica; a baseline estável da branch `main` permanece v1.1.1, com quatro Guias/Cadernos. **[Abrir a revisão completa dos eixos 05 e 06](docs/REVISAO_GUIAS_05_06.md)**, [Fontes oficiais e downloads](docs/ambientacao/fontes-oficiais-bancos.md), [Primeiro acesso PostgreSQL](docs/ambientacao/primeiro-acesso-postgresql.md) e [Primeiro acesso MongoDB](docs/ambientacao/primeiro-acesso-mongodb.md). Não foi realizada conexão real a bancos nesta revisão.
+
 # SC TEC — Análise de Dados com Python | Guias Vivos, Cadernos Práticos, NumPy e Biblioteca Viva
 
 Material de estudo progressivo para quem está começando em Python e análise de dados e quer **entender a lógica**, não apenas copiar código.
