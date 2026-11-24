@@ -1,6 +1,6 @@
 # Biblioteca Viva — suplemento SQL e MongoDB (eixos 05/06)
 
-**SC TEC T8 — MATERIAL DIDÁTICO AUTORAL FICTÍCIO/SINTÉTICO. RASCUNHO DE REVISÃO.** Complementa a Biblioteca Viva Python/Pandas/NumPy sem substituir seus notebooks atuais.
+**SC TEC T8 — MATERIAL DIDÁTICO AUTORAL FICTÍCIO/SINTÉTICO. SUPLEMENTO PUBLICADO PARA ESTUDO EM PRÉVIA, AINDA NÃO INCORPORADO AOS NOTEBOOKS CANÔNICOS DA BIBLIOTECA.** Complementa a Biblioteca Viva Python/Pandas/NumPy sem substituir seus notebooks atuais.
 
 ## Fundamentos de linguagem e ambiente
 

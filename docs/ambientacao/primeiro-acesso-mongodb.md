@@ -1,6 +1,6 @@
 # Primeiro acesso ao MongoDB, Compass e mongosh — passo a passo
 
-**MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO — SC TEC T8 — GUIA 06.** Não foi instalado nenhum software, criado usuário, cadastrado Atlas ou conectado servidor nesta etapa.
+**MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO — SC TEC T8 — GUIA 06.** Não foi instalado software, criada conta Atlas ou alterada configuração do servidor. Em 24/11 foram testadas operações MongoDB **reais e equivalentes** (inserir, consultar, agregar e apagar a base temporária de teste), mas os arquivos .js **não** foram executados literalmente no mongosh, nem a interface Compass foi homologada.
 
 ## 1. Identifique componentes e linguagens
 - **MongoDB Community Server:** banco documental; organiza databases, collections e documentos BSON.
@@ -55,3 +55,19 @@ No exemplo do Guia, pedido 101 tem itens P01 e P02; pedido 102 contém P01. Um f
 - Falha de sintaxe no notebook Python: comandos mongosh são JavaScript, não Python.
 
 **Checkpoints:** COMPREENDER banco/coleção/documento; EXECUTAR consultas em servidor autorizado; DIAGNOSTICAR erros de conexão/filtro. Não usar drop/delete para “consertar” sem compreender efeitos.
+
+
+## 8. Oficina de primeiro resultado visível no Compass e mongosh
+
+**Antes de começar:** tenha um servidor próprio de treino com autorização. O Compass é **GUI**, mongosh é **shell JavaScript**, MongoDB Community é o **servidor**, e Atlas é uma **opção de nuvem** — não é obrigatório fazer conta Atlas para usar banco local.
+
+1. No Compass, `Add New Connection` → informe **apenas** uma URI de conexão autorizada; `mongodb://127.0.0.1:27017` é um exemplo de máquina local e não inclui senha. Clique `Connect`; se não conectar, investigue serviço/porta/autenticação, não desligue proteções.
+2. Navegue `Databases` → `treino_sctec_mongo` → `pedidos_treino` → `Documents`. A coleção só existirá depois da carga. O botão de filtro e o campo `Filter` podem variar por versão.
+3. Cole `{"cliente.estado":"SP"}` no filtro e execute: no conjunto autoral, espere **um documento** com pedido `_id=101`. O array `itens` permanece com **P01 e P02**.
+4. No campo de **Projection**, solicite `{"cliente.nome":1,"_id":1}`; organize em **Sort** por `{"_id":1}` e use limite de 5 quando a versão expuser a opção. *Projeção muda a exibição, não o armazenamento.*
+5. Se houver `mongosh` instalado separadamente, conecte ao servidor **de treino**, selecione `const treino=db.getSiblingDB("treino_sctec_mongo")` e execute `treino.pedidos_treino.countDocuments({})`, `treino.pedidos_treino.find({}).sort({_id:1}).limit(5)`. Espere **2 documentos** após carga.
+6. Para criar os dados, **leia integralmente** o script `labs/mongodb/00_dados_sinteticos.js` antes de executá-lo no mongosh: faz `updateOne` com `upsert` e **pode escrever/alterar coleções**. Sem servidor autorizado, use o [Guia 06](../../notebooks/colab/06_nosql_mongodb.ipynb), que ensina a lógica com dicionários Python e não grava no MongoDB.
+
+**Erros de interpretação comuns:** `find` conta documentos e não linhas internas; `$elemMatch` exige várias condições no mesmo elemento do array; `$unwind` desdobra o array e muda a granularidade; `countDocuments` não devolve o número de itens; `mongosh` é JavaScript, não Java.
+
+[Percurso 03–10/11](../PERCURSO_SEMANAS_08_A_11.md) · [Limites técnicos reais](../VALIDACAO_BANCOS_2026-11-24.md).

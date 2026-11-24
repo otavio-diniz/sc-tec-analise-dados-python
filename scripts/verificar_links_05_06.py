@@ -15,6 +15,9 @@ DOCS = [
     "docs/ambientacao/primeiro-acesso-postgresql.md",
     "docs/ambientacao/primeiro-acesso-mongodb.md",
     "docs/VALIDACAO_BANCOS_2026-11-24.md",
+    "docs/PERCURSO_SEMANAS_08_A_11.md",
+    "docs/ambientacao/ponte-semana-08-etl.md",
+    "docs/ambientacao/bancos-de-dados.md",
 ]
 REGEX = re.compile(r"\]\(([^\s)]+)(?:\s+[^)]*)?\)")
 

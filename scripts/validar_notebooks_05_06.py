@@ -60,7 +60,7 @@ def main():
     print(f"Notebooks: 8 | Celulas Python: {total} | Erros: {len(errors)}")
     for err in errors:
         print("ERRO:", err)
-    if total != 104:
+    if total != 106:
         errors.append(f"quantidade inesperada de celulas: {total}")
     print("Status:", "PASS" if not errors else "FAIL")
     return 0 if not errors else 1

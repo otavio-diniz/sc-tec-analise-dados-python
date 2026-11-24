@@ -1,5 +1,17 @@
 # Changelog
 
+## Revisão de aderência às 11 aulas das Semanas 08–11 — 24/11/2026
+
+**Correção pedagógica e documental da prévia publicada:** confrontadas as 11 transcrições, os quatro decks de semanas e scripts de apoio da professora, sem redistribuir os arquivos institucionais. A agenda dos slides não foi confundida com o que foi ministrado: 10/11 foi NoSQL; 12 e 13/11 foram normalização/SQL; 17 e 19/11 foram JOINs/SQL avançado; Python/SQLAlchemy previsto no deck M1S11 não foi atribuído à prática dessas aulas.
+
+- [Roteiro das 11 aulas](docs/PERCURSO_SEMANAS_08_A_11.md), com classificações de correspondência, complemento e divergência material, e [ponte de web scraping/ETL/SQLite da Semana 08](docs/ambientacao/ponte-semana-08-etl.md).
+- Guia 05 acrescenta ETL local executável, normalização 1FN/2FN/3FN, RIGHT/FULL JOIN, UNION ALL, ILIKE e funções de texto, distinguindo SQLite de PostgreSQL.
+- Guia 06 aprofunda servidor/Compass/mongosh, find/projeção/sort/limit/countDocuments, elemMatch, updateOne seguro, $match/unwind/group e modelagem documental.
+- Cadernos mantêm 24 questões sintéticas por eixo; ganharam instruções iniciais e exercícios de recuperação ativa não avaliativos.
+- Tutoriais e resumo de ambientação foram corrigidos para eliminar declarações obsoletas de “não publicado” ou “não testado”.
+- A validação atualizada passou em **106 células Python, 19 arquivos e 147 links relativos sem falhas**, SQL real no PostgreSQL 18 de teste, e operações equivalentes no MongoDB real incluindo count/sort/projeção. Não se afirma execução literal dos .js em mongosh, teste das GUIs ou homologação docente.
+- Os acervos oficiais de aula e datasets ficaram no Drive institucional; cópias editoriais de revisão foram organizadas em histórico no Drive, sem alterar os originais.
+
 ## Prévia dos eixos 05/06 — 2026-11-24 — SQL/PostgreSQL e MongoDB
 
 **Publicação incremental para estudo e melhoria contínua, sem promover nova baseline homologada.** Preserva os conteúdos/caminhos da v1.1.1.
