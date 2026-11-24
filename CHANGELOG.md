@@ -9,7 +9,7 @@
 - Guia 06 aprofunda servidor/Compass/mongosh, find/projeção/sort/limit/countDocuments, elemMatch, updateOne seguro, $match/unwind/group e modelagem documental.
 - Cadernos mantêm 24 questões sintéticas por eixo; ganharam instruções iniciais e exercícios de recuperação ativa não avaliativos.
 - Tutoriais e resumo de ambientação foram corrigidos para eliminar declarações obsoletas de “não publicado” ou “não testado”.
-- A validação atualizada passou em **106 células Python, 19 arquivos e 145 links relativos sem falhas**, SQL real no PostgreSQL 18 de teste, e operações equivalentes no MongoDB real incluindo count/sort/projeção. Não se afirma execução literal dos .js em mongosh, teste das GUIs ou homologação docente.
+- A validação atualizada passou em **106 células Python, 19 arquivos e 147 links relativos sem falhas**, SQL real no PostgreSQL 18 de teste, e operações equivalentes no MongoDB real incluindo count/sort/projeção. Não se afirma execução literal dos .js em mongosh, teste das GUIs ou homologação docente.
 - Os acervos oficiais de aula e datasets ficaram no Drive institucional; cópias editoriais de revisão foram organizadas em histórico no Drive, sem alterar os originais.
 
 ## Prévia dos eixos 05/06 — 2026-11-24 — SQL/PostgreSQL e MongoDB
