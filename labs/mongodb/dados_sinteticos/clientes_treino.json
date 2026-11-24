@@ -1,0 +1,17 @@
+[
+  {
+    "_id": 1,
+    "nome": "Lia",
+    "estado": "SP"
+  },
+  {
+    "_id": 2,
+    "nome": "Raul",
+    "estado": "RJ"
+  },
+  {
+    "_id": 3,
+    "nome": "Bia",
+    "estado": "MG"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "_id": 101,
+    "cliente": {
+      "id": 1,
+      "nome": "Lia",
+      "estado": "SP"
+    },
+    "itens": [
+      {
+        "produto": "P01",
+        "qtd": 2,
+        "centavos": 1000,
+        "desconto": 0
+      },
+      {
+        "produto": "P02",
+        "qtd": 1,
+        "centavos": 2000,
+        "desconto": 0
+      }
+    ]
+  },
+  {
+    "_id": 102,
+    "cliente": {
+      "id": 2,
+      "nome": "Raul",
+      "estado": "RJ"
+    },
+    "itens": [
+      {
+        "produto": "P01",
+        "qtd": 3,
+        "centavos": 500,
+        "desconto": 10
+      }
+    ]
+  }
+]

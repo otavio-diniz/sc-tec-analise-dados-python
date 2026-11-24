@@ -64,3 +64,6 @@ Documento introdutório: **conceitos e links oficiais revisados**. Em 24/11/2026
 
 ## Alternativa de consulta — MySQL
 [MySQL Community Server](https://dev.mysql.com/downloads/mysql/) e [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) são referências opcionais. Workbench é cliente do MySQL; não substitui pgAdmin como cliente dedicado a PostgreSQL. Não executar comandos específicos de PostgreSQL em MySQL sem adaptação de dialeto.
+
+## Prática guiada por ferramenta
+[Download e primeiros passos](comece-aqui.md) · [pgAdmin: SQL e importação CSV](primeiro-acesso-postgresql.md) · [Compass: JSON, filtros e agregação](primeiro-acesso-mongodb.md). O caminho gráfico usa arquivos reais nos respectivos motores, e não exige Colab/VS Code.

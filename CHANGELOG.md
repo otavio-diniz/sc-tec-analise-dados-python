@@ -1,5 +1,13 @@
 # Histórico de alterações
 
+## 24/11/2026 — percurso contínuo e prática gráfica do zero
+
+- Índice estável de semanas 01–11, preparado para novas semanas; mantém o roteiro detalhado anterior.
+- Comece aqui com Download ZIP, Colab, VS Code e caminhos próprios de PostgreSQL/pgAdmin e MongoDB/Compass.
+- Tutoriais guiados desde conexão, criação de banco/coleções, carga de dados e primeira consulta até CSV/JSON, filtros, agregações e diagnóstico.
+- Dois JSONs autorais equivalentes ao laboratório MongoDB 00; scripts 04a/04b para preparar e conferir a importação gráfica dos sete CSVs já existentes.
+- Links nos Guias/Cadernos 05/06 direcionam à prática real; simulação Python permanece distinta. Interfaces gráficas e mongosh literal não são declarados testados.
+
 ## 24/11/2026 — ampliação didática das semanas 07–11
 - README reorganizado em torno da proposta de aprendizagem e do estado atual (seis Guias, seis Cadernos, Biblioteca).
 - Projeto da Semana 07 com acesso direto e contexto; MySQL/Workbench como referências opcionais.

@@ -88,3 +88,10 @@ O SQL de relatórios ganhou **RIGHT JOIN, FULL OUTER JOIN, UNION ALL, ILIKE, CON
 | Qualidade SQL | 3 clientes, 1 contato presente; pedido 12 divergente, 13 sem item; rollback de DDL/DML demonstrado |
 
 As verificações anteriores (106 e 114 células) são registros históricos, não a contagem atual. Os testes usam dados fictícios, sem credenciais ou dados docentes; não comprovam a execução em GUI, Colab remoto, MySQL, mongosh literal, todos os notebooks antigos, nem homologação pedagógica. A rotina HTTP é controlada, sem requisição externa. O projeto da Semana 07 é referência de portfólio independente.
+
+## Percurso contínuo e ambientação gráfica — verificação de 24/11/2026
+
+- Índice Semana 01–11, 11 âncoras estáveis, trilha cognitiva mantida. Oito notebooks 05/06 receberam exclusivamente uma célula de navegação por arquivo; todas as células anteriores, código e saídas preservados, quatro pares equivalentes. 26 notebooks válidos estruturalmente; 120 células Python executadas sem erro.
+- PostgreSQL 18.7 temporário: executado 04a, importados os sete CSVs via COPY FROM STDIN em conexões separadas (persistência necessária ao importador gráfico); três consultas do 04b confirmadas. Contagens 3/3/3/4/5/3/2; Lina 8000/8000, Davi 0/4000, Iara 0/NULL; cadastro 3 e meta 9 sem correspondência. Schema de teste removido e servidor desligado.
+- MongoDB real via PyMongo: os dois arquivos JSON foram importados em uma base temporária exclusiva; leitura integral igual aos arquivos, 3 clientes e 2 pedidos; nove checagens de filtro, projeção, agregação e atualização/restauração passaram. Base temporária removida.
+- Verificação de navegação: 331 links relativos em 46 arquivos, sem caminhos quebrados antes da inclusão deste relato (sem novos links neste bloco). A documentação oficial de pgAdmin e Compass/mongosh sustenta os passos de interface. Não se declara teste de cliques nas GUIs, instalação ou execução literal de mongosh. O caminho de importação e os resultados foram testados diretamente nos motores, não nas interfaces gráficas.

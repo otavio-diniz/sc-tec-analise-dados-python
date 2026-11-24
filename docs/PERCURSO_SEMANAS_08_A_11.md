@@ -76,3 +76,6 @@ A prática comercial sintética tem dimensões próprias, não copia as família
 
 ### Reconciliação de scripts e slides
 30/10: COUNT(*) versus COUNT(coluna), nulos, pedidos sem item, divergência entre total registrado e itens, filtros por status/faixa, qualidade de cadastro e CREATE DATABASE fora da transação. 13/11: tipos, IDENTITY, DEFAULT, AND/OR/NOT, BETWEEN/ILIKE, ALTER/DROP, INSERT/UPDATE/DELETE e RETURNING, rollback. A forma isolada SET não é um UPDATE completo. Esses pontos têm exemplos autorais no [laboratório 03](../labs/postgresql/03_qualidade_e_transacoes.sql). A importação das sete tabelas comerciais tem [laboratório psql 04](../labs/postgresql/04_importacao_csv.psql) e [CSVs fictícios](../labs/postgresql/dados_sinteticos/), sem reproduzir o dataset docente. Os slides de OLTP/OLAP, dimensões/fatos, outros modelos NoSQL, views, subconsulta correlacionada e integração psycopg2/ORM aparecem como complementos conceituais, não aula prática comprovada.
+
+## Navegação do percurso completo
+Este documento preserva o detalhamento da janela 08–11. Para acompanhar desde o início e as próximas semanas, consulte [Percurso das semanas](PERCURSO_DAS_SEMANAS.md).

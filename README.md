@@ -4,6 +4,16 @@ Aprenda a ler código, transformar dados e interpretar resultados antes de autom
 
 **Produção autoral de Otávio Diniz**, elaborada a partir de estudos do curso SC TEC — Análise de Dados com Python, T8. Não é material oficial da instituição ou da docente. Dados, exercícios e laboratórios novos são sintéticos; fontes docentes privadas não são redistribuídas.
 
+## Comece aqui — escolha como praticar
+
+| Quero praticar | Abra este caminho primeiro |
+|---|---|
+| Python/Pandas/NumPy no navegador ou no computador | [Download ZIP, Colab e VS Code passo a passo](docs/ambientacao/comece-aqui.md) |
+| SQL diretamente no PostgreSQL, usando pgAdmin | [Do primeiro banco à importação de CSV e consultas](docs/ambientacao/primeiro-acesso-postgresql.md) |
+| MongoDB diretamente no Compass | [Da primeira coleção à importação JSON, filtros e agregações](docs/ambientacao/primeiro-acesso-mongodb.md) |
+
+Os notebooks ensinam e simulam; os laboratórios reais são arquivos próprios para cada ferramenta. **Não é necessário executar SQL ou JavaScript de banco no Colab/VS Code** para praticar as interfaces reais.
+
 ## Comece pelo seu objetivo
 
 | Preciso aprender | Caminho |
@@ -15,19 +25,25 @@ Aprenda a ler código, transformar dados e interpretar resultados antes de autom
 | Bancos documentais | Guia/Caderno 06: MongoDB, documentos, filtros, atualização e agregações |
 | Revisão rápida | Biblioteca Viva e [glossário de bancos](docs/biblioteca-viva-bancos.md) |
 
-## Percurso das semanas 07–11
+## Percurso das semanas
 
-A organização respeita dependências de aprendizagem e distingue a sequência oral da agenda dos slides. Veja o [roteiro por aula das semanas 08–11](docs/PERCURSO_SEMANAS_08_A_11.md).
+Acompanhe a evolução do material desde a primeira semana. Os Guias seguem a ordem de aprendizagem; o percurso identifica quando os temas apareceram e indica onde retomá-los. **Novas semanas serão incluídas nesta mesma seção**, sem alterar a estrutura do índice.
 
-| Semana | Conteúdo e prática |
-|---|---|
-| 07 · Projeto | [Mini-projeto de análise de varejo](https://github.com/otavio-diniz/Miniprojeto_Otavio_Diniz_T8): exemplo acadêmico independente apresentado no contexto da semana, Python/Pandas, diagnóstico, tratamento, exploração e interpretação. [Contexto e relação com a biblioteca](docs/projetos/semana-07-mini-projeto.md). |
-| 08 · 27, 29, 30/10 | HTML, CSS, BeautifulSoup, requests/HTTP, funções/classes, ETL, CSV, SQLite, início de PostgreSQL e pgAdmin. [Ponte ETL](docs/ambientacao/ponte-semana-08-etl.md) + Guias 02/05. |
-| 09 · 03, 05, 06/11 | MongoDB, Compass, JSON/BSON, _id, consultas, projeções, arrays, atualizações, pipeline de agregação. Guia 06 e laboratório MongoDB. |
-| 10 · 10, 12, 13/11 | Continuação MongoDB, normalização 1FN–3FN, PK/FK/CHECK, DDL/DML, transações, filtros e diagnóstico. Guias 05/06. |
-| 11 · 17, 19/11 | JOINs, importação e reconciliação de tabelas comerciais, vendedores/metas, UNION ALL, GROUP BY/HAVING, COUNT DISTINCT, subconsultas, CTE, funções texto e mês parcial. Guia 05 e laboratório SQL. |
+| Semana | Data (2026) | Conteúdo e prática | Eixos |
+|---|---|---|---|
+| [Semana 01](docs/PERCURSO_DAS_SEMANAS.md#semana-01) | 08–11/09 | Fundamentos da análise, qualidade dos dados, perguntas de negócio e SQL | 03/05 |
+| [Semana 02](docs/PERCURSO_DAS_SEMANAS.md#semana-02) | 15–18/09 | SQL introdutório e fundamentos Python | 01/05 |
+| [Semana 03](docs/PERCURSO_DAS_SEMANAS.md#semana-03) | 22–25/09 | Decisões, listas, laços e Git/GitHub | 02/03 |
+| [Semana 04](docs/PERCURSO_DAS_SEMANAS.md#semana-04) | 29/09–02/10 | VS Code, strings, funções, estruturas compostas, arquivos e datas | 01–03 |
+| [Semana 05](docs/PERCURSO_DAS_SEMANAS.md#semana-05) | 06/10 | Diagnóstico, filtros, regex, funções e transformação de dados | 02/03 |
+| [Semana 06](docs/PERCURSO_DAS_SEMANAS.md#semana-06) | 08–10/10 | Modularização, pipelines, merge, métricas e revisão de lógica | 02/03 |
+| [Semana 07](docs/PERCURSO_DAS_SEMANAS.md#semana-07) | 15–17/10 | Pandas, NumPy, revisão Python e [mini-projeto de varejo](https://github.com/otavio-diniz/Miniprojeto_Otavio_Diniz_T8) | 02–04 |
+| [Semana 08](docs/PERCURSO_DAS_SEMANAS.md#semana-08) | 27–30/10 | HTML/CSS, HTTP, scraping, ETL, CSV/SQLite e PostgreSQL | 02/05 |
+| [Semana 09](docs/PERCURSO_DAS_SEMANAS.md#semana-09) | 03–06/11 | MongoDB, Compass, documentos, filtros, atualizações e agregações | 06 |
+| [Semana 10](docs/PERCURSO_DAS_SEMANAS.md#semana-10) | 10–13/11 | MongoDB, normalização, DDL/DML, restrições e transações | 05/06 |
+| [Semana 11](docs/PERCURSO_DAS_SEMANAS.md#semana-11) | 17–19/11 | JOINs, CSV, vendedores/metas e SQL avançado | 05 |
 
-O projeto da Semana 07 permanece no repositório próprio: o link não duplica a base nem afirma nota ou aprovação. Python/ORM em banco, planejado no slide da Semana 11, não é tratado como prática oral comprovada; a aula de 20/11 não foi ministrada segundo a informação registrada.
+[**Percurso detalhado das semanas**](docs/PERCURSO_DAS_SEMANAS.md) · [Contexto do projeto da Semana 07](docs/projetos/semana-07-mini-projeto.md) · [Detalhes de aulas 08–11](docs/PERCURSO_SEMANAS_08_A_11.md). Os temas planejados em slides são distinguidos das aulas comprovadas. O projeto permanece no repositório próprio.
 
 ## Acesso aos Guias e Cadernos
 
@@ -76,8 +92,8 @@ Use Python e kernel Jupyter disponíveis. Para as oficinas, pandas, numpy, reque
 
 ### Laboratórios reais
 
-- PostgreSQL: [base sintética](labs/postgresql/00_dados_sinteticos.sql), [consultas](labs/postgresql/01_consultas_e_relatorios.sql) e [metas/reconciliação](labs/postgresql/02_metas_e_reconciliacao.sql), [qualidade e transações](labs/postgresql/03_qualidade_e_transacoes.sql), [importação CSV via psql](labs/postgresql/04_importacao_csv.psql) e [dados fictícios](labs/postgresql/dados_sinteticos/). Execute apenas em banco de treino autorizado, via psql ou Query Tool. O laboratório 02 usa tabelas temporárias e rollback.
-- MongoDB: [base sintética](labs/mongodb/00_dados_sinteticos.js), [consultas](labs/mongodb/01_consultas_e_agregacao.js) e [ciclo documental](labs/mongodb/02_ciclo_documental.js). Execute no mongosh de treino; o script 02 cria e remove apenas uma base aleatória. O [teste PyMongo](scripts/validar_mongodb_oficina.py) executa operações equivalentes, não o arquivo JS literal.
+- PostgreSQL: [base sintética](labs/postgresql/00_dados_sinteticos.sql), [consultas](labs/postgresql/01_consultas_e_relatorios.sql) e [metas/reconciliação](labs/postgresql/02_metas_e_reconciliacao.sql), [qualidade e transações](labs/postgresql/03_qualidade_e_transacoes.sql), [importação CSV via psql](labs/postgresql/04_importacao_csv.psql) e [dados fictícios](labs/postgresql/dados_sinteticos/). Execute apenas em banco de treino autorizado. Para começar no pgAdmin, siga o [tutorial gráfico](docs/ambientacao/primeiro-acesso-postgresql.md); para importar CSV pelo pgAdmin use [04a: criar tabelas](labs/postgresql/04a_preparar_csv_pgadmin.sql) → importar pela interface → [04b: conferir resultados](labs/postgresql/04b_conferir_csv_pgadmin.sql). O 04 .psql é exclusivo do psql; 02/03 usam tabelas temporárias e rollback.
+- MongoDB: [base sintética](labs/mongodb/00_dados_sinteticos.js), [consultas](labs/mongodb/01_consultas_e_agregacao.js) e [ciclo documental](labs/mongodb/02_ciclo_documental.js). Para Compass, importe os [JSONs autorais](labs/mongodb/dados_sinteticos/) conforme [passo a passo gráfico](docs/ambientacao/primeiro-acesso-mongodb.md). Os .js são para mongosh; o script 02 cria e remove apenas uma base aleatória. O [teste PyMongo](scripts/validar_mongodb_oficina.py) executa operações equivalentes, não o arquivo JS literal.
 
 Não use bases habituais, credenciais reais em notebooks ou serviços expostos na internet. A oficina HTTP usa resposta controlada sem rede; coleta externa requer permissão e tratamento de erros.
 
