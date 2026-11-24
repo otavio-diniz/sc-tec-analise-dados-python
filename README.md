@@ -20,7 +20,7 @@ A biblioteca agora oferece também **SQL/PostgreSQL (eixo 05)** e **MongoDB/NoSQ
 
 **Comece aqui:** [índice Guias 05/06](docs/REVISAO_GUIAS_05_06.md) · [fontes oficiais](docs/ambientacao/fontes-oficiais-bancos.md) · [PostgreSQL e pgAdmin do zero](docs/ambientacao/primeiro-acesso-postgresql.md) · [MongoDB e Compass do zero](docs/ambientacao/primeiro-acesso-mongodb.md) · [glossário SQL/MongoDB](docs/biblioteca-viva-bancos.md).
 
-**Validação em 24/11:** 104 células Python de simulação sem erro; dois arquivos SQL executados em **PostgreSQL 18 isolado**; operações equivalentes de insert/find/aggregate executadas em **MongoDB real**; sintaxe dos scripts JS validada. Os scripts JavaScript não foram executados literalmente no mongosh, e as interfaces pgAdmin/Compass não foram testadas. Nenhum banco habitual foi alterado. [Evidências e limitações](docs/VALIDACAO_BANCOS_2026-11-24.md).
+**Validação em 24/11:** 106 células Python de simulação sem erro; dois arquivos SQL executados em **PostgreSQL 18 isolado**; operações equivalentes de insert/find/aggregate executadas em **MongoDB real**; sintaxe dos scripts JS validada. Os scripts JavaScript não foram executados literalmente no mongosh, e as interfaces pgAdmin/Compass não foram testadas. Nenhum banco habitual foi alterado. [Evidências e limitações](docs/VALIDACAO_BANCOS_2026-11-24.md).
 
 ## Atualização pedagógica v1.1.1 — 20/10/2026
 
