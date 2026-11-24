@@ -1,14 +1,20 @@
-> **RAMIFICAÇÃO DE REVISÃO — GUIAS 05/06 (SQL/POSTGRESQL E MONGODB).** Os oito notebooks e laboratórios estão nesta ramificação para revisão pedagógica; a baseline estável da branch `main` permanece v1.1.1, com quatro Guias/Cadernos. **[Abrir a revisão completa dos eixos 05 e 06](docs/REVISAO_GUIAS_05_06.md)**, [Fontes oficiais e downloads](docs/ambientacao/fontes-oficiais-bancos.md), [Primeiro acesso PostgreSQL](docs/ambientacao/primeiro-acesso-postgresql.md) e [Primeiro acesso MongoDB](docs/ambientacao/primeiro-acesso-mongodb.md). Não foi realizada conexão real a bancos nesta revisão.
-
-# SC TEC — Análise de Dados com Python | Guias Vivos, Cadernos Práticos, NumPy e Biblioteca Viva
+# SC TEC — Análise de Dados com Python | Guias Vivos, Cadernos Práticos e Biblioteca Viva
 
 Material de estudo progressivo para quem está começando em Python e análise de dados e quer **entender a lógica**, não apenas copiar código.
 
 O repositório organiza conceitos, exemplos, exercícios autorais e avaliações comentadas em uma sequência pedagógica própria:
 
-**Python — Fundamentos Absolutos → Python — Desenvolvimento → Pandas — Análise de Dados → NumPy — Arrays e Cálculo Numérico**
+**Python — Fundamentos Absolutos → Python — Desenvolvimento → Pandas — Análise de Dados → NumPy — Arrays e Cálculo Numérico → SQL/PostgreSQL (prévia) → MongoDB/NoSQL (prévia)**
 
 > **Produção autoral de Otávio Diniz.** O material foi construído a partir do estudo das aulas, exemplos, orientações e materiais apresentados no contexto do curso, com reorganização, síntese, exemplos e explicações próprias. **Não é material oficial da instituição nem da docente.**
+
+## Prévia didática — Guias Vivos 05 e 06 (24/11/2026)
+
+A biblioteca agora oferece também **SQL/PostgreSQL (eixo 05)** e **MongoDB/NoSQL (eixo 06)**: 8 notebooks novos, em pares Colab/VS Code, com oito checkpoints por Guia/Caderno e 48 questões de treino sintéticas. Os novos arquivos estão disponíveis para estudo e melhorias, **sem declarar homologação docente ou conclusão institucional**. A baseline estável anterior v1.1.1 (eixos 01–04) permanece identificada separadamente.
+
+**Comece aqui:** [índice Guias 05/06](docs/REVISAO_GUIAS_05_06.md) · [fontes oficiais](docs/ambientacao/fontes-oficiais-bancos.md) · [PostgreSQL e pgAdmin do zero](docs/ambientacao/primeiro-acesso-postgresql.md) · [MongoDB e Compass do zero](docs/ambientacao/primeiro-acesso-mongodb.md) · [glossário SQL/MongoDB](docs/biblioteca-viva-bancos.md).
+
+**Validação em 24/11:** 104 células Python de simulação sem erro; dois arquivos SQL executados em **PostgreSQL 18 isolado**; operações equivalentes de insert/find/aggregate executadas em **MongoDB real**; sintaxe dos scripts JS validada. Os scripts JavaScript não foram executados literalmente no mongosh, e as interfaces pgAdmin/Compass não foram testadas. Nenhum banco habitual foi alterado. [Evidências e limitações](docs/VALIDACAO_BANCOS_2026-11-24.md).
 
 ## Atualização pedagógica v1.1.1 — 20/10/2026
 
@@ -74,13 +80,13 @@ O uso editorial de “avaliação comentada” **não** certifica presença, not
 
 ### Nova frente de estudo — bancos de dados (ambientação)
 
-O roteiro [**PostgreSQL, pgAdmin, MongoDB, Compass e mongosh: comece aqui**](docs/ambientacao/bancos-de-dados.md) reúne conceitos fundamentais, links oficiais e cuidados de conexão para as Semanas 08–11. É uma **ambientação complementar**, não uma publicação antecipada dos Guias/Cadernos 05 e 06 nem comprovação de execução dos laboratórios.
+O roteiro [**PostgreSQL, pgAdmin, MongoDB, Compass e mongosh: comece aqui**](docs/ambientacao/bancos-de-dados.md) reúne conceitos fundamentais, links oficiais e cuidados de conexão para as Semanas 08–11. É uma **ambientação complementar** aos Guias 05/06 agora disponíveis em prévia para estudo; a publicação não comprova execução em interfaces próprias nem progresso institucional.
 
 ### Mini-Projeto da Semana 07 — referência externa ao percurso didático
 
 A Semana 07 inclui um mini-projeto de análise de dados de varejo realizado em repositório próprio. Para preservar a autoria, o histórico e as bases do projeto sem duplicá-los nesta biblioteca, consulte **[Semana 07 — Mini-Projeto de Varejo: documentação e acesso](docs/projetos/semana-07-mini-projeto.md)**. Este índice é um vínculo pedagógico e de portfólio, não um quinto Guia Vivo nem uma alteração da baseline de notebooks.
 
-## Estado da publicação — v1.1.1 (20/10/2026)
+## Baseline estável anterior — v1.1.1 (20/10/2026)
 
 **v1.1.1 publicada no GitHub por autorização de Otávio, como suplemento editorial à v1.1 de 19/10.** São **quatro Guias, quatro Cadernos e uma Biblioteca Viva**, em Colab e VS Code: **18 notebooks** de estudo. A baseline histórica **v1.0.1**, com corte até 02/10, foi preservada no acervo interno antes da ampliação.
 
@@ -101,6 +107,8 @@ O material **não é publicação oficial da SC TEC nem da professora**. Exercí
 | 02 · Desenvolvimento | [Abrir](notebooks/colab/02_python_desenvolvimento.ipynb) | [Abrir](notebooks/vscode/02_python_desenvolvimento.ipynb) | [Exercícios](exercicios/colab/02_python_desenvolvimento_exercicios.ipynb) | [Exercícios](exercicios/vscode/02_python_desenvolvimento_exercicios.ipynb) |
 | 03 · Pandas | [Abrir](notebooks/colab/03_pandas_analise_dados.ipynb) | [Abrir](notebooks/vscode/03_pandas_analise_dados.ipynb) | [Exercícios](exercicios/colab/03_pandas_exercicios.ipynb) | [Exercícios](exercicios/vscode/03_pandas_exercicios.ipynb) |
 | 04 · NumPy | [Abrir](notebooks/colab/04_numpy_arrays_calculo.ipynb) | [Abrir](notebooks/vscode/04_numpy_arrays_calculo.ipynb) | [Exercícios](exercicios/colab/04_numpy_arrays_exercicios.ipynb) | [Exercícios](exercicios/vscode/04_numpy_arrays_exercicios.ipynb) |
+| 05 · SQL/PostgreSQL · prévia | [Abrir](notebooks/colab/05_sql_postgresql.ipynb) | [Abrir](notebooks/vscode/05_sql_postgresql.ipynb) | [Exercícios](exercicios/colab/05_sql_postgresql_exercicios.ipynb) | [Exercícios](exercicios/vscode/05_sql_postgresql_exercicios.ipynb) |
+| 06 · MongoDB/NoSQL · prévia | [Abrir](notebooks/colab/06_nosql_mongodb.ipynb) | [Abrir](notebooks/vscode/06_nosql_mongodb.ipynb) | [Exercícios](exercicios/colab/06_nosql_mongodb_exercicios.ipynb) | [Exercícios](exercicios/vscode/06_nosql_mongodb_exercicios.ipynb) |
 
 **Biblioteca Viva (agora com verbetes de IQR, Z-score, Min-Max e planejamento):** [Colab](biblioteca/colab/04_biblioteca_viva_python_pandas.ipynb) · [VS Code](biblioteca/vscode/04_biblioteca_viva_python_pandas.ipynb). **Avaliações comentadas:** [M1S02](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb).
 
