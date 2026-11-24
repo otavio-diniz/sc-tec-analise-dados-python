@@ -8,6 +8,12 @@ O repositório organiza conceitos, exemplos, exercícios autorais e avaliações
 
 > **Produção autoral de Otávio Diniz.** O material foi construído a partir do estudo das aulas, exemplos, orientações e materiais apresentados no contexto do curso, com reorganização, síntese, exemplos e explicações próprias. **Não é material oficial da instituição nem da docente.**
 
+## Percurso das semanas 08–11, com a sequência real das aulas
+
+**Comece pela [ponte da Semana 08 — web scraping, BeautifulSoup, ETL e SQLite](docs/ambientacao/ponte-semana-08-etl.md)**, que antecede o PostgreSQL e corresponde ao que a instrutora iniciou em 27/10. Depois siga SQL/PostgreSQL (Guias 05) e MongoDB/NoSQL (Guias 06), alternando conforme a **sequência oral** das aulas. A [matriz pública de 11 aulas](docs/PERCURSO_SEMANAS_08_A_11.md) diferencia o ensinado da agenda dos slides — especialmente nas Semanas 10 e 11 — e indica o que é complemento autoral.
+
+**O que cada programa faz:** PostgreSQL e MongoDB Community são servidores de banco; pgAdmin e Compass são interfaces; mongosh é shell JavaScript (não Java); SQL é linguagem relacional; Colab e VS Code executam os exercícios Python e não conectam os bancos por simples abertura de notebook. O cadastro de servidor no pgAdmin é um **registro de conexão**, não a instalação de PostgreSQL.
+
 ## Prévia didática — Guias Vivos 05 e 06 (24/11/2026)
 
 A biblioteca agora oferece também **SQL/PostgreSQL (eixo 05)** e **MongoDB/NoSQL (eixo 06)**: 8 notebooks novos, em pares Colab/VS Code, com oito checkpoints por Guia/Caderno e 48 questões de treino sintéticas. Os novos arquivos estão disponíveis para estudo e melhorias, **sem declarar homologação docente ou conclusão institucional**. A baseline estável anterior v1.1.1 (eixos 01–04) permanece identificada separadamente.
