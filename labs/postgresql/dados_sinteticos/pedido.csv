@@ -1,0 +1,5 @@
+id,cliente_id,vendedor_id,dia,status,canal
+51,1,1,2026-10-03,concluido,loja
+52,1,1,2026-10-20,concluido,web
+53,2,2,2026-10-25,cancelado,web
+54,2,2,2026-11-05,concluido,loja

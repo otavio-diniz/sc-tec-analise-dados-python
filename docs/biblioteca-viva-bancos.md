@@ -64,3 +64,6 @@
 **Guia de domínio:** COMPREENDER em palavras próprias, EXECUTAR em motor apropriado quando disponível e DIAGNOSTICAR erro de ferramenta, sintaxe, dados e interpretação.
 
 [Guia 05](../notebooks/colab/05_sql_postgresql.ipynb) · [Guia 06](../notebooks/colab/06_nosql_mongodb.ipynb) · [Fontes oficiais](ambientacao/fontes-oficiais-bancos.md).
+
+## Novos verbetes
+Meta por vendedor/mês: granularidade própria; agregar fatos antes de unir metas. Meta órfã: existe na planilha, falta cadastro; usar FULL OUTER JOIN filtrando mês. Savepoint: permite desfazer parte de transação. HTTP status: raise_for_status impede tratamento de resposta inválida. CSV: representação tabular de intercâmbio. MySQL: motor diferente do PostgreSQL; Workbench é cliente gráfico MySQL.

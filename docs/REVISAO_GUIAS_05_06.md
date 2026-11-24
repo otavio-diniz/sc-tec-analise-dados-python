@@ -49,3 +49,6 @@ Evidências e detalhes: [relatório técnico](VALIDACAO_BANCOS_2026-11-24.md). A
 A transcrição confirma conteúdo SQL avançado da aula de 19/11, divergente do planejamento Python/psycopg/ORM nos slides. Não afirmar que integração Python–PostgreSQL foi realizada naquela aula. Materiais de terceiros continuam no acervo privado. O mini-projeto da Semana 07 é [referência externa](projetos/semana-07-mini-projeto.md), sem fusão de histórico.
 
 **Estado editorial:** prévia dos eixos 05/06 publicada para estudo no repositório principal, mantendo a validação pedagógica humana e a execução literal dos scripts MongoDB em mongosh como itens distintos e não comprovados. Publicação não equivale a certificação institucional.
+
+## Oficinas integradas
+[SQL: metas e reconciliação](../labs/postgresql/02_metas_e_reconciliacao.sql) · [MongoDB: ciclo documental](../labs/mongodb/02_ciclo_documental.js) · [Teste PyMongo equivalente](../scripts/validar_mongodb_oficina.py) · [Ponte ETL](ambientacao/ponte-semana-08-etl.md).

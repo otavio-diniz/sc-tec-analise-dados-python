@@ -71,3 +71,6 @@ O arquivo [01_consultas_e_relatorios.sql](../../labs/postgresql/01_consultas_e_r
 **Diferença entre cadastrar e criar:** registrar um *Server* no pgAdmin salva uma conexão; `CREATE DATABASE` cria uma base; `CREATE SCHEMA` cria um agrupamento dentro de uma base; `CREATE TABLE` cria uma tabela. São quatro ações diferentes.
 
 **Próximas aulas:** 12/11 traz normalização 1FN–3FN, 13/11 DDL/transações e 17–19/11 JOINs/indicadores/CTEs. [Percurso por data](../PERCURSO_SEMANAS_08_A_11.md).
+
+## Prática de importação e diagnóstico
+Os arquivos [CSV autorais](../../labs/postgresql/dados_sinteticos/) usam cabeçalhos e UTF-8. No psql, execute a partir da raiz do repositório o [laboratório 04](../../labs/postgresql/04_importacao_csv.psql). O metacomando `\copy` lê arquivo no cliente psql, não funciona como SQL no Query Tool do pgAdmin. Para prática gráfica independente, crie tabelas em banco de treino com as mesmas colunas, use Import/Export Data para cliente/vendedor/produto antes de pedido/item/meta/newsletter, selecione CSV, header e UTF-8, e confira contagens (3/3/3/4/5/3/2). Meta de estágio contém uma referência sem cadastro intencional. Não altere banco habitual. [Qualidade e transações](../../labs/postgresql/03_qualidade_e_transacoes.sql).

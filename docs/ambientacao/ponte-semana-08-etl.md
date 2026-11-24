@@ -55,3 +55,6 @@ A professora discutiu `requests` e respostas HTTP. Antes de qualquer requisiçã
 Explique em palavras próprias: o que é o papel de uma função `extrair`, `transformar` e `carregar`? O que muda quando o mesmo script lê dados de HTTP? Quando é melhor SQLite e quando faz sentido um servidor PostgreSQL? Por que abrir pgAdmin não substitui a etapa de carregar/consultar dados?
 
 [Voltar ao percurso por aula](../PERCURSO_SEMANAS_08_A_11.md) · [Primeiro acesso PostgreSQL](primeiro-acesso-postgresql.md) · [Fontes oficiais](fontes-oficiais-bancos.md).
+
+## Oficina executável ampliada no Guia 02
+No Guia 02, a oficina Semana 08 reúne requests com adaptador HTTP controlado, BeautifulSoup, Pandas, validação de identificadores, preço em centavos, estoque inteiro, exportação CSV em memória, carga SQLite e indicadores. Três registros autorais (não docentes) permitem conferir quantidade, média, máximo, estoque e categoria. HTTP 404 interrompe a carga. A simulação não realiza coleta externa. [Guia 02 Colab](../../notebooks/colab/02_python_desenvolvimento.ipynb) · [Caderno 02 Colab](../../exercicios/colab/02_python_desenvolvimento_exercicios.ipynb).

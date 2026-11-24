@@ -74,3 +74,17 @@ O conjunto de notebooks e documentação pode ser disponibilizado no GitHub como
 Após o confronto direto das **11 transcrições**, quatro apresentações e scripts docentes preservados no acervo institucional, houve enriquecimento dos **Guias/Cadernos 05/06** sem republicar material de terceiros. A nova **Etapa 0 do Guia 05** executa HTML local fictício → ETL → SQLite com `html.parser`/Decimal/SQLite, elevando a execução dos oito notebooks de 104 para **106 células Python**, todas validadas sem erro. O roteiro [Semanas 08–11](PERCURSO_SEMANAS_08_A_11.md) distingue aulas e agenda de slides; a [ponte da Semana 08](ambientacao/ponte-semana-08-etl.md) explica scraping responsável, BeautifulSoup, HTTP/requests e persistência inicial.
 
 O SQL de relatórios ganhou **RIGHT JOIN, FULL OUTER JOIN, UNION ALL, ILIKE, CONCAT e SUBSTRING** e passou novamente no PostgreSQL 18 temporário isolado, com `3|2|3|53.50`, parada e remoção confirmadas. O script de leitura MongoDB ganhou **countDocuments, sort/limit, projeção e $match**; foram testadas operações equivalentes no motor MongoDB real através de cliente temporário Node, com **insert, find, count, sort/limit/projection, aggregate e dropDatabase** positivos. A execução literal dos arquivos .js em mongosh e a operação visual no Compass permanecem **não comprovadas**. A conferência de **19 arquivos e 147 links relativos** retornou zero quebra. Testes executados na ramificação de revisão antes da integração à principal; não extrapolar a homologação para a professora, sistemas externos ou outros datasets.
+
+## Ampliação das oficinas — verificação de 24/11/2026
+
+| Controle | Resultado medido |
+|---|---|
+| Simulação dos oito Guias/Cadernos 05/06 | 120 células Python, zero erros; quatro pares Colab/VS Code |
+| Oficina HTTP/ETL | três registros autorais, R$115,00 somados, estoque 15, CSV com 3 linhas, SQLite reconciliado, HTTP 404 controlado |
+| PostgreSQL 18.7 | scripts 00/01/02/03 e importação psql 04 executados em instância isolada; 7 CSVs (3/3/3/4/5/3/2 linhas) importados, 5 verificações do lab 02, 5 do 03 e 5 da carga 04; normalização adicional com 10 resultados e CHECK/rollback |
+| MongoDB 9.0.8 | 11 verificações de operações equivalentes ao novo lab 02 via PyMongo; banco temporário removido |
+| JavaScript | 3 arquivos passaram em node --check (sintaxe, não execução mongosh) |
+| Exemplo comercial | outubro: 2 pedidos válidos, 8000 centavos; novembro parcial: 1, 4000 centavos; cadastro 3 sem meta e meta 9 sem cadastro |
+| Qualidade SQL | 3 clientes, 1 contato presente; pedido 12 divergente, 13 sem item; rollback de DDL/DML demonstrado |
+
+As verificações anteriores (106 e 114 células) são registros históricos, não a contagem atual. Os testes usam dados fictícios, sem credenciais ou dados docentes; não comprovam a execução em GUI, Colab remoto, MySQL, mongosh literal, todos os notebooks antigos, nem homologação pedagógica. A rotina HTTP é controlada, sem requisição externa. O projeto da Semana 07 é referência de portfólio independente.

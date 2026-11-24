@@ -25,3 +25,6 @@ O projeto **continua em seu próprio repositório**, com autoria, histórico e d
 A biblioteca de Guias Vivos é **material de estudo autoral e não oficial**. O link para um projeto acadêmico não comprova nota, aprovação, certificação ou conclusão institucional. A situação e os direitos de redistribuição do dataset devem ser verificados no repositório de origem.
 
 [Voltar ao índice principal](../../README.md) · [Método pedagógico](../METODO_PEDAGOGICO.md)
+
+## Exemplo integrado ao percurso
+O link é apresentado diretamente no README como exemplo de projeto da Semana 07, relacionado ao Guia 03. A referência preserva o contexto acadêmico, a autoria e o repositório separado; não é uma nova entrega avaliativa nem uma replicação do projeto.

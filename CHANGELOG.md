@@ -1,4 +1,11 @@
-# Changelog
+# Histórico de alterações
+
+## 24/11/2026 — ampliação didática das semanas 07–11
+- README reorganizado em torno da proposta de aprendizagem e do estado atual (seis Guias, seis Cadernos, Biblioteca).
+- Projeto da Semana 07 com acesso direto e contexto; MySQL/Workbench como referências opcionais.
+- Oficinas autorais nos eixos 02/05/06, Cadernos e Biblioteca: HTTP/CSV/ETL, consultas MongoDB e metas, transações e SQL avançado.
+- Laboratórios adicionais SQL e MongoDB, teste equivalente PyMongo; separação entre execução real, simulação e limitações.
+- A baseline v1.1.1 permanece histórica; eixos 05/06 continuam em prévia didática.
 
 ## Revisão de aderência às 11 aulas das Semanas 08–11 — 24/11/2026
 
@@ -156,3 +163,5 @@ Baseline pedagógica consolidada para publicação.
 - README reorganizado como jornada pública;
 - documentação de fontes, escopo e método atualizada;
 - contribuição e feedback documentados.
+
+**Evidência da ampliação de 24/11:** 120 células Python 05/06 sem erros; PostgreSQL 18.7, cinco laboratórios incluindo sete CSVs; MongoDB 9.0.8, 11 verificações via PyMongo, 3 scripts JS sintaticamente válidos. Sem inferência de homologação, GUI ou execução literal mongosh.

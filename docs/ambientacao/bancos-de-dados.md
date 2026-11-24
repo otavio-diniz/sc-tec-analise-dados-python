@@ -61,3 +61,6 @@ Os **Guias e Cadernos 05/06 estão publicados como prévia didática no GitHub**
 Documento introdutório: **conceitos e links oficiais revisados**. Em 24/11/2026 os dois scripts SQL autorais foram executados em PostgreSQL 18 temporário isolado e foram executadas operações equivalentes no MongoDB local em base temporária, com limpeza. **Não** foram testados os aplicativos gráficos nem executados literalmente os dois arquivos .js no mongosh. Nenhuma nova instalação, conta Atlas, script institucional ou atividade submetida. [Relatório técnico](../VALIDACAO_BANCOS_2026-11-24.md).
 
 [Voltar ao README](../../README.md) · [Método pedagógico](../METODO_PEDAGOGICO.md)
+
+## Alternativa de consulta — MySQL
+[MySQL Community Server](https://dev.mysql.com/downloads/mysql/) e [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) são referências opcionais. Workbench é cliente do MySQL; não substitui pgAdmin como cliente dedicado a PostgreSQL. Não executar comandos específicos de PostgreSQL em MySQL sem adaptação de dialeto.

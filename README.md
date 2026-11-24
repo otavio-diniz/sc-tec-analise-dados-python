@@ -1,111 +1,35 @@
-# SC TEC — Análise de Dados com Python | Guias Vivos, Cadernos Práticos e Biblioteca Viva
+# SC TEC — Análise de Dados com Python | Material Vivo
 
-Material de estudo progressivo para quem está começando em Python e análise de dados e quer **entender a lógica**, não apenas copiar código.
+Aprenda a ler código, transformar dados e interpretar resultados antes de automatizar decisões. Esta biblioteca de estudo progressivo reúne **seis Guias Vivos, seis Cadernos Práticos e uma Biblioteca Viva**, em versões Google Colab e VS Code (26 notebooks de estudo), com exemplos fictícios e soluções comentadas para praticar depois de uma tentativa própria.
 
-O repositório organiza conceitos, exemplos, exercícios autorais e avaliações comentadas em uma sequência pedagógica própria:
+**Produção autoral de Otávio Diniz**, elaborada a partir de estudos do curso SC TEC — Análise de Dados com Python, T8. Não é material oficial da instituição ou da docente. Dados, exercícios e laboratórios novos são sintéticos; fontes docentes privadas não são redistribuídas.
 
-**Python — Fundamentos Absolutos → Python — Desenvolvimento → Pandas — Análise de Dados → NumPy — Arrays e Cálculo Numérico → SQL/PostgreSQL (prévia) → MongoDB/NoSQL (prévia)**
+## Comece pelo seu objetivo
 
-> **Produção autoral de Otávio Diniz.** O material foi construído a partir do estudo das aulas, exemplos, orientações e materiais apresentados no contexto do curso, com reorganização, síntese, exemplos e explicações próprias. **Não é material oficial da instituição nem da docente.**
+| Preciso aprender | Caminho |
+|---|---|
+| Lógica e leitura de código | Guias 01–02: tipos, decisões, laços, funções, módulos e pipelines |
+| Preparação e análise de dados | Guias 03–04: Pandas, qualidade, agregação, NumPy e vetorização |
+| Dados de páginas web e ETL | Guia/Caderno 02 e oficina HTML → HTTP → CSV/SQLite |
+| Bancos relacionais | Guia/Caderno 05: SQL, PostgreSQL, normalização, JOINs, CTE, metas e transações |
+| Bancos documentais | Guia/Caderno 06: MongoDB, documentos, filtros, atualização e agregações |
+| Revisão rápida | Biblioteca Viva e [glossário de bancos](docs/biblioteca-viva-bancos.md) |
 
-## Percurso das semanas 08–11, com a sequência real das aulas
+## Percurso das semanas 07–11
 
-**Comece pela [ponte da Semana 08 — web scraping, BeautifulSoup, ETL e SQLite](docs/ambientacao/ponte-semana-08-etl.md)**, que antecede o PostgreSQL e corresponde ao que a instrutora iniciou em 27/10. Depois siga SQL/PostgreSQL (Guias 05) e MongoDB/NoSQL (Guias 06), alternando conforme a **sequência oral** das aulas. A [matriz pública de 11 aulas](docs/PERCURSO_SEMANAS_08_A_11.md) diferencia o ensinado da agenda dos slides — especialmente nas Semanas 10 e 11 — e indica o que é complemento autoral.
+A organização respeita dependências de aprendizagem e distingue a sequência oral da agenda dos slides. Veja o [roteiro por aula das semanas 08–11](docs/PERCURSO_SEMANAS_08_A_11.md).
 
-**O que cada programa faz:** PostgreSQL e MongoDB Community são servidores de banco; pgAdmin e Compass são interfaces; mongosh é shell JavaScript (não Java); SQL é linguagem relacional; Colab e VS Code executam os exercícios Python e não conectam os bancos por simples abertura de notebook. O cadastro de servidor no pgAdmin é um **registro de conexão**, não a instalação de PostgreSQL.
+| Semana | Conteúdo e prática |
+|---|---|
+| 07 · Projeto | [Mini-projeto de análise de varejo](https://github.com/otavio-diniz/Miniprojeto_Otavio_Diniz_T8): exemplo acadêmico independente apresentado no contexto da semana, Python/Pandas, diagnóstico, tratamento, exploração e interpretação. [Contexto e relação com a biblioteca](docs/projetos/semana-07-mini-projeto.md). |
+| 08 · 27, 29, 30/10 | HTML, CSS, BeautifulSoup, requests/HTTP, funções/classes, ETL, CSV, SQLite, início de PostgreSQL e pgAdmin. [Ponte ETL](docs/ambientacao/ponte-semana-08-etl.md) + Guias 02/05. |
+| 09 · 03, 05, 06/11 | MongoDB, Compass, JSON/BSON, _id, consultas, projeções, arrays, atualizações, pipeline de agregação. Guia 06 e laboratório MongoDB. |
+| 10 · 10, 12, 13/11 | Continuação MongoDB, normalização 1FN–3FN, PK/FK/CHECK, DDL/DML, transações, filtros e diagnóstico. Guias 05/06. |
+| 11 · 17, 19/11 | JOINs, importação e reconciliação de tabelas comerciais, vendedores/metas, UNION ALL, GROUP BY/HAVING, COUNT DISTINCT, subconsultas, CTE, funções texto e mês parcial. Guia 05 e laboratório SQL. |
 
-## Prévia didática — Guias Vivos 05 e 06 (24/11/2026)
+O projeto da Semana 07 permanece no repositório próprio: o link não duplica a base nem afirma nota ou aprovação. Python/ORM em banco, planejado no slide da Semana 11, não é tratado como prática oral comprovada; a aula de 20/11 não foi ministrada segundo a informação registrada.
 
-A biblioteca agora oferece também **SQL/PostgreSQL (eixo 05)** e **MongoDB/NoSQL (eixo 06)**: 8 notebooks novos, em pares Colab/VS Code, com oito checkpoints por Guia/Caderno e 48 questões de treino sintéticas. Os novos arquivos estão disponíveis para estudo e melhorias, **sem declarar homologação docente ou conclusão institucional**. A baseline estável anterior v1.1.1 (eixos 01–04) permanece identificada separadamente.
-
-**Comece aqui:** [índice Guias 05/06](docs/REVISAO_GUIAS_05_06.md) · [fontes oficiais](docs/ambientacao/fontes-oficiais-bancos.md) · [PostgreSQL e pgAdmin do zero](docs/ambientacao/primeiro-acesso-postgresql.md) · [MongoDB e Compass do zero](docs/ambientacao/primeiro-acesso-mongodb.md) · [glossário SQL/MongoDB](docs/biblioteca-viva-bancos.md).
-
-**Validação em 24/11:** 106 células Python de simulação sem erro; dois arquivos SQL executados em **PostgreSQL 18 isolado**; operações equivalentes de insert/find/aggregate executadas em **MongoDB real**; sintaxe dos scripts JS validada. Os scripts JavaScript não foram executados literalmente no mongosh, e as interfaces pgAdmin/Compass não foram testadas. Nenhum banco habitual foi alterado. [Evidências e limitações](docs/VALIDACAO_BANCOS_2026-11-24.md).
-
-## Atualização pedagógica v1.1.1 — 20/10/2026
-
-Esta revisão acrescenta **planejamento estruturado de exercícios e testes de fronteira** ao Caderno 02 (Desenvolvimento), além de **outliers, IQR, Z-score e Min-Max** ao Checkpoint 4 do Guia/Caderno 03 (Pandas). Os novos conceitos também foram indexados na Biblioteca Viva. **Não há novo Guia ou módulo**, e os pares Google Colab/VS Code continuam equivalentes.
-
-**Origem:** a revisão de lógica da T8 em **10/10** apresentou o método de resolução; seu repositório de apoio tem identificação de turma T5 e permanece referência externa. O **PPT oficial da T8 M1S06** apresenta outliers/IQR e normalização, mas a exposição em slides **não comprova que cada cálculo foi ministrado oralmente**. Um pacote distinto identificado como **T2** foi segregado e não substitui dados, exemplos ou aulas oficiais da T8. As demonstrações e os novos exercícios são **sintéticos e autorais**, explicitamente rotulados.
-
-**Leia também:** [detalhes e proveniência da v1.1.1](docs/REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md), [método pedagógico](docs/METODO_PEDAGOGICO.md) e [cobertura](docs/COBERTURA_PEDAGOGICA_V1.1.md).
-
-## O problema que este material procura resolver
-
-Em aulas práticas, parte importante da aprendizagem surge em explicações orais, dúvidas, correções ao vivo e comparações que nem sempre aparecem no slide ou no código final.
-
-Alguns exemplos incorporados ao material são:
-
-- `/` × `//` × `%`;
-- por que “a partir de 200” normalmente pede `>= 200`;
-- contador × acumulador;
-- como a indentação altera o fluxo;
-- por que um código pode executar e ainda não responder corretamente ao enunciado;
-- como ler tipos como `float64` e `datetime64[ns]`;
-- por que, em análise de dados, **inspecionar e interpretar vêm antes de limpar**.
-
-Os Guias Vivos transformam essas explicações em uma trilha organizada para estudo e consulta.
-
-## O que você encontra aqui
-
-### 1. Guia Vivo 01 — Python: Fundamentos Absolutos
-Leitura de código, valores e tipos, variáveis, conversão, entradas, operadores, `None`, erros, strings, f-strings e fundamentos de raciocínio. Na v1.1, o material ganhou retomadas sobre diagnóstico de exceções, `None`, string vazia e conversões seguras. **São reforços dos checkpoints já existentes**, não um curso novo.
-
-### 2. Guia Vivo 02 — Python: Desenvolvimento
-Condições, comparações, listas/tuplas/dicionários, laços, contadores, funções, `return`, strings, expressões regulares, `lambda` e aplicações. A v1.1 acrescenta o **Checkpoint 6 — Modularização e Pipelines**: contrato de função, módulo `.py`, `import`, tratamento de registros, validação de formato, relatório e JSON.
-
-### 3. Guia Vivo 03 — Pandas: Análise de Dados
-Continua do `DataFrame`, inspeção, filtros, ausências, duplicações, transformação, CSV/JSON/Excel, datas e interpretação. O percurso cresce de **sete para nove checkpoints**, incluindo:
-- **CP8 — Integração de tabelas:** `merge`, chaves, `left` × `inner`, cardinalidade, correspondências ausentes e controle de multiplicação de linhas;
-- **CP9 — Indicadores e interpretação:** filtros comerciais, faturamento/custos/margem, `groupby`, `agg`, `pivot_table`, metas e limites da inferência.
-
-**Atenção à proveniência:** `groupby`/`pivot_table` aparecem no material de slides M1S05, mas a explicação aprofundada registrada ocorreu em **15/10/2026**, depois do corte principal da v1.1. Essa diferença é identificada nos materiais.
-
-### 4. Guia Vivo 04 — NumPy: Arrays e Cálculo Numérico ✨
-O quarto eixo foi incluído mediante autorização pedagógica para **antecipar o estudo**, tomando por base as aulas de **15 e 16/10/2026** e exemplos autorais independentes. Seus cinco checkpoints são:
-1. listas × `ndarray`, forma, dimensão, tamanho e `dtype`;
-2. vetorização, máscaras e medidas;
-3. matrizes, indexação, fatias, `axis=0` × `axis=1`;
-4. broadcasting, compatibilidade de formatos e alinhamento por posição;
-5. NumPy com Pandas, `np.where`, classificação ilustrativa e interpretação.
-
-Aulas posteriores ainda **não realizadas ou não documentadas** não são tratadas como ministradas. Recursos como `nanmean`, `arange`, `linspace` e `reshape` recebem a marca **[COMPLEMENTO DE APOIO]** quando não há evidência de aula no recorte.
-
-### 5. Cadernos Práticos — exercícios autorais
-Cada um dos quatro Guias tem um **Caderno correspondente**, com exercício, espaço de tentativa, execução, solução comentada e recuperação ativa. O Caderno NumPy contém **20 exercícios sintéticos**. Todos os materiais têm versões equivalentes para **Google Colab e VS Code**. A prática é preparatória e não reproduz nem resolve a avaliação formal do curso.
-
-### 6. Biblioteca Viva
-Consulta rápida de Python, Pandas e NumPy: **o que é → como ler → quando aparece → erro comum → conexão**. Existem duas versões, uma por ambiente. Por compatibilidade com links antigos, o arquivo público ainda se chama `04_biblioteca_viva_python_pandas.ipynb`, embora o conteúdo atual também abranja NumPy.
-
-### Avaliações comentadas — M1S02 e M1S03
-A pasta [`avaliacoes/`](avaliacoes/) reúne comentários de estudo sobre questões de M1S02 e M1S03. São distintas dos exercícios autorais e permanecem preservadas nesta publicação:
-- [M1S02 — Colab](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [VS Code](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb)
-- [M1S03 — Colab](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb) · [VS Code](avaliacoes/vscode/m1s03_avaliacao_comentada.ipynb)
-
-O uso editorial de “avaliação comentada” **não** certifica presença, nota, aprovação ou entrega de avaliação institucional.
-
-### Nova frente de estudo — bancos de dados (ambientação)
-
-O roteiro [**PostgreSQL, pgAdmin, MongoDB, Compass e mongosh: comece aqui**](docs/ambientacao/bancos-de-dados.md) reúne conceitos fundamentais, links oficiais e cuidados de conexão para as Semanas 08–11. É uma **ambientação complementar** aos Guias 05/06 agora disponíveis em prévia para estudo; a publicação não comprova execução em interfaces próprias nem progresso institucional.
-
-### Mini-Projeto da Semana 07 — referência externa ao percurso didático
-
-A Semana 07 inclui um mini-projeto de análise de dados de varejo realizado em repositório próprio. Para preservar a autoria, o histórico e as bases do projeto sem duplicá-los nesta biblioteca, consulte **[Semana 07 — Mini-Projeto de Varejo: documentação e acesso](docs/projetos/semana-07-mini-projeto.md)**. Este índice é um vínculo pedagógico e de portfólio, não um quinto Guia Vivo nem uma alteração da baseline de notebooks.
-
-## Baseline estável anterior — v1.1.1 (20/10/2026)
-
-**v1.1.1 publicada no GitHub por autorização de Otávio, como suplemento editorial à v1.1 de 19/10.** São **quatro Guias, quatro Cadernos e uma Biblioteca Viva**, em Colab e VS Code: **18 notebooks** de estudo. A baseline histórica **v1.0.1**, com corte até 02/10, foi preservada no acervo interno antes da ampliação.
-
-- **Corte principal de atualização:** aulas de 06, 08 e 09/10 e revisão de 10/10/2026, Semanas 05 e 06; a v1.1.1 aprofunda a metodologia do aulão e os temas de qualidade presentes no PPT da Semana 06.
-- **Extensão por antecipação autorizada:** conteúdos de 15 e 16/10 para Pandas e o novo Guia NumPy; revisão de 17/10 é fonte de reforço posterior.
-- **13/10:** não houve aula, conforme informação do estudante. Referência a esse dia em material de planejamento não é prova de aula ministrada.
-- **Status técnico:** os notebooks foram submetidos a verificação estática de estrutura Jupyter e correspondência dos novos blocos Colab ↔ VS Code. Isso **não equivale a execução independente de todas as células** nem a validação dos ambientes individuais.
-- **Materiais anteriores:** M1S02 e M1S03 continuam acessíveis nas mesmas URLs, sem alteração.
-- **Evidência de aprendizagem:** arquivos de estudo não demonstram frequência, exercício executado, nota, certificado ou conclusão institucional.
-
-O material **não é publicação oficial da SC TEC nem da professora**. Exercícios e dados demonstrativos novos são identificados como didáticos e sintéticos.
-
-## Acesso direto aos Guias e Cadernos
+## Acesso aos Guias e Cadernos
 
 | Eixo | Guia — Colab | Guia — VS Code | Caderno — Colab | Caderno — VS Code |
 |---|---|---|---|---|
@@ -116,130 +40,74 @@ O material **não é publicação oficial da SC TEC nem da professora**. Exercí
 | 05 · SQL/PostgreSQL · prévia | [Abrir](notebooks/colab/05_sql_postgresql.ipynb) | [Abrir](notebooks/vscode/05_sql_postgresql.ipynb) | [Exercícios](exercicios/colab/05_sql_postgresql_exercicios.ipynb) | [Exercícios](exercicios/vscode/05_sql_postgresql_exercicios.ipynb) |
 | 06 · MongoDB/NoSQL · prévia | [Abrir](notebooks/colab/06_nosql_mongodb.ipynb) | [Abrir](notebooks/vscode/06_nosql_mongodb.ipynb) | [Exercícios](exercicios/colab/06_nosql_mongodb_exercicios.ipynb) | [Exercícios](exercicios/vscode/06_nosql_mongodb_exercicios.ipynb) |
 
-**Biblioteca Viva (agora com verbetes de IQR, Z-score, Min-Max e planejamento):** [Colab](biblioteca/colab/04_biblioteca_viva_python_pandas.ipynb) · [VS Code](biblioteca/vscode/04_biblioteca_viva_python_pandas.ipynb). **Avaliações comentadas:** [M1S02](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb).
+**Biblioteca Viva:** [Colab](biblioteca/colab/04_biblioteca_viva_python_pandas.ipynb) · [VS Code](biblioteca/vscode/04_biblioteca_viva_python_pandas.ipynb). Inclui Python, Pandas, NumPy, ETL, SQL, MongoDB e conceitos de qualidade de dados. O nome histórico do arquivo é mantido para não quebrar links.
 
-## Quickstart
+**Avaliações comentadas, preservadas separadamente:** [M1S02 Colab](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [VS Code](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb) · [M1S03 Colab](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb) · [VS Code](avaliacoes/vscode/m1s03_avaliacao_comentada.ipynb). Não constituem nova avaliação formal.
 
-### Clonar o repositório
+## Ferramentas e fontes oficiais
+
+| Ferramenta | Função | Download / documentação |
+|---|---|---|
+| Python | Linguagem e executor | [Python](https://www.python.org/downloads/) |
+| Google Colab | Notebook Python na web | [Colab](https://colab.research.google.com/) |
+| VS Code | Editor e notebooks | [VS Code](https://code.visualstudio.com/download) · [Jupyter](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) |
+| PostgreSQL | Servidor SQL usado nos laboratórios | [Download](https://www.postgresql.org/download/) |
+| pgAdmin | Cliente gráfico PostgreSQL | [Download](https://www.pgadmin.org/download/) · [Windows](https://www.pgadmin.org/download/pgadmin-4-windows/) |
+| MongoDB Community | Servidor documental | [Download](https://www.mongodb.com/try/download/community) |
+| MongoDB Compass | Cliente gráfico MongoDB | [Download](https://www.mongodb.com/try/download/compass) |
+| mongosh | Shell MongoDB, sintaxe JavaScript | [Download](https://www.mongodb.com/try/download/shell) |
+| MySQL Community | Servidor relacional alternativo (referência, não executor dos labs) | [Download](https://dev.mysql.com/downloads/mysql/) |
+| MySQL Workbench | Cliente gráfico MySQL (referência) | [Download](https://dev.mysql.com/downloads/workbench/) |
+
+[Guia de fontes oficiais](docs/ambientacao/fontes-oficiais-bancos.md) · [PostgreSQL/pgAdmin do zero](docs/ambientacao/primeiro-acesso-postgresql.md) · [MongoDB/Compass do zero](docs/ambientacao/primeiro-acesso-mongodb.md). Não é necessário instalar tudo; SQL é uma linguagem, cada motor tem seu dialeto. MySQL e Workbench são alternativas de consulta, não pré-requisitos. Colab e VS Code não criam conexão com bancos automaticamente.
+
+## Execução e método
+
+Para estudar, abra um Guia no ambiente escolhido, leia o checkpoint, execute o exemplo, preveja e tente o Caderno antes de consultar a solução; volte à Biblioteca quando necessário. O método é **compreender → executar → diagnosticar**, com retomadas em espiral. Veja [método pedagógico](docs/METODO_PEDAGOGICO.md).
+
+Clone o repositório, se preferir trabalhar localmente:
 
 ```bash
 git clone https://github.com/otavio-diniz/sc-tec-analise-dados-python.git
 cd sc-tec-analise-dados-python
 ```
 
-### Google Colab
+Use Python e kernel Jupyter disponíveis. Para as oficinas, pandas, numpy, requests e beautifulsoup4 devem estar disponíveis no ambiente; a simulação relacional usa sqlite3 da biblioteca padrão. O laboratório de MongoDB real via Python requer pymongo. O validador estrutural requer nbformat. Consulte a documentação oficial e as permissões do seu ambiente antes de instalar dependências.
 
-**Avaliações Colab:** [M1S02](avaliacoes/colab/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/colab/m1s03_avaliacao_comentada.ipynb).
+### Laboratórios reais
 
-1. Abra um notebook de `notebooks/colab/`.
-2. Leia um checkpoint e execute os exemplos na ordem.
-3. Abra o Caderno correspondente em `exercicios/colab/`.
-4. Faça sua tentativa **antes** de consultar a solução comentada.
-5. Volte ao Guia sempre que o exercício revelar uma dúvida conceitual.
-6. Quando um termo técnico travar a leitura, consulte `biblioteca/colab/`.
-7. Para as dez questões contextualizadas do M1S02, consulte `avaliacoes/colab/` e escolha a alternativa antes de abrir a resolução.
+- PostgreSQL: [base sintética](labs/postgresql/00_dados_sinteticos.sql), [consultas](labs/postgresql/01_consultas_e_relatorios.sql) e [metas/reconciliação](labs/postgresql/02_metas_e_reconciliacao.sql), [qualidade e transações](labs/postgresql/03_qualidade_e_transacoes.sql), [importação CSV via psql](labs/postgresql/04_importacao_csv.psql) e [dados fictícios](labs/postgresql/dados_sinteticos/). Execute apenas em banco de treino autorizado, via psql ou Query Tool. O laboratório 02 usa tabelas temporárias e rollback.
+- MongoDB: [base sintética](labs/mongodb/00_dados_sinteticos.js), [consultas](labs/mongodb/01_consultas_e_agregacao.js) e [ciclo documental](labs/mongodb/02_ciclo_documental.js). Execute no mongosh de treino; o script 02 cria e remove apenas uma base aleatória. O [teste PyMongo](scripts/validar_mongodb_oficina.py) executa operações equivalentes, não o arquivo JS literal.
 
-Arquivos enviados ao runtime do Colab podem desaparecer quando a sessão reinicia.
+Não use bases habituais, credenciais reais em notebooks ou serviços expostos na internet. A oficina HTTP usa resposta controlada sem rede; coleta externa requer permissão e tratamento de erros.
 
-### VS Code
-
-**Avaliações VS Code:** [M1S02](avaliacoes/vscode/m1s02_avaliacao_comentada.ipynb) · [M1S03](avaliacoes/vscode/m1s03_avaliacao_comentada.ipynb).
-
-1. Abra um `.ipynb` de `notebooks/vscode/`.
-2. Selecione um kernel/interpretador Python já disponível no ambiente.
-3. Execute as células pelo controle do notebook ou com `Shift + Enter`.
-4. Use o Caderno equivalente em `exercicios/vscode/` para praticar.
-5. Para consulta rápida de conceitos e diferenças operacionais, use `biblioteca/vscode/`.
-6. Para estudar as questões do M1S02, consulte `avaliacoes/vscode/`.
-
-**Extensão Python/Jupyter e interpretador Python não são a mesma coisa.** Este repositório não instala nem configura Python, VS Code, extensões ou ambiente local.
-
-## Como estudar
-
-1. Leia um checkpoint do Guia.
-2. Execute os exemplos.
-3. Tente explicar o código com suas próprias palavras.
-4. Faça os exercícios correlacionados.
-5. Consulte a solução somente depois da tentativa.
-6. Refaça o exercício alterando valores ou regras.
-7. No Pandas, explique também **o que o resultado significa**, não apenas como obtê-lo.
-
-O objetivo não é decorar código. É desenvolver leitura, raciocínio, interpretação e capacidade de reconstruir soluções com apoio de documentação, exemplos e IA de forma crítica.
-
-## Método pedagógico
-
-Os notebooks não reproduzem obrigatoriamente a cronologia das aulas. O conteúdo é reorganizado por **dependência cognitiva**: primeiro o que o iniciante precisa compreender para que o próximo conceito faça sentido.
-
-A evolução até a v1.1 adota uma progressão em **espiral**: primeiro contato → prática → retorno → recuperação → aprofundamento. Blocos **🔁 Você já viu isso** e revisões acumulativas ajudam a recuperar conceitos anteriores antes de avançar.
-
-Nos eixos Pandas e NumPy, cada conceito procura seguir:
-
-**o que é → como ler a sintaxe → exemplo → comparação → resultado → interpretação → validação**
-
-Mais detalhes em [`docs/METODO_PEDAGOGICO.md`](docs/METODO_PEDAGOGICO.md).
-
-## Complemento de apoio
-
-Alguns recursos são úteis para compreensão, comparação ou continuidade didática, mas não foram identificados nas aulas/exercícios dentro do corte documental correspondente. Nesses casos, aparecem como **(complemento de apoio)**.
-
-A marca:
-
-- não significa que o recurso seja incorreto;
-- evita confundi-lo com conteúdo já trabalhado;
-- é aplicada de forma granular;
-- não transforma o recurso em requisito obrigatório do checkpoint.
-
-## Estrutura do repositório
-
-A árvore abaixo apresenta o conteúdo da v1.1 publicada e preserva a categoria de avaliações comentadas:
+## Estrutura
 
 ```text
-sc-tec-analise-dados-python/
-├── README.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── notebooks/
-│   ├── colab/
-│   │   ├── 01_python_fundamentos.ipynb
-│   │   ├── 02_python_desenvolvimento.ipynb
-│   │   ├── 03_pandas_analise_dados.ipynb
-│   │   └── 04_numpy_arrays_calculo.ipynb
-│   └── vscode/                (mesmos quatro Guias)
-├── exercicios/
-│   ├── colab/
-│   │   ├── 01_python_fundamentos_exercicios.ipynb
-│   │   ├── 02_python_desenvolvimento_exercicios.ipynb
-│   │   ├── 03_pandas_exercicios.ipynb
-│   │   └── 04_numpy_arrays_exercicios.ipynb
-│   └── vscode/                (mesmos quatro Cadernos)
-├── biblioteca/
-│   ├── colab/04_biblioteca_viva_python_pandas.ipynb
-│   └── vscode/04_biblioteca_viva_python_pandas.ipynb
-├── avaliacoes/
-│   ├── colab/m1s02_avaliacao_comentada.ipynb
-│   ├── colab/m1s03_avaliacao_comentada.ipynb
-│   └── vscode/                (M1S02 e M1S03 preservadas)
-└── docs/
-    ├── FONTES_E_ESCOPO.md
-    ├── METODO_PEDAGOGICO.md
-    └── COBERTURA_PEDAGOGICA_V1.1.md
+notebooks/{colab,vscode}/   # 6 Guias em cada ambiente
+exercicios/{colab,vscode}/  # 6 Cadernos em cada ambiente
+biblioteca/{colab,vscode}/  # Biblioteca Viva em cada ambiente
+avaliacoes/{colab,vscode}/  # M1S02 e M1S03, separadas
+labs/postgresql/           # SQL real, dados fictícios
+labs/mongodb/              # comandos mongosh, dados fictícios
+scripts/                   # validação e conferência de links
+docs/                      # percurso, ambientação, método e evidências
 ```
 
 ## Validação e limites
 
-A revisão dos materiais confronta aulas, transcrições e notebooks de referência com os Guias e Cadernos, incluindo explicações orais, dúvidas, correções e exemplos improvisados quando têm valor didático.
+O estado atual é uma extensão didática publicada para estudo e revisão. Foram verificadas **120 células Python nos oito notebooks 05/06, sem erros**; a nova oficina ETL usa HTTP controlado, CSV e SQLite; os cinco laboratórios PostgreSQL (incluindo importação de sete CSVs) foram executados em PostgreSQL 18.7 isolado. Onze verificações equivalentes ao ciclo documental passaram no MongoDB 9.0.8 via PyMongo; três scripts JS passaram em verificação de sintaxe. **Eixos 05/06 permanecem prévia pedagógica**, sem homologação docente. As oficinas distinguem simulação Python/SQLite de execução nos motores reais. [Relatório de validação](docs/VALIDACAO_BANCOS_2026-11-24.md).
 
-As versões Colab e VS Code preservam o **mesmo conteúdo conceitual**; diferenças são restritas ao ambiente, execução e caminhos.
+```bash
+python scripts/validar_notebooks_05_06.py
+python scripts/verificar_links_05_06.py
+```
 
-A validação técnica não substitui documentação oficial das bibliotecas e ferramentas. Algumas células que dependem de arquivos externos exigem que o arquivo esteja disponível no ambiente de execução.
+Os pares Colab/VS Code são equivalentes nos blocos novos; abertura de notebook não comprova execução no runtime remoto. Não se infere presença, nota, certificação ou conclusão institucional. O objetivo é entender conceitos, diagnosticar divergências e interpretar resultados sem copiar a base docente.
 
-## Fontes, autoria e direitos de terceiros
+## Histórico, fontes e contribuição
 
-Este material é uma **produção autoral de estudo de Otávio Diniz**, construída a partir do que foi estudado e apresentado no curso, com reorganização, síntese, exemplos e explicações próprias.
-
-Materiais de terceiros — como slides, transcrições integrais, bases, imagens ou documentos institucionais — **não são automaticamente redistribuídos** neste repositório. Cada ativo externo permanece sujeito às condições do respectivo titular.
-
-Veja [`docs/FONTES_E_ESCOPO.md`](docs/FONTES_E_ESCOPO.md) e a [cobertura pedagógica da v1.1](docs/COBERTURA_PEDAGOGICA_V1.1.md).
+A v1.1.1 de 20/10/2026 é a **baseline histórica** dos eixos 01–04 (18 notebooks), não a contagem da versão atual. As melhorias de qualidade (IQR, Z-score, Min-Max), planejamento, integração e NumPy permanecem no percurso. [Histórico de reforços](docs/REFORCOS_AULAO_10_OUT_QUALIDADE_V1.1.1.md) · [CHANGELOG](CHANGELOG.md) · [Fontes e escopo](docs/FONTES_E_ESCOPO.md). Materiais de terceiros continuam sujeitos aos direitos de seus titulares; não são automaticamente redistribuíveis.
 
 ## Uso do material
 
@@ -247,25 +115,6 @@ Otávio autoriza que o **conteúdo autoral deste repositório** seja consultado,
 
 Por decisão editorial, **não há um arquivo `LICENSE` separado** nesta versão. A autorização acima se aplica ao conteúdo autoral do repositório e não amplia direitos sobre materiais de terceiros citados ou referenciados.
 
-## Contribuições e feedback
+## Contribuições
 
-Contribuições são bem-vindas. Use **Issues** ou **Discussions** para:
-
-- apontar inconsistência;
-- sugerir explicação mais clara;
-- pedir exemplo adicional;
-- sugerir inclusão;
-- relatar código que não executou como esperado;
-- propor melhoria didática ou de organização.
-
-Ao contribuir, indique o notebook, checkpoint e trecho envolvidos. Quando a sugestão depender do conteúdo do curso, informe também a aula ou fonte correspondente.
-
-Veja [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
-## Evolução
-
-O material é vivo: novas aulas podem enriquecer os notebooks ou justificar novas frentes, mas alterações devem preservar a progressão para iniciantes, a proveniência e o espelhamento entre Guia, Caderno, Biblioteca, Colab e VS Code.
-
-As versões são lançadas em janelas pedagógicas estáveis, evitando alterações fragmentadas a cada aula. A v1.1 amplia a trilha até quatro eixos; os complementos independentes M1S02 e M1S03 permanecem na categoria `avaliacoes/`, sem alterar a referência histórica da v1.0.1. O changelog registra **o que entrou, o que foi melhorado, o que foi corrigido e o que foi reorganizado**.
-
-Consulte [`CHANGELOG.md`](CHANGELOG.md) para acompanhar as mudanças.
+Use Issues ou Discussions para relatar inconsistências, indicar notebook/checkpoint, sugerir exemplos e explicar o resultado esperado. Veja [CONTRIBUTING](CONTRIBUTING.md). O Material Vivo evolui por revisão de conteúdo, testes e preservação da proveniência.

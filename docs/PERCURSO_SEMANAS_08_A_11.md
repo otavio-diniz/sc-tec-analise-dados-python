@@ -61,3 +61,18 @@
 O conjunto **não reproduz literalmente todas as telas, consultas e datasets da professora**. O objetivo é ensinar fundamentos e transpor os tópicos efetivamente observados a exemplos mínimos, mostrando onde buscar os arquivos da fonte oficial no acervo privado.
 
 [Índice geral dos eixos 05/06](REVISAO_GUIAS_05_06.md) · [Validação e limites](VALIDACAO_BANCOS_2026-11-24.md) · [Biblioteca Viva: conceitos SQL/MongoDB](biblioteca-viva-bancos.md).
+
+## Oficinas de aprofundamento e rastreabilidade
+| Aula/semana | Artefato autoral | Evidência a verificar |
+|---|---|---|
+| 27 e 29/10 | Guia/Caderno 02, oficina Semana 08 | HTTP 200/404 controlado, CSS, DataFrame, tipos, ausentes, duplicados, CSV, SQLite, indicadores e classe |
+| 30/10 | Guia/Caderno 05, laboratório 00/01 | tabelas, chaves, consultas e valores |
+| 03, 05, 06 e 10/11 | Guia/Caderno 06 e [ciclo documental](../labs/mongodb/02_ciclo_documental.js) | findOne/find, projeção, filtros, $set, elemMatch, group, unwind/count, array vazio |
+| 12 e 13/11 | Guia/Caderno 05 e oficina de normalização | dependências, PK/FK/CHECK, migração, contagens, unidades, totais, transações |
+| 17 e 19/11 | Guia/Caderno 05 e [metas e reconciliação](../labs/postgresql/02_metas_e_reconciliacao.sql) | sete tabelas sintéticas, JOINs, metas ausentes e órfãs, status, AVG/IN/FROM, CTE, DATE_TRUNC, CONCAT/SUBSTRING |
+| Semana 07 | [Projeto independente](projetos/semana-07-mini-projeto.md) | vínculo de portfólio, sem incorporar base ou nova avaliação |
+
+A prática comercial sintética tem dimensões próprias, não copia as famílias A/B da docente. A ausência de trecho na gravação não deve ser preenchida como fato de aula. MySQL/Workbench são referência de ferramenta, não motor usado nos laboratórios.
+
+### Reconciliação de scripts e slides
+30/10: COUNT(*) versus COUNT(coluna), nulos, pedidos sem item, divergência entre total registrado e itens, filtros por status/faixa, qualidade de cadastro e CREATE DATABASE fora da transação. 13/11: tipos, IDENTITY, DEFAULT, AND/OR/NOT, BETWEEN/ILIKE, ALTER/DROP, INSERT/UPDATE/DELETE e RETURNING, rollback. A forma isolada SET não é um UPDATE completo. Esses pontos têm exemplos autorais no [laboratório 03](../labs/postgresql/03_qualidade_e_transacoes.sql). A importação das sete tabelas comerciais tem [laboratório psql 04](../labs/postgresql/04_importacao_csv.psql) e [CSVs fictícios](../labs/postgresql/dados_sinteticos/), sem reproduzir o dataset docente. Os slides de OLTP/OLAP, dimensões/fatos, outros modelos NoSQL, views, subconsulta correlacionada e integração psycopg2/ORM aparecem como complementos conceituais, não aula prática comprovada.

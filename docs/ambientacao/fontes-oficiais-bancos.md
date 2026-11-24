@@ -27,3 +27,11 @@ No Windows, o instalador PostgreSQL indicado pela comunidade e distribuído pela
 
 
 **Ao abrir links:** compare a versão oferecida com o seu sistema antes de instalar. O caminho de estudo sem instalação está nos Guias 05/06. [Percurso das 11 aulas](../PERCURSO_SEMANAS_08_A_11.md).
+
+## Alternativa relacional: MySQL
+| Ferramenta | Fonte oficial | Papel |
+|---|---|---|
+| MySQL Community Server | [Download](https://dev.mysql.com/downloads/mysql/) | Servidor relacional alternativo |
+| MySQL Workbench | [Download](https://dev.mysql.com/downloads/workbench/) · [Manual](https://dev.mysql.com/doc/workbench/en/) | Cliente gráfico para MySQL |
+
+Não confundir MySQL com PostgreSQL, nem Workbench com pgAdmin. Os laboratórios deste percurso usam PostgreSQL; não se exige instalar MySQL nem se afirma que suas interfaces foram testadas.
